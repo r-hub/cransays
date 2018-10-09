@@ -1,0 +1,43 @@
+---
+title: "CRAN incoming dashboard"
+date: "`r Sys.time()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r get-data}
+cran_incoming <- cransays::take_snapshot()
+cran_incoming$pretty <- glue::glue("{cran_incoming$package} version {cran_incoming$version} submitted {cran_incoming$howlongago} days ago")
+cran_incoming <- dplyr::arrange(cran_incoming,
+                                subfolder,
+                                howlongago)
+cran_incoming <- dplyr::filter(cran_incoming,
+                               subfolder != "archive")
+```
+
+```{r format-data}
+pretest <- cran_incoming$pretty[cran_incoming$subfolder == "pretest"]
+inspect <- cran_incoming$pretty[cran_incoming$subfolder == "inspect"]
+recheck <- cran_incoming$pretty[cran_incoming$subfolder == "recheck"]
+human <- cran_incoming$pretty[grepl("DS", cran_incoming$subfolder)|grepl("KH", cran_incoming$subfolder)|grepl("SH", cran_incoming$subfolder)|grepl("UL", cran_incoming$subfolder)]
+pending <- cran_incoming$pretty[cran_incoming$subfolder == "pending"]
+publish <- cran_incoming$pretty[cran_incoming$subfolder == "publish"]
+
+longest <- max(c(length(human),
+                 length(recheck),
+                 length(pending),
+                 length(publish),
+                 length(inspect),
+                 length(pretest)))
+
+```
