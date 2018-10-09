@@ -53,3 +53,5 @@ DT::datatable(cran_incoming,
 
   
 ```
+
+Get in touch with us about how we can help you get your package CRAN ready. Fill out [our contact page](//itsalocke.com/#contact).
