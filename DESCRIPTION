@@ -31,3 +31,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/lockedata/cransays
+BugReports: https://github.com/lockedata/cransays/issues
