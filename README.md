@@ -1,7 +1,7 @@
 # cransays
 
 The goal of cransays is to scrape the [CRAN incoming ftp folder](ftp://cran.r-project.org/incoming/) to find where each of the submission is, and to 
-make a dashboard.
+make a [dashboard](https://cransays.itsalocke.com/articles/dashboard.html).
 
 Code adapted from https://github.com/edgararuiz/cran-stages
 
@@ -19,7 +19,7 @@ This is a basic example :
 cran_incoming <- cransays::take_snapshot()
 ```
 
-The vignette produces a handy dashboard.
+The vignette produces a [handy dashboard](https://cransays.itsalocke.com/articles/dashboard.html) that we update every hour.
 
 ## Deployment
 
