@@ -1,3 +1,8 @@
+^tic\.R$
+^appveyor\.yml$
+^\.travis\.yml$
+^docs$
+^_pkgdown\.yml$
 ^LICENSE\.md$
 ^.*\.Rproj$
 ^\.Rproj\.user$

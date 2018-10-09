@@ -21,7 +21,11 @@ Imports:
     magrittr,
     purrr,
     curl,
-    DT
+    DT,
+    anytime,
+    glue,
+    parsedate,
+    tibble
 RoxygenNote: 6.1.0.9000
 Suggests: 
     knitr,

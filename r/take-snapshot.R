@@ -39,7 +39,7 @@ take_snapshot <- function(){
 
   human_cran_incoming <- human_folders %>%
     purrr::map_df(get_folder_contents) %>%
-    dplyr:::bind_rows(
+    dplyr::bind_rows(
       tibble::tibble(
         lines = dir,
         subfolder = "root"
