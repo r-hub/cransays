@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+The data in this table stems from our querying ftp://cran.r-project.org/incoming/ We update it every hour.
+
 ```{r get-data}
 cran_incoming <- cransays::take_snapshot()
 cran_incoming$submitted <- glue::glue("{cran_incoming$howlongago} day(s) ago")

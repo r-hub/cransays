@@ -9,7 +9,11 @@ Authors@R:
              comment = c(ORCID = "0000-0002-2815-0399")),
       person(given = "Locke Data",
              role = "fnd",
-             comment = "https://itsalocke.com"))
+             comment = "https://itsalocke.com"),
+      person(given = "Stephanie",
+             family = "Locke",
+             role = "aut",
+             email = "steph@itsalocke.com"))
 Description: It scrapes the CRAN incoming ftp folder to find where 
       each of the submission is.
 License: MIT + file LICENSE
