@@ -1,5 +1,8 @@
 # cransays
 
+[![Build Status](https://travis-ci.org/lockedata/cransays.svg?branch=master)](https://travis-ci.org/lockedata/cransays) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
+
 The goal of cransays is to scrape the [CRAN incoming ftp folder](ftp://cran.r-project.org/incoming/) to find where each of the submission is, and to 
 make a [dashboard](https://cransays.itsalocke.com/articles/dashboard.html).
 
