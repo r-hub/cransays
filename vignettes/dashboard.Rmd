@@ -57,7 +57,9 @@ DT::datatable(cran_incoming,
   backgroundColor = DT::styleEqual(c("pretest", "inspect",
                                  "recheck", "human",
                                  "pending", "publish"), 
-                               c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00")))
+                               c("#2165b6", "#e8830c",
+                                 "#3cb4b8", "#cf4729",
+                                 "#34ba17", "#c04aa9")))
 
   
 ```
