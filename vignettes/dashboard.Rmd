@@ -11,33 +11,44 @@ vignette: >
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE
 )
 ```
 
 ```{r get-data}
 cran_incoming <- cransays::take_snapshot()
-cran_incoming$pretty <- glue::glue("{cran_incoming$package} version {cran_incoming$version} submitted {cran_incoming$howlongago} days ago")
+cran_incoming$submitted <- glue::glue("{cran_incoming$howlongago} day(s) ago")
 cran_incoming <- dplyr::arrange(cran_incoming,
                                 subfolder,
                                 howlongago)
 cran_incoming <- dplyr::filter(cran_incoming,
                                subfolder != "archive")
+cran_incoming <- dplyr::mutate(cran_incoming,
+                               folder = ifelse(
+  subfolder %in% c("pretest", "inspect",
+                                 "recheck",
+                                 "pending", "publish"),
+  subfolder, "human"
+))
+
+cran_incoming <- dplyr::select(cran_incoming,
+                               package, version, submitted, folder, subfolder)
+
+
 ```
 
-```{r format-data}
-pretest <- cran_incoming$pretty[cran_incoming$subfolder == "pretest"]
-inspect <- cran_incoming$pretty[cran_incoming$subfolder == "inspect"]
-recheck <- cran_incoming$pretty[cran_incoming$subfolder == "recheck"]
-human <- cran_incoming$pretty[grepl("DS", cran_incoming$subfolder)|grepl("KH", cran_incoming$subfolder)|grepl("SH", cran_incoming$subfolder)|grepl("UL", cran_incoming$subfolder)]
-pending <- cran_incoming$pretty[cran_incoming$subfolder == "pending"]
-publish <- cran_incoming$pretty[cran_incoming$subfolder == "publish"]
+```{r}
+library("magrittr")
+DT::datatable(cran_incoming) %>% DT::formatStyle(
+  'folder',
+  target = "row",
+  backgroundColor = DT::styleEqual(c("pretest", "inspect",
+                                 "recheck", "human",
+                                 "pending", "publish"), 
+                               c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00")))
 
-longest <- max(c(length(human),
-                 length(recheck),
-                 length(pending),
-                 length(publish),
-                 length(inspect),
-                 length(pretest)))
-
+  
 ```
