@@ -42,7 +42,8 @@ cran_incoming <- dplyr::select(cran_incoming,
 
 ```{r}
 library("magrittr")
-DT::datatable(cran_incoming) %>% DT::formatStyle(
+DT::datatable(cran_incoming,
+              options(DT.options = list(pageLength = 500))) %>% DT::formatStyle(
   'folder',
   target = "row",
   backgroundColor = DT::styleEqual(c("pretest", "inspect",
