@@ -22,7 +22,8 @@ Authors@R:
              role = "ctb"),
       person(given = "Jim",
              family = "Hester",
-             role = "ctb")
+             role = "ctb",
+             comment = c(ORCID = "0000-0002-2739-7082"))
     )
 Description: It scrapes the CRAN incoming ftp folder to find where 
       each of the submission is.
