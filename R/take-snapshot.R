@@ -96,14 +96,9 @@ parse_line <- function(line){
   package_name <- package[1]
   package_version <- package[2]
   # at the moment hardcode year
-  year <- format(Sys.Date(), "%Y")
+  year <- 2018
   time <- anytime::anytime(glue::glue("{year} {words[length(words) - 3]} {words[length(words) - 2]} {words[length(words) - 1]}"),
                            tz = Sys.timezone())
-
- if(time > Sys.time()){
-   time <- anytime::anytime(glue::glue("{as.numeric(year)-1} {words[length(words) - 3]} {words[length(words) - 2]} {words[length(words) - 1]}"))
-
- }
 
   tibble::tibble(submission_time = time,
                  package = package_name,
