@@ -22,7 +22,7 @@ take_snapshot <- function(){
   # since they use subfolders
   cran_human <- c("DS", "UL", "SH", "KH")
   human_folders <- cran_incoming %>%
-    filter(subfolder %in% cran_human) %>%
+    dplyr::filter(subfolder %in% cran_human) %>%
     with(paste0(base_ftp_url, subfolder, "/", V9, "/"))
 
   cran_incoming <- human_folders %>%
@@ -36,7 +36,7 @@ take_snapshot <- function(){
 
   # Tidy results ------------------------------------------------------
   cran_incoming <- cran_incoming %>%
-    filter(grepl(".*\\.tar\\.gz", V9)) %>% # Remove non-package files
+    dplyr::filter(grepl(".*\\.tar\\.gz", V9)) %>% # Remove non-package files
     dplyr::mutate(
       package = sub("\\.tar\\.gz", "", V9), # Remove package extension
       submission_time = as.POSIXct(paste("2018", V6, V7, V8), format = "%Y %b %d %R"),
