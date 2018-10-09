@@ -13,7 +13,10 @@ Authors@R:
       person(given = "Stephanie",
              family = "Locke",
              role = "aut",
-             email = "steph@itsalocke.com"))
+             email = "steph@itsalocke.com"),
+      person(given = "Hugo",
+             family = "Gruson",
+             role = "ctb"))
 Description: It scrapes the CRAN incoming ftp folder to find where 
       each of the submission is.
 License: MIT + file LICENSE
