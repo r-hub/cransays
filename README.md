@@ -19,7 +19,7 @@ This is a basic example :
 cran_incoming <- cransays::take_snapshot()
 ```
 
-The vignette produces a nice dashboard.
+The vignette produces a handy dashboard.
 
 ## Deployment
 
