@@ -1,6 +1,6 @@
 ---
 title: "CRAN incoming dashboard"
-date: "`r Sys.time()`"
+date: "`r parsedate::parse_iso_8601(Sys.time())`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Vignette Title}
