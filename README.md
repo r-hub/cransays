@@ -19,3 +19,9 @@ This is a basic example :
 cran_incoming <- cransays::take_snapshot()
 ```
 
+The vignette produces a nice dashboard.
+
+## Deployment
+
+The pkgdown website is deployed from Travis, the setup was made using [`travis::use_tic()`](https://ropenscilabs.github.io/travis/reference/use_tic.html).
+
