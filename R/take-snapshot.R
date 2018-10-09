@@ -99,7 +99,7 @@ parse_line <- function(line){
   year <- format(Sys.Date(), "%Y")
   time <- anytime::anytime(glue::glue("{year} {words[length(words) - 3]} {words[length(words) - 2]} {words[length(words) - 1]}"))
 
- if(time > Sys.time()){
+ if(parsedate::parse_iso_8601(time) > parsedate::parse_iso_8601(Sys.time())){
    time <- anytime::anytime(glue::glue("{as.numeric(year)-1} {words[length(words) - 3]} {words[length(words) - 2]} {words[length(words) - 1]}"))
 
  }
