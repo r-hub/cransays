@@ -43,7 +43,9 @@ take_snapshot <- function(){
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) %>%
     tidyr::separate(package, c("package", "version"), "_") %>%
-    tibble::as_tibble()
+    tibble::as_tibble() %>%
+    dplyr::mutate(folder = as.factor(folder),
+                  subfolder = as.factor(subfolder))
 
   cran_incoming
 }
