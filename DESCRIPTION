@@ -14,6 +14,9 @@ Authors@R:
              family = "Locke",
              role = "aut",
              email = "steph@itsalocke.com"),
+      person(given = "Mitchell",
+             family = "O'Hara-Wild",
+             role = "aut"),
       person(given = "Hugo",
              family = "Gruson",
              role = "ctb"),
@@ -33,9 +36,7 @@ Imports:
     purrr,
     curl,
     DT,
-    anytime,
     glue,
-    parsedate,
     tibble
 RoxygenNote: 6.1.0.9000
 Suggests: 
