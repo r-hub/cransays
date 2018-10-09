@@ -1,6 +1,6 @@
 # cransays
 
-The goal of cransays is to scrape the CRAN incoming ftp folder to find where each of the submission is, and to 
+The goal of cransays is to scrape the [CRAN incoming ftp folder](ftp://cran.r-project.org/incoming/) to find where each of the submission is, and to 
 make a dashboard.
 
 Code adapted from https://github.com/edgararuiz/cran-stages
