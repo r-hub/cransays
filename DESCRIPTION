@@ -27,7 +27,7 @@ Authors@R:
              comment = c(ORCID = "0000-0002-2739-7082"))
     )
 Description: It scrapes the CRAN incoming ftp folder to find where 
-      each of the submission is.
+      each submission is.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
