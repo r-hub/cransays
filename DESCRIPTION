@@ -1,0 +1,24 @@
+Package: cransays
+Title: Creates an Overview of CRAN Incoming Submissions
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Maëlle",
+             family = "Salmon",
+             role = c("cre", "aut"),
+             email = "maelle.salmon@yahoo.se",
+             comment = c(ORCID = "0000-0002-2815-0399")),
+      person(given = "Locke Data",
+             role = "fnd",
+             comment = "https://itsalocke.com"))
+Description: It scrapes the CRAN incoming ftp folder to find where 
+      each of the submission is.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    tidyr,
+    magrittr,
+    purrr,
+    curl
+RoxygenNote: 6.1.0.9000
