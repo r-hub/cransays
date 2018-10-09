@@ -49,6 +49,7 @@ library("magrittr")
 DT::datatable(cran_incoming,
               options(DT.options = list(pageLength = 500),
                       columnDefs = list(list(type = 'natural', targets = 3))),
+              filter = "top",
               plugins = "natural") %>% DT::formatStyle(
   'folder',
   target = "row",
