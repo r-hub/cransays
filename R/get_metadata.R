@@ -32,6 +32,10 @@ get_metadata <- function(snapshot_row, dir = tempdir(check = TRUE)){
   desc <- rbind(desc,
                 tibble::tibble(field = "size", value = size))
 
+  desc$package <- snapshot_row$package
+  desc$version <- snapshot_row$version
+  desc$submission_time <- snapshot_row$submission_time
+
   desc
 }
 
