@@ -31,7 +31,7 @@ take_snapshot <- function(){
       cran_incoming
     ) %>%
     dplyr::mutate(
-      snapshot_time = Sys.time()
+      snapshot_time = format(Sys.time(), tz="Europe/Vienna")
     )
 
   # Tidy results ------------------------------------------------------
