@@ -38,8 +38,10 @@ take_snapshot <- function(){
   cran_incoming <- cran_incoming %>%
     dplyr::filter(grepl(".*\\.tar\\.gz", V9)) %>% # Remove non-package files
     dplyr::mutate(
+      year = ifelse(grepl(":", V8, fixed = TRUE), format(Sys.Date(), "%Y"), V8),
+      time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
       package = sub("\\.tar\\.gz", "", V9), # Remove package extension
-      submission_time = as.POSIXct(paste("2018", V6, V7, V8), format = "%Y %b %d %R"),
+      submission_time = as.POSIXct(paste(year, V6, V7, time), format = "%Y %b %d %R"),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) %>%
     tidyr::separate(package, c("package", "version"), "_") %>%
