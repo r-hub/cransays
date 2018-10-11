@@ -31,14 +31,14 @@ take_snapshot <- function(){
       cran_incoming
     ) %>%
     dplyr::mutate(
-      snapshot_time = Sys.time()
+      snapshot_time = as.POSIXct(format(Sys.time(), tz="Europe/Vienna"))
     )
 
   # Tidy results ------------------------------------------------------
   cran_incoming <- cran_incoming %>%
     dplyr::filter(grepl(".*\\.tar\\.gz", V9)) %>% # Remove non-package files
     dplyr::mutate(
-      year = ifelse(grepl(":", V8, fixed = TRUE), format(Sys.Date(), "%Y"), V8),
+      year = ifelse(grepl(":", V8, fixed = TRUE), format(snapshot_time, "%Y"), V8),
       time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
       package = sub("\\.tar\\.gz", "", V9), # Remove package extension
       submission_time = as.POSIXct(paste(year, V6, V7, time), format = "%Y %b %d %R"),
