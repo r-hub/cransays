@@ -21,7 +21,7 @@ Authors@R:
              comment = c(ORCID = "0000-0001-6729-7695")),
       person(given = "Hugo",
              family = "Gruson",
-             role = "ctb",
+             role = "aut",
              comment = c(ORCID = "0000-0002-4094-1476")),
       person(given = "Jim",
              family = "Hester",
