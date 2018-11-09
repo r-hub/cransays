@@ -1,4 +1,6 @@
-base_ftp_url <- "ftp://cran.r-project.org/incoming/"
+base_ftp_url <- function(){
+  "ftp://cran.r-project.org/incoming/"
+}
 
 #' Take Snapshot of CRAN incoming folder
 #'
@@ -7,12 +9,12 @@ base_ftp_url <- "ftp://cran.r-project.org/incoming/"
 #'
 take_snapshot <- function(){
   # Map sub-folders within the 'incoming' folder ----------------------
-  incoming <- get_ftp_contents(base_ftp_url)
+  incoming <- get_ftp_contents(base_ftp_url())
   folders <- incoming[["V9"]]
 
   # Iterate through the mapped folders to extract contents ------------
   cran_incoming <- folders %>%
-    paste0(base_ftp_url, ., "/") %>%
+    paste0(base_ftp_url(), ., "/") %>%
     purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) %>%
     dplyr::bind_rows(
       incoming
@@ -23,7 +25,7 @@ take_snapshot <- function(){
   cran_human <- c("DS", "UL", "SH", "KH")
   human_folders <- cran_incoming %>%
     dplyr::filter(subfolder %in% cran_human) %>%
-    with(paste0(base_ftp_url, subfolder, "/", V9, "/"))
+    with(paste0(base_ftp_url(), subfolder, "/", V9, "/"))
 
   cran_incoming <- human_folders %>%
     purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) %>%
@@ -57,8 +59,8 @@ get_ftp_contents <- function(url){
                            stringsAsFactors = FALSE)
 
   # Add ftp subfolder info from url
-  subfolder <- sub(base_ftp_url, "", url, fixed = TRUE)
+  subfolder <- sub(base_ftp_url(), "", url, fixed = TRUE)
   res[["subfolder"]] <- substr(subfolder, 1, nchar(subfolder) - 1)
-
+  res$V8 <- as.character(res$V8)
   res
 }
