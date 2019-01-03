@@ -43,7 +43,13 @@ take_snapshot <- function(){
       year = ifelse(grepl(":", V8, fixed = TRUE), format(snapshot_time, "%Y"), V8),
       time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
       package = sub("\\.tar\\.gz", "", V9), # Remove package extension
-      submission_time = as.POSIXct(paste(year, V6, V7, time), format = "%Y %b %d %R"),
+      submission_time = lubridate::parse_date_time(paste(year, V6, V7, time),
+                                                   "%Y %b %d %R",
+                                                   tz="Europe/Vienna"),
+      submission_time = dplyr::if_else(as.numeric(snapshot_time - submission_time, units = "days") < 0,
+                               lubridate::parse_date_time(paste(as.numeric(as.character(year)) - 1, V6, V7, time),
+                                                          "%Y %b %d %R"),
+                               submission_time),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) %>%
     tidyr::separate(package, c("package", "version"), "_") %>%
@@ -55,8 +61,7 @@ take_snapshot <- function(){
 # helper
 get_ftp_contents <- function(url){
   # Read ftp table results
-  res <- utils::read.table(curl::curl(url,
-                                      handle = curl::new_handle(verbose = TRUE)),
+  res <- utils::read.table(curl::curl(url),
                            stringsAsFactors = FALSE)
 
   # Add ftp subfolder info from url

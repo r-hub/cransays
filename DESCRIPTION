@@ -41,7 +41,8 @@ Imports:
     curl,
     DT,
     glue,
-    tibble
+    tibble,
+    lubridate
 RoxygenNote: 6.1.0.9000
 Suggests: 
     knitr,
