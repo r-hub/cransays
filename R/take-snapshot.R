@@ -55,7 +55,8 @@ take_snapshot <- function(){
 # helper
 get_ftp_contents <- function(url){
   # Read ftp table results
-  res <- utils::read.table(curl::curl(url),
+  res <- utils::read.table(curl::curl(url,
+                                      handle = curl::new_handle(verbose = TRUE)),
                            stringsAsFactors = FALSE)
 
   # Add ftp subfolder info from url
