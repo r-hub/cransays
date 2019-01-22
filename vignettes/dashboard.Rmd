@@ -35,8 +35,9 @@ cran_incoming <- dplyr::filter(cran_incoming,
 cran_incoming <- dplyr::mutate(cran_incoming,
                                folder = ifelse(
   subfolder %in% c("pretest", "inspect",
-                                 "recheck",
-                                 "pending", "publish"),
+                   "recheck",
+                   "pending", "publish",
+                   "newbies", "waiting"),
   subfolder, "human"
 ))
 
@@ -62,10 +63,12 @@ DT::datatable(cran_incoming,
   target = "row",
   backgroundColor = DT::styleEqual(c("pretest", "inspect",
                                  "recheck", "human",
-                                 "pending", "publish"), 
+                                 "pending", "publish",
+                                 "waiting", "newbies"), 
                                c("#2165b6", "#e8830c",
                                  "#3cb4b8", "#cf4729",
-                                 "#34ba17", "#c04aa9")))
+                                 "#34ba17", "#c04aa9",
+                                 "#4d4d4d", "fff")))
 
   
 ```
