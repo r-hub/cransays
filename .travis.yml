@@ -16,7 +16,7 @@ deploy:
    script: R -q -e 'tic::deploy()'
    on:
      branch: master
-  - curl -X POST webhookurl $NETLIFY;
+  - curl -X POST -$NETLIFY
     on:
       branch: master
 after_deploy: R -q -e 'tic::after_deploy()'
