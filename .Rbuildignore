@@ -1,4 +1,3 @@
-^scripts/deploy\.sh$
 ^\.github$
 ^CODE_OF_CONDUCT\.md$
 ^tic\.R$
