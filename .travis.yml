@@ -22,7 +22,14 @@ after_script: R -q -e 'tic::after_script()'
 
 # Custom parts:
 notifications:
-  webhooks: $NETLIFY
+  webhooks:
+    urls:
+      - $NETLIFY
+    on_success: always
+    on_failure: never
+    on_start: never
+    on_cancel: never
+    on_error: never
 
 # Header
 language: r
