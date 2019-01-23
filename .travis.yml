@@ -24,7 +24,7 @@ after_script: R -q -e 'tic::after_script()'
 notifications:
   webhooks:
     urls:
-      - $NETLIFY
+      - https://api.netlify.com/build_hooks/5c484c170b29b644c816dfda
     on_success: always
     on_failure: never
     on_start: never
