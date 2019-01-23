@@ -13,10 +13,11 @@ after_failure: R -q -e 'tic::after_failure()'
 before_deploy: R -q -e 'tic::before_deploy()'
 deploy:
   - provider: script
-   script: R -q -e 'tic::deploy()'
-   on:
-     branch: master
-  - curl -X POST -$NETLIFY
+    script: R -q -e 'tic::deploy()'
+    on:
+      branch: master
+  - provider: script
+    script: bash scripts/deploy.sh
     on:
       branch: master
 after_deploy: R -q -e 'tic::after_deploy()'
