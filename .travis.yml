@@ -6,6 +6,7 @@ matrix:
   include:
    - r: release
      os: osx
+     osx_image: xcode7.3
      before_cache: Rscript -e 'remotes::install_github("r-lib/pkgdown")'
      deploy:
        provider: script
