@@ -6,10 +6,12 @@ matrix:
   include:
    - r: release
      os: osx
-     osx_image: xcode7.3
      latex: false
      fortran: false
-     before_cache: Rscript -e 'remotes::install_github("r-lib/pkgdown")'
+     before_install:
+        - brew tap theseal/ssh-askpass
+        - brew install ssh-askpass
+     before_cache: Rscript -e 'install.packages("r-lib/pkgdown")'
      deploy:
        provider: script
        script: Rscript -e 'pkgdown::deploy_site_github()'
