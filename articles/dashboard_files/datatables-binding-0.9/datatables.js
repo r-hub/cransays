@@ -404,11 +404,27 @@ HTMLWidgets.widget({
 
         // remove the overflow: hidden attribute of the scrollHead
         // (otherwise the scrolling table body obscures the filters)
+        // The workaround and the discussion from
+        // https://github.com/rstudio/DT/issues/554#issuecomment-518007347
+        // Otherwise the filter selection will not be anchored to the values
+        // when the columns number is many and scrollX is enabled.
         var scrollHead = $(el).find('.dataTables_scrollHead,.dataTables_scrollFoot');
-        var cssOverflow = scrollHead.css('overflow');
-        if (cssOverflow === 'hidden') {
+        var cssOverflowHead = scrollHead.css('overflow');
+        var scrollBody = $(el).find('.dataTables_scrollBody');
+        var cssOverflowBody = scrollBody.css('overflow');
+        var scrollTable = $(el).find('.dataTables_scroll');
+        var cssOverflowTable = scrollTable.css('overflow');
+        if (cssOverflowHead === 'hidden') {
           $x.on('show hide', function(e) {
-            scrollHead.css('overflow', e.type === 'show' ? '' : cssOverflow);
+            if (e.type === 'show') {
+              scrollHead.css('overflow', 'visible');
+              scrollBody.css('overflow', 'visible');
+              scrollTable.css('overflow-x', 'scroll');
+            } else {
+              scrollHead.css('overflow', cssOverflowHead);
+              scrollBody.css('overflow', cssOverflowBody);
+              scrollTable.css('overflow-x', cssOverflowTable);
+            }
           });
           $x.css('z-index', 25);
         }
@@ -743,7 +759,7 @@ HTMLWidgets.widget({
             $input.attr('title', 'Hit Ctrl+Enter to finish editing, or Esc to cancel');
           }
           $input.val(value);
-          if (disableCols && inArray(_cell.index().column, disableCols)) {
+          if (inArray(_cell.index().column, disableCols)) {
             $input.attr('readonly', '').css('filter', 'invert(25%)');
           }
           $cell.empty().append($input);
@@ -1003,7 +1019,7 @@ HTMLWidgets.widget({
         if (selTarget === 'row+column') {
           $(table.columns().footer()).css('cursor', 'pointer');
         }
-        table.on('click.dt', selTarget === 'column' ? 'tbody td' : 'tfoot tr th', function() {
+        var callback = function() {
           var colIdx = selTarget === 'column' ? table.cell(this).index().column :
               $.inArray(this, table.columns().footer()),
               thisCol = $(table.column(colIdx).nodes());
@@ -1017,7 +1033,12 @@ HTMLWidgets.widget({
             selected2 = selMode === 'single' ? [colIdx] : unique(selected2.concat([colIdx]));
           }
           changeInput('columns_selected', selected2);
-        });
+        }
+        if (selTarget === 'column') {
+          $(table.table().body()).on('click.dt', 'td', callback);
+        } else {
+          $(table.table().footer()).on('click.dt', 'tr th', callback);
+        }
         changeInput('columns_selected', selected2);
         var selectCols = function() {
           table.columns().nodes().flatten().to$().removeClass(selClass);
