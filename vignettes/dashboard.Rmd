@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 ```
 
 The data in this table stems from our querying ftp://cran.r-project.org/incoming/.
-We update it every hour. [See below](#explanation) for a description of each 
+We update it every hour. [See below](#cran-review-workflow) for a description of each 
 folder meaning.
 
 # Dashboard
@@ -74,7 +74,7 @@ DT::datatable(cran_incoming,
 ```
 
 
-# <a name="explanation"></a>CRAN review workflow
+# CRAN review workflow
 
 Your package will be stored in a different folder depending on its current state
 in the review process. The exact meaning of each folder is detailed in one 
