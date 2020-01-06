@@ -6,3 +6,15 @@ authors:
   Locke Data:
     href: "https://itsalocke.com/"
     html: "<img src='https://github.com/lockedatapublished.png' height=24>"
+
+
+navbar:
+  title: ~
+  type: default
+  left:
+    - icon: fa-home fa-lg
+      href: index.html
+    - text: Reference
+      href: reference/index.html
+    - text: Dashboard
+      href: articles/dashboard.html

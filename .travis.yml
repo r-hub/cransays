@@ -25,7 +25,7 @@ notifications:
   webhooks:
     urls:
       - https://api.netlify.com/build_hooks/5c484c170b29b644c816dfda
-    on_success: always
+    on_success: never
     on_failure: never
     on_start: never
     on_cancel: never
