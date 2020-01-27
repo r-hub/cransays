@@ -1,4 +1,7 @@
-on: push.master
+on:
+  push:
+    branches:
+      - master
 
 name: Render-dashboard
 
