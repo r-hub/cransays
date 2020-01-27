@@ -1,4 +1,6 @@
-on: push.master
+on:
+  schedule:
+    - cron:  '0 * * * *'
 
 name: Render-dashboard
 
