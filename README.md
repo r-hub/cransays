@@ -1,6 +1,6 @@
 # cransays
 
-[![Build Status](https://travis-ci.org/lockedata/cransays.svg?branch=master)](https://travis-ci.org/lockedata/cransays) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![Locke Data Slack](https://img.shields.io/badge/Slack-discuss-blue.svg?logo=slack&longCache=true&style=flat)](https://join.slack.com/t/lockedata/shared_invite/enQtMjkwNjY3ODkwMzg2LTI1OGU1NTM3ZGIyZGFiNTdlODI3MzU2N2ZlNDczMjM4M2U2OWVmNDMzZTQ1ZGNlZDQ3MGM2MGVjMjI2MWIyMjI)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![Locke Data Slack](https://img.shields.io/badge/Slack-discuss-blue.svg?logo=slack&longCache=true&style=flat)](https://join.slack.com/t/lockedata/shared_invite/enQtMjkwNjY3ODkwMzg2LTI1OGU1NTM3ZGIyZGFiNTdlODI3MzU2N2ZlNDczMjM4M2U2OWVmNDMzZTQ1ZGNlZDQ3MGM2MGVjMjI2MWIyMjI)
 
 
 The goal of cransays is to scrape the [CRAN incoming ftp folder](ftp://cran.r-project.org/incoming/) to find where each of the submission is, and to 
@@ -20,7 +20,7 @@ This is a basic example :
 cran_incoming <- cransays::take_snapshot()
 ```
 
-The vignette produces a [handy dashboard](https://cransays.itsalocke.com/articles/dashboard.html) that we update every hour.
+The vignette produces a [handy dashboard](https://cransays.itsalocke.com/articles/dashboard.html) that we update every hour via [GitHub Actions](https://github.com/lockedata/cransays/actions).
 
 ## Related work
 
@@ -29,10 +29,6 @@ The vignette produces a [handy dashboard](https://cransays.itsalocke.com/article
 * The [`foghorn` package](https://github.com/fmichonneau/foghorn), to summarize CRAN Check Results in the Terminal, provides an `foghorn::cran_incoming()` function to where your package stands in the CRAN incoming queue.
 
 * If you wanna increase the chance of a smooth submission, check out [this collaborative list of things to know before submitting to CRAN](https://github.com/ThinkR-open/prepare-for-cran).
-
-## Deployment
-
-The pkgdown website is deployed from Travis, the setup was made using [`travis::use_tic()`](https://ropenscilabs.github.io/travis/reference/use_tic.html).
 
 ## Contributing
 
