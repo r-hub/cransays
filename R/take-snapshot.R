@@ -55,6 +55,10 @@ take_snapshot <- function(){
     tidyr::separate(package, c("package", "version"), "_") %>%
     tibble::as_tibble()
 
+  cran_incoming <- dplyr::select(cran_incoming,
+                                 - dplyr::starts_with("V",
+                                                    ignore.case = FALSE))
+
   cran_incoming
 }
 
