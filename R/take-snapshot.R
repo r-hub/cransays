@@ -8,57 +8,57 @@ base_ftp_url <- function(){
 #' @export
 #'
 take_snapshot <- function(){
-  # Map sub-folders within the 'incoming' folder ----------------------
-  incoming <- get_ftp_contents(base_ftp_url())
-  folders <- incoming[["V9"]]
+  tmppath <- file.path(tempdir(check = TRUE),
+                       "tempfilecransays")
+  file.create(tmppath)
+  system2("ncftpls",
+          args = c(
+            "-l",
+            "-R",
+            "'ftp://cran.r-project.org/incoming/'",
+            glue::glue(">{tmppath}")
+          ))
+  infos <- readLines(tmppath)
+  infos <- infos[infos != ""]
+  library("magrittr")
+  infos <- tibble::tibble(
+    info = infos,
+    foldern = ifelse(
+      grepl("\\:$", info),
+      info, NA)
+  ) %>%
+    dplyr::mutate(folder = zoo::na.locf(foldern),
+                  folder = gsub("\\:$", "", folder),
+                  folder = gsub("^\\.\\/", "", folder),
+                  info = paste(info, folder, sep = "\t")) %>%
+    dplyr::filter(is.na(foldern),
+                  grepl("\\.tar\\.gz", info),
+                  folder != "archive")
+  write.table(infos[,1], tmppath,
+              col.names = FALSE, row.names = FALSE,
+              quote = FALSE)
 
-  # Iterate through the mapped folders to extract contents ------------
-  cran_incoming <- folders %>%
-    paste0(base_ftp_url(), ., "/") %>%
-    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) %>%
-    dplyr::bind_rows(
-      incoming
-    )
-
-  # one level more for humans
-  # since they use subfolders
-  cran_human <- c("DS", "UL", "SH", "KH")
-  human_folders <- cran_incoming %>%
-    dplyr::filter(subfolder %in% cran_human) %>%
-    with(paste0(base_ftp_url(), subfolder, "/", V9, "/"))
-
-  cran_incoming <- human_folders %>%
-    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) %>%
-    dplyr::bind_rows(
-      cran_incoming
-    ) %>%
+  cran_incoming <- read.table(tmppath,
+                              stringsAsFactors = FALSE)  %>%
     dplyr::mutate(
-      snapshot_time = Sys.time()
-    )
-
-  # Tidy results ------------------------------------------------------
-  cran_incoming <- cran_incoming %>%
-    dplyr::filter(grepl(".*\\.tar\\.gz", V9)) %>% # Remove non-package files
-    dplyr::mutate(
+      snapshot_time = Sys.time(),
+      year = ifelse(grepl(":", V8, fixed = TRUE), format(snapshot_time, "%Y"), V8),
+      time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
       package = sub("\\.tar\\.gz", "", V9), # Remove package extension
-      submission_time = as.POSIXct(paste("2018", V6, V7, V8), format = "%Y %b %d %R"),
+      submission_time = lubridate::parse_date_time(paste(year, V6, V7, time),
+                                                   "%Y %b %d %R",
+                                                   tz="Europe/Vienna"),
+      submission_time = dplyr::if_else(as.numeric(snapshot_time - submission_time, units = "days") < 0,
+                                       lubridate::parse_date_time(paste(as.numeric(as.character(year)) - 1, V6, V7, time),
+                                                                  "%Y %b %d %R"),
+                                       submission_time),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) %>%
+    dplyr::rename(folder = V10) %>%
     tidyr::separate(package, c("package", "version"), "_") %>%
     tibble::as_tibble()
 
+  file.remove(tmppath)
+
   cran_incoming
-}
-
-# helper
-get_ftp_contents <- function(url){
-  # Read ftp table results
-  res <- utils::read.table(curl::curl(url),
-                           stringsAsFactors = FALSE)
-
-  # Add ftp subfolder info from url
-  subfolder <- sub(base_ftp_url(), "", url, fixed = TRUE)
-  res[["subfolder"]] <- substr(subfolder, 1, nchar(subfolder) - 1)
-
-  res
 }

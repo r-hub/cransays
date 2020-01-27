@@ -41,8 +41,9 @@ Imports:
     DT,
     glue,
     tibble,
-    desc
-RoxygenNote: 6.1.0.9000
+    desc,
+    ratelimitr
+RoxygenNote: 7.0.2
 Suggests: 
     knitr,
     rmarkdown

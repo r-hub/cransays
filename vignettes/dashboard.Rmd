@@ -26,24 +26,27 @@ The data in this table stems from our querying ftp://cran.r-project.org/incoming
 cran_incoming <- cransays::take_snapshot()
 cran_incoming$submitted <- glue::glue("{cran_incoming$howlongago} day(s) ago")
 cran_incoming <- dplyr::arrange(cran_incoming,
-                                subfolder,
+                                folder,
                                 howlongago)
-cran_incoming <- dplyr::filter(cran_incoming,
-                               subfolder != "archive")
 cran_incoming <- dplyr::mutate(cran_incoming,
-                               folder = ifelse(
-  subfolder %in% c("pretest", "inspect",
-                                 "recheck",
-                                 "pending", "publish"),
-  subfolder, "human"
+                               type = ifelse(
+  folder %in% c("pretest", "inspect",
+                    "recheck",
+                     "pending", "publish"),
+  folder, "human"
 ))
 
 library("magrittr")
 
 cran_incoming <- dplyr::select(cran_incoming,
-                               package, version, submitted, folder, subfolder) %>%
+                               package, version, submitted, type, folder) %>%
     dplyr::mutate(folder = as.factor(folder),
-                  subfolder = as.factor(subfolder))
+                  type = as.factor(type))
+```
+
+```{r addmeta}
+cran_incoming <- split(cran_incoming, seq_len(nrow(cran_incoming))) %>%
+  purrr::map_df(cransays::get_metadata)
 
 
 ```
@@ -51,12 +54,13 @@ cran_incoming <- dplyr::select(cran_incoming,
 ```{r}
 library("magrittr")
 DT::datatable(cran_incoming,
+              escape = FALSE,
               options = list(pageLength = 500,
                            columnDefs = list(list(type = 'natural', 
                                              targets = 3))),
               filter = "top",
               plugins = "natural") %>% DT::formatStyle(
-  'folder',
+  'type',
   target = "row",
   backgroundColor = DT::styleEqual(c("pretest", "inspect",
                                  "recheck", "human",

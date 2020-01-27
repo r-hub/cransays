@@ -1,23 +1,22 @@
 
 
-#' Get metadata from a submission
-#'
-#' @param snapshot_row a row of \code{take_snapshot()} output
-#' @param dir folder where to download and untar information.
-#'
-#' @return tibble
-#' @export
-get_metadata <- function(snapshot_row, dir = tempdir(check = TRUE)){
-  URL <- glue::glue("{base_ftp_url()}{snapshot_row$subfolder}/{snapshot_row$package}_{snapshot_row$version}.tar.gz")
+.get_metadata <- function(snapshot_row, dir = tempdir(check = TRUE)){
+
+  URL <- glue::glue("{base_ftp_url()}{snapshot_row$folder}/{snapshot_row$package}_{snapshot_row$version}.tar.gz")
   destfile <- file.path(dir, glue::glue("{snapshot_row$package}_{snapshot_row$version}.tar.gz"))
-  curl::curl_download(URL, destfile)
+  tryit <- try(curl::curl_download(URL, destfile),
+               silent = TRUE)
+
+  if (is(tryit, "try-error")) {
+    return(snapshot_row)
+  }
 
   size <- file.size(destfile)
 
   exdir <- file.path(dir, glue::glue("{snapshot_row$package}_{snapshot_row$version}"))
 
   utils::untar(destfile, files = c(file.path(snapshot_row$package,
-                                           "DESCRIPTION"),
+                                             "DESCRIPTION"),
                                    file.path(snapshot_row$package,
                                              "NAMESPACE")),
                exdir = exdir)
@@ -31,24 +30,26 @@ get_metadata <- function(snapshot_row, dir = tempdir(check = TRUE)){
   fs::dir_delete(exdir)
 
   title <- DESCRIPTION$get_field("Title")
-  if (!is.null(DESCRIPTION$get_urls())) {
-    return(
+  if (length(DESCRIPTION$get_urls())) {
+    pkg <-
       glue::glue('<a href="{DESCRIPTION$get_urls()[1]}" title="{title} by {DESCRIPTION$get_maintainer()}">{snapshot_row$package}</a>')
-      )
+
   } else {
-      return(
+    pkg <-
       glue::glue('<a href="https://blog.r-hub.io/2019/12/10/urls/" title="{title} by {DESCRIPTION$get_maintainer()}">{snapshot_row$package}</a>')
-      )
+
   }
 
-}
-
-get_desc_field <- function(field, DESCRIPTION){
-  tibble::tibble(field = field,
-                 value = toString(DESCRIPTION$get_field(field)))
-}
-
-get_info <- function(snapshot_row, dir = tempdir(check = TRUE)) {
-  snapshot_row$package <- get_metadata(snapshot_row, dir)
+  snapshot_row$package <- as.character(pkg)
   snapshot_row
 }
+
+#' Get metadata from a submission
+#'
+#' @param snapshot_row a row of \code{take_snapshot()} output
+#' @param dir folder where to download and untar information.
+#'
+#' @return tibble
+#' @export
+get_metadata <- ratelimitr::limit_rate(.get_metadata,
+                                       ratelimitr::rate(1, 1))
