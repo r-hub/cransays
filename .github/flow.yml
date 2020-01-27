@@ -1,0 +1,18 @@
+on: pull_request
+
+name: Render-Book-from-PR
+
+jobs:
+  bookdown:
+    name: Render-Book
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: Install dependencies
+        run: Rscript -e 'install.packages("remotes")' -e 'remotes::install_deps(dependencies = TRUE)'
+      - name: Install local
+        run: Rscript -e 'install.packages("remotes")' -e 'remotes::install_local()'
+      - name: Install ncftp
+        run: sudo apt-get install ncftp
