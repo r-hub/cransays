@@ -22,24 +22,33 @@ get_metadata <- function(snapshot_row, dir = tempdir(check = TRUE)){
                                              "NAMESPACE")),
                exdir = exdir)
 
+  fs::file_delete(destfile)
+
   DESCRIPTION <- desc::desc(file = file.path(exdir,
                                              snapshot_row$package,
                                              "DESCRIPTION"))
 
-  desc <- purrr::map_df(DESCRIPTION$fields(), get_desc_field,
-                DESCRIPTION)
+  fs::dir_delete(exdir)
 
-  desc <- rbind(desc,
-                tibble::tibble(field = "size", value = size))
+  title <- DESCRIPTION$get_field("Title")
+  if (!is.null(DESCRIPTION$get_urls())) {
+    return(
+      glue::glue('<a href="{DESCRIPTION$get_urls()[1]}" title="{title} by {DESCRIPTION$get_maintainer()}">{snapshot_row$package}</a>')
+      )
+  } else {
+      return(
+      glue::glue('<a href="https://blog.r-hub.io/2019/12/10/urls/" title="{title} by {DESCRIPTION$get_maintainer()}">{snapshot_row$package}</a>')
+      )
+  }
 
-  desc$package <- snapshot_row$package
-  desc$version <- snapshot_row$version
-  desc$submission_time <- snapshot_row$submission_time
-
-  desc
 }
 
 get_desc_field <- function(field, DESCRIPTION){
   tibble::tibble(field = field,
                  value = toString(DESCRIPTION$get_field(field)))
+}
+
+get_info <- function(snapshot_row, dir = tempdir(check = TRUE)) {
+  snapshot_row$package <- get_metadata(snapshot_row, dir)
+  snapshot_row
 }
