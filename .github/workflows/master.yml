@@ -1,0 +1,23 @@
+on: push
+
+name: Render-dashboard
+
+jobs:
+  dashboarddown:
+    name: Render-dashboard
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: Install dependencies
+        run: Rscript -e 'install.packages("remotes")' -e 'remotes::install_deps(dependencies = TRUE)'
+      - name: Cache R packages
+        uses: actions/cache@v1
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ hashFiles('DESCRIPTION') }}
+      - name: Install local
+        run: Rscript -e 'install.packages("remotes")' -e 'remotes::install_local()'
+      - name: build website
+        run: Rscript -e 'pkgdown::build_site()'
