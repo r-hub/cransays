@@ -15,10 +15,8 @@
 
   exdir <- file.path(dir, glue::glue("{snapshot_row$package}_{snapshot_row$version}"))
 
-  utils::untar(destfile, files = c(file.path(snapshot_row$package,
-                                             "DESCRIPTION"),
-                                   file.path(snapshot_row$package,
-                                             "NAMESPACE")),
+  utils::untar(destfile,
+               files = file.path(snapshot_row$package, "DESCRIPTION")),
                exdir = exdir)
 
   fs::file_delete(destfile)
