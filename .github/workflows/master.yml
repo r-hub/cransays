@@ -34,4 +34,4 @@ jobs:
         run: |
           git add vignettes/cran*
           git commit -m 'new data'
-          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:history || echo "No changes to commit"
+          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:history --force"
