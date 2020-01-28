@@ -33,7 +33,7 @@ jobs:
       - name: Commit results
         run: |
           mkdir crandata
-          cp vignettes/cran* crandata
+          cp vignettes/cran-incoming* crandata
           cd crandata
           git init
           git add .
