@@ -41,6 +41,10 @@ cran_incoming <- dplyr::mutate(cran_incoming,
   subfolder, "human"
 ))
 
+
+write.csv(cran_incoming,
+          paste0("cran-incoming_-", format(Sys.time(), "%Y-%m-%d_%H-%M-%S"), ".csv"))
+
 library("magrittr")
 
 cran_incoming <- dplyr::select(cran_incoming,
@@ -48,8 +52,6 @@ cran_incoming <- dplyr::select(cran_incoming,
     dplyr::mutate(folder = as.factor(folder),
                   subfolder = as.factor(subfolder))
 
-write.csv(cran_incoming,
-          paste0("cran-incoming_-", format(Sys.time(), "%Y-%m-%d_%H-%M-%S"), ".csv"))
 ```
 
 ```{r}
