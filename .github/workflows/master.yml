@@ -32,6 +32,10 @@ jobs:
 
       - name: Commit results
         run: |
-          git add vignettes/cran*
+          mkdir crandata
+          cp vignettes/cran* crandata
+          cd crandata
+          git init
+          git add .
           git commit -m 'new data'
           git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:history --force
