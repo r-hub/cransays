@@ -42,7 +42,8 @@ Imports:
     DT,
     glue,
     tibble,
-    lubridate
+    lubridate,
+    ps
 RoxygenNote: 6.1.0.9000
 Suggests: 
     pkgdown,
