@@ -54,4 +54,5 @@ VignetteBuilder: knitr
 URL: https://github.com/lockedata/cransays
 BugReports: https://github.com/lockedata/cransays/issues
 Remotes: 
-    lockedatapublished/lockedatapkg
+    lockedatapublished/lockedatapkg,
+    r-lib/xml2
