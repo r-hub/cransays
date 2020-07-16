@@ -24,6 +24,10 @@ jobs:
           Rscript -e 'remotes::install_github("jimhester/pkgdown@github-actions-deploy")'
       - name: Install package
         run: R CMD INSTALL .
+      - name: git config
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "gh-pages committer"
       - name: Deploy package
         run: |
           pkgdown:::deploy_local(new_process = FALSE, remote_url = 'https://x-access-token:${{secrets.DEPLOY_PAT}}@github.com/${{github.repository}}.git')
