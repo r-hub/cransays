@@ -35,6 +35,8 @@ jobs:
           mkdir crandata
           cp vignettes/cran* crandata
           cd crandata
+          git config --global user.email "actions@github.com"
+          git config --global user.name "gh-pages committer"
           git init
           git add .
           git commit -m 'new data'
