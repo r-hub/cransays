@@ -25,33 +25,27 @@ folder meaning.
 # Dashboard
 
 ```{r get-data}
-cran_incoming <- cransays::take_snapshot()
-cran_incoming$submitted <- glue::glue("{cran_incoming$howlongago} day(s) ago")
-cran_incoming <- dplyr::arrange(cran_incoming,
-                                subfolder,
-                                howlongago)
-cran_incoming <- dplyr::filter(cran_incoming,
-                               subfolder != "archive")
-cran_incoming <- dplyr::mutate(cran_incoming,
-                               folder = ifelse(
-  subfolder %in% c("pretest", "inspect",
-                   "recheck",
-                   "pending", "publish",
-                   "newbies", "waiting"),
-  subfolder, "human"
-))
+library(dplyr)
 
+standard_folders <- c(
+  "pretest", "inspect", "recheck", "pending", "publish", "newbies", "waiting"
+)
 
-write.csv(cran_incoming,
-          paste0("cran-incoming_-", format(Sys.time(), "%Y-%m-%d_%H-%M-%S"), ".csv"))
+cran_raw <- cransays::take_snapshot()
 
-library("magrittr")
+cran_incoming <- cran_raw %>% 
+  arrange(subfolder, howlongago) %>% 
+  filter(subfolder != "archive") %>% 
+  mutate(
+    submitted = prettyunits::time_ago(submission_time),
+    folder = ifelse(subfolder %in% standard_folders, subfolder, "human"),
+    subfolder = ifelse(subfolder %in% standard_folders, NA, subfolder)
+  )
 
-cran_incoming <- dplyr::select(cran_incoming,
-                               package, version, submitted, folder, subfolder) %>%
-    dplyr::mutate(folder = as.factor(folder),
-                  subfolder = as.factor(subfolder))
-
+write.csv(
+  cran_incoming,
+  paste0("cran-incoming_-", format(Sys.time(), "%Y-%m-%d_%H-%M-%S"), ".csv")
+)
 ```
 
 ```{r}
@@ -65,19 +59,21 @@ colours <- c(
   "publish" = "#A5D6C8"
 )
 
-reactable(cran_incoming, 
-  columns = list(
-    folder = colDef(style = function(value) {
-      val <- as.character(value)
-      if (val %in% names(colours)) {
-        list(background = colours[[val]])
-      } else {
-        list()
-      }
-    })),
-  filterable = TRUE,
-  defaultPageSize = 50
-)
+cran_incoming %>% 
+  dplyr::select(package, version, submitted, folder, subfolder) %>% 
+  reactable(
+    columns = list(
+      folder = colDef(style = function(value) {
+        val <- as.character(value)
+        if (val %in% names(colours)) {
+          list(background = colours[[val]])
+        } else {
+          list()
+        }
+      })),
+    filterable = TRUE,
+    defaultPageSize = 50
+  )
 ```
 
 
