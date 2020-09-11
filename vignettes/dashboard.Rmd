@@ -55,25 +55,29 @@ cran_incoming <- dplyr::select(cran_incoming,
 ```
 
 ```{r}
-library("magrittr")
-DT::datatable(cran_incoming,
-              options = list(pageLength = 500,
-                           columnDefs = list(list(type = 'natural', 
-                                             targets = 3))),
-              filter = "top",
-              plugins = "natural") %>% DT::formatStyle(
-  'folder',
-  target = "row",
-  backgroundColor = DT::styleEqual(c("pretest", "inspect",
-                                 "recheck", "human",
-                                 "pending", "publish",
-                                 "waiting", "newbies"), 
-                               c("#2165b6", "#e8830c",
-                                 "#3cb4b8", "#cf4729",
-                                 "#34ba17", "#c04aa9",
-                                 "#4d4d4d", "fff")))
+library("reactable")
 
-  
+colours <- c(
+  "pretest" = "#F8F3BA",
+  "inspect" = "#F8F3BA",
+  "human"   = "#F1D9A1",
+  "recheck" = "#E5CADB",
+  "publish" = "#A5D6C8"
+)
+
+reactable(cran_incoming, 
+  columns = list(
+    folder = colDef(style = function(value) {
+      val <- as.character(value)
+      if (val %in% names(colours)) {
+        list(background = colours[[val]])
+      } else {
+        list()
+      }
+    })),
+  filterable = TRUE,
+  defaultPageSize = 50
+)
 ```
 
 

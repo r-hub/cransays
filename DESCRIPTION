@@ -39,7 +39,7 @@ Imports:
     magrittr,
     purrr,
     curl,
-    DT,
+    reactable,
     glue,
     tibble,
     lubridate,
