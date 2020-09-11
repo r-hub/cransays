@@ -39,6 +39,7 @@ Imports:
     magrittr,
     purrr,
     curl,
+    prettyunits,
     reactable,
     glue,
     tibble,
