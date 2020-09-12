@@ -35,9 +35,9 @@ jobs:
 
       - name: Commit results
         run: |
-          mkdir crandata
-          cp vignettes/cran* crandata
-          cd crandata
+          git clone https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git --branch history --single-branch
+          cp vignettes/cran* cransays
+          cd cransays
           git init
           git add .
           git commit -m 'new data'
