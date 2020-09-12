@@ -41,10 +41,14 @@ cran_incoming <- cran_raw %>%
     subfolder = ifelse(subfolder %in% standard_folders, NA, subfolder)
   )
 
-write.csv(
-  cran_incoming,
-  paste0("cran-incoming_-", format(Sys.time(), "%Y-%m-%d_%H-%M-%S"), ".csv")
-)
+cran_incoming %>% 
+  select(package, version, snapshot_time, folder, subfolder) %>% 
+  arrange(package, version) %>% 
+  write.csv(
+    paste0("cran-incoming-", format(Sys.time(), "%Y%m%dT%H%M"), ".csv"),
+    row.names = FALSE,
+    quote = FALSE
+  )
 ```
 
 ```{r}
