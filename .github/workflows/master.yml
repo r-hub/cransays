@@ -36,7 +36,7 @@ jobs:
 
       - name: Commit results
         run: |
-          mkdir crandata
+          git clone https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git --branch history --single-branch
           cp vignettes/cran* crandata
           cd crandata
           git init
