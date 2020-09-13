@@ -15,11 +15,13 @@ tidy <- tidy %>% anti_join(dups, by = c("package", "snapshot_time"))
 state <- tidy %>%
   group_by(package) %>%
   filter(row_number() == 1 | folder != dplyr::lag(folder)) %>%
-  mutate(elapsed = as.numeric(snapshot_time - dplyr::lag(snapshot_time), units = "hours"))
-
-state %>% ungroup() %>% count(folder)
+  mutate(elapsed = as.numeric(snapshot_time - dplyr::lag(snapshot_time), units = "hours")) %>%
+  ungroup()
+state %>% count(folder)
 
 state %>%
+  mutate(folder = fct_relevel(as.factor(folder), "pretest", "newbies", "inspect")) %>%
+  group_by(package) %>%
   mutate(cur = folder, prev = dplyr::lag(folder)) %>%
   ungroup() %>%
   filter(!is.na(prev)) %>%
