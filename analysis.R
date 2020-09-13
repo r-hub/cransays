@@ -1,6 +1,6 @@
 library(tidyverse)
 
-raw <- vroom::vroom(dir(pattern = "*.csv"))
+raw <- map_dfr(dir(pattern = "*.csv"), vroom::vroom, col_types = list())
 
 tidy <- raw %>%
   filter(!is.na(version)) %>%
