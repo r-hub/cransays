@@ -1,0 +1,5 @@
+package,version,snapshot_time,folder,subfolder
+libproj,7.1.0-3,2020-12-31 20:32:30,pending,NA
+Matrix,1.3-1,2020-12-31 20:32:30,waiting,NA
+phangorn,2.6.1,2020-12-31 20:32:30,waiting,NA
+slackr,2.0.1,2020-12-31 20:32:30,waiting,NA
