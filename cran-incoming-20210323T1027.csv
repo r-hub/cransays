@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+ADMUR,1.0.3,2021-03-23 11:27:09,pending,NA
+basedosdados,0.0.3,2021-03-23 11:27:09,newbies,NA
+bgumbel,0.0.2.2,2021-03-23 11:27:09,pending,NA
+CME.assistant,1.1.5,2021-03-23 11:27:09,waiting,NA
+DHARMa,0.3.4,2021-03-23 11:27:09,pretest,NA
+dynwrap,1.2.2,2021-03-23 11:27:09,pretest,NA
+GeodesiCL,1.0.0,2021-03-23 11:27:09,waiting,NA
+gm,1.0.0,2021-03-23 11:27:09,newbies,NA
+L0Learn,2.0.2,2021-03-23 11:27:09,pending,NA
+lacunaritycovariance,1.1-1,2021-03-23 11:27:09,pretest,NA
+loon.ggplot,1.1.1,2021-03-23 11:27:09,waiting,NA
+m61r,0.0.1,2021-03-23 11:27:09,newbies,NA
+missRanger,2.1.1.1,2021-03-23 11:27:09,pending,NA
+OpenMx,2.19.3,2021-03-23 11:27:09,pending,NA
+pavo,2.7.0,2021-03-23 11:27:09,pending,NA
+pcsstools,0.1.1,2021-03-23 11:27:09,newbies,NA
+quanteda,3.0.0,2021-03-23 11:27:09,pretest,NA
+rADA,1.1.9,2021-03-23 11:27:09,newbies,NA
+RImageJROI,0.1.2,2021-03-23 11:27:09,waiting,NA
+rlas,1.4.0,2021-03-23 11:27:09,pending,NA
+rosetta,0.3.5,2021-03-23 11:27:09,waiting,NA
+slider,0.2.1,2021-03-23 11:27:09,pending,NA
+spatstat.core,2.0-0,2021-03-23 11:27:09,pretest,NA
+tidyndr,0.1.0,2021-03-23 11:27:09,newbies,NA
