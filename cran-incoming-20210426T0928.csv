@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+aopdata,0.2.2,2021-04-26 11:28:51,waiting,NA
+bayes4psy,1.2.6,2021-04-26 11:28:51,pending,NA
+BayesPPD,1.0.0,2021-04-26 11:28:51,human,GS
+BayesRGMM,1.1,2021-04-26 11:28:51,pending,NA
+contact,1.2.6,2021-04-26 11:28:51,inspect,NA
+DEPONS2R,1.0.3,2021-04-26 11:28:51,human,GS
+DMLLZU,0.1.1,2021-04-26 11:28:51,waiting,NA
+fglsnet,1.0,2021-04-26 11:28:51,human,GS
+flexpolyline,0.2.3,2021-04-26 11:28:51,inspect,NA
+GeodesiCL,1.0.0,2021-04-26 11:28:51,waiting,NA
+IGP,0.2.0,2021-04-26 11:28:51,newbies,NA
+oceanis,1.7.5.2,2021-04-26 11:28:51,pretest,NA
+pcds,0.1.2,2021-04-26 11:28:51,newbies,NA
+rayshader,0.24.10,2021-04-26 11:28:51,inspect,NA
+rJava,1.0-3,2021-04-26 11:28:51,waiting,NA
+RMAT,0.2.0,2021-04-26 11:28:51,newbies,NA
+rRofex,2.0.5,2021-04-26 11:28:51,inspect,NA
+splusTimeDate,2.5.1,2021-04-26 11:28:51,waiting,NA
+StemMethod,0.1.0,2021-04-26 11:28:51,newbies,NA
+SubtypeDrug,0.1.5,2021-04-26 11:28:51,inspect,NA
+targets,0.4.2,2021-04-26 11:28:51,inspect,NA
+tidygate,0.4.6,2021-04-26 11:28:51,newbies,NA
+UPCM,0.0-2,2021-04-26 11:28:51,newbies,NA
+xpose.nlmixr,0.2.0,2021-04-26 11:28:51,newbies,NA
+YatesAlgo.FactorialExp,4.0.4,2021-04-26 11:28:51,newbies,NA
