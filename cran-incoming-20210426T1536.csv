@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+airGR,1.6.11,2021-04-26 17:36:13,waiting,NA
+aopdata,0.2.2,2021-04-26 17:36:13,waiting,NA
+BayesRGMM,1.1,2021-04-26 17:36:13,pending,NA
+contact,1.2.6,2021-04-26 17:36:13,inspect,NA
+DMLLZU,0.1.1,2021-04-26 17:36:13,waiting,NA
+fishflux,0.0.1.4,2021-04-26 17:36:13,newbies,NA
+flametree,0.1.2,2021-04-26 17:36:13,newbies,NA
+flexpolyline,0.2.3,2021-04-26 17:36:13,inspect,NA
+GeodesiCL,1.0.0,2021-04-26 17:36:13,waiting,NA
+geoknife,1.6.5,2021-04-26 17:36:13,pretest,NA
+jquerylib,0.1.4,2021-04-26 17:36:13,pretest,NA
+mangoTraining,1.1.1,2021-04-26 17:36:13,pretest,NA
+mdatools,0.11.5,2021-04-26 17:36:13,pending,NA
+prenoms,0.0.1,2021-04-26 17:36:13,newbies,NA
+proxyC,0.2.0,2021-04-26 17:36:13,waiting,NA
+qgam,1.3.3,2021-04-26 17:36:13,pretest,NA
+rayshader,0.24.10,2021-04-26 17:36:13,inspect,NA
+redist,3.0.4,2021-04-26 17:36:13,pretest,NA
+rJava,1.0-3,2021-04-26 17:36:13,waiting,NA
+rRofex,2.0.5,2021-04-26 17:36:13,inspect,NA
+spBFA,1.1,2021-04-26 17:36:13,newbies,NA
+splusTimeDate,2.5.1,2021-04-26 17:36:13,waiting,NA
+SubtypeDrug,0.1.5,2021-04-26 17:36:13,inspect,NA
+targets,0.4.2,2021-04-26 17:36:13,inspect,NA
+YatesAlgo.FactorialExp.SR,4.0.4,2021-04-26 17:36:13,newbies,NA
