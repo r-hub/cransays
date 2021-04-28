@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+aopdata,0.2.2,2021-04-28 15:32:49,waiting,NA
+BayesRGMM,1.1,2021-04-28 15:32:49,pending,NA
+bfast,1.6.0,2021-04-28 15:32:49,waiting,NA
+deeplr,2.0.0,2021-04-28 15:32:49,inspect,NA
+DMLLZU,0.1.1,2021-04-28 15:32:49,waiting,NA
+eCAR,0.1.1,2021-04-28 15:32:49,inspect,NA
+flexpolyline,0.2.3,2021-04-28 15:32:49,pending,NA
+GeodesiCL,1.0.0,2021-04-28 15:32:49,waiting,NA
+geouy,0.2.4,2021-04-28 15:32:49,inspect,NA
+ggVennDiagram,1.0.7,2021-04-28 15:32:49,pretest,NA
+hrt,1.0.0,2021-04-28 15:32:49,human,GS
+ipeadatar,0.1.3,2021-04-28 15:32:49,pending,NA
+leafdown,1.0.0,2021-04-28 15:32:49,human,GS
+magmaR,1.0.0,2021-04-28 15:32:49,human,GS
+Matrix,1.3-3,2021-04-28 15:32:49,waiting,NA
+matrixpls,1.0.13,2021-04-28 15:32:49,human,GS
+mdatools,0.11.5,2021-04-28 15:32:49,pending,NA
+proxyC,0.2.0,2021-04-28 15:32:49,waiting,NA
+rayshader,0.24.10,2021-04-28 15:32:49,inspect,NA
+rJava,1.0-3,2021-04-28 15:32:49,waiting,NA
+rtern,0.1.1,2021-04-28 15:32:49,human,GS
+signnet,0.7.1,2021-04-28 15:32:49,pretest,NA
+SubtypeDrug,0.1.5,2021-04-28 15:32:49,inspect,NA
+targets,0.4.2,2021-04-28 15:32:49,pending,NA
+thunder,0.0.20,2021-04-28 15:32:49,pending,NA
