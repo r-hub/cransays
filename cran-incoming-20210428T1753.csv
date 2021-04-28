@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+aopdata,0.2.2,2021-04-28 19:53:38,pending,NA
+BayesRGMM,1.1,2021-04-28 19:53:38,pending,NA
+bfast,1.6.0,2021-04-28 19:53:38,waiting,NA
+BRACoD.R,0.0.1.0,2021-04-28 19:53:38,newbies,NA
+cccrm,2.0.3,2021-04-28 19:53:38,inspect,NA
+eatATA,0.11.2,2021-04-28 19:53:38,inspect,NA
+flexpolyline,0.2.3,2021-04-28 19:53:38,pending,NA
+GeodesiCL,1.0.0,2021-04-28 19:53:38,waiting,NA
+leafdown,1.0.0,2021-04-28 19:53:38,newbies,NA
+Matrix,1.3-3,2021-04-28 19:53:38,waiting,NA
+mdatools,0.11.5,2021-04-28 19:53:38,pending,NA
+ontoFAST,1.0.0,2021-04-28 19:53:38,newbies,NA
+POSTm,1.1,2021-04-28 19:53:38,newbies,NA
+proxyC,0.2.0,2021-04-28 19:53:38,waiting,NA
+qtl2fst,0.24,2021-04-28 19:53:38,inspect,NA
+rJava,1.0-3,2021-04-28 19:53:38,waiting,NA
+SubtypeDrug,0.1.5,2021-04-28 19:53:38,inspect,NA
+targets,0.4.2,2021-04-28 19:53:38,pending,NA
+terra,1.2-3,2021-04-28 19:53:38,pending,NA
+welo,0.1.0,2021-04-28 19:53:38,pretest,NA
