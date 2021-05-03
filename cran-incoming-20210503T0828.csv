@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+BayesDesign,0.1.1,2021-05-03 10:28:46,newbies,NA
+bfast,1.6.0,2021-05-03 10:28:46,recheck,NA
+BGVAR,2.2.0,2021-05-03 10:28:46,pretest,NA
+dawai,1.2.4,2021-05-03 10:28:46,inspect,NA
+dplyr,1.0.6,2021-05-03 10:28:46,waiting,NA
+GeodesiCL,1.0.0,2021-05-03 10:28:46,waiting,NA
+geouy,0.2.4,2021-05-03 10:28:46,waiting,NA
+GUniFrac,1.2,2021-05-03 10:28:46,inspect,NA
+hBayesDM,1.1.1,2021-05-03 10:28:46,inspect,NA
+ipeadatar,0.1.3,2021-05-03 10:28:46,waiting,NA
+lme4,1.1-27,2021-05-03 10:28:46,waiting,NA
+meerva,0.2-1,2021-05-03 10:28:46,inspect,NA
+proxyC,0.2.0,2021-05-03 10:28:46,waiting,NA
+purgeR,1.1,2021-05-03 10:28:46,inspect,NA
+secrlinear,1.1.2,2021-05-03 10:28:46,inspect,NA
+settings,0.2.6,2021-05-03 10:28:46,waiting,NA
+SoilTaxonomy,0.1.3,2021-05-03 10:28:46,inspect,NA
+SubtypeDrug,0.1.5,2021-05-03 10:28:46,inspect,NA
+tesseract,4.1.1,2021-05-03 10:28:46,pending,NA
+tidygate,0.4.7,2021-05-03 10:28:46,waiting,NA
