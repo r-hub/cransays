@@ -32,7 +32,7 @@ Authors@R:
              role = "ctb",
              comment = c(ORCID = "0000-0003-4757-117X"))
     )
-Description: It scrapes the CRAN incoming ftp folder to find where 
+Description: It scrapes the CRAN incoming FTP folder to find where 
       each submission is.
 License: MIT + file LICENSE
 Encoding: UTF-8
