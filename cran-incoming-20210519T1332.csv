@@ -1,0 +1,17 @@
+package,version,snapshot_time,folder,subfolder
+autocart,1.4.5,2021-05-19 15:32:29,pending,NA
+fdapace,0.5.7,2021-05-19 15:32:29,waiting,NA
+fitdistrplus,1.1-5,2021-05-19 15:32:29,waiting,NA
+GeodesiCL,1.0.0,2021-05-19 15:32:29,waiting,NA
+GeoFIS,1.0.1,2021-05-19 15:32:29,pending,NA
+HDSpatialScan,19-05,2021-05-19 15:32:29,newbies,NA
+hhsmm,0.1,2021-05-19 15:32:29,newbies,NA
+ks,1.13.0,2021-05-19 15:32:29,waiting,NA
+mind,0.1.0,2021-05-19 15:32:29,newbies,NA
+nettskjemar,0.1.4,2021-05-19 15:32:29,newbies,NA
+nomordR,0.1,2021-05-19 15:32:29,newbies,NA
+ragg,1.1.3,2021-05-19 15:32:29,waiting,NA
+RcppCGAL,5.2.1,2021-05-19 15:32:29,newbies,NA
+seasonal,1.8.3,2021-05-19 15:32:29,pending,NA
+sknifedatar,0.1.1,2021-05-19 15:32:29,newbies,NA
+wallace,1.1.0,2021-05-19 15:32:29,inspect,NA
