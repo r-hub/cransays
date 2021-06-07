@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+arakno,1.1.0,2021-06-07 17:33:54,newbies,NA
+betaBayes,1.0,2021-06-07 17:33:54,newbies,NA
+clinUtils,0.0.1,2021-06-07 17:33:54,newbies,NA
+drugCombo,1.2.0,2021-06-07 17:33:54,newbies,NA
+ecotraj,0.0.1,2021-06-07 17:33:54,newbies,NA
+expectreg,0.51,2021-06-07 17:33:54,pending,NA
+fixest,0.9.0,2021-06-07 17:33:54,pending,NA
+hutilscpp,0.7.2,2021-06-07 17:33:54,pending,NA
+lares,5.0.1,2021-06-07 17:33:54,inspect,NA
+loon,1.3.7,2021-06-07 17:33:54,waiting,NA
+lphom,0.1.4,2021-06-07 17:33:54,pending,NA
+nhdplusTools,0.4.2,2021-06-07 17:33:54,pending,NA
+nifti.io,1.0.0,2021-06-07 17:33:54,newbies,NA
+piwikproR,0.2.0,2021-06-07 17:33:54,newbies,NA
+pRecipe,0.0.1,2021-06-07 17:33:54,newbies,NA
+prettyglm,0.1.0,2021-06-07 17:33:54,newbies,NA
+qtl2ggplot,1.0.8,2021-06-07 17:33:54,waiting,NA
+ragg,1.1.3,2021-06-07 17:33:54,waiting,NA
+rags2ridges,2.2.5,2021-06-07 17:33:54,waiting,NA
+SpaDES.tools,0.3.8,2021-06-07 17:33:54,newbies,NA
+spamtree,0.2.0,2021-06-07 17:33:54,newbies,NA
+tidywikidatar,0.3.0,2021-06-07 17:33:54,pretest,NA
