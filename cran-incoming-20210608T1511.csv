@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+CatReg,2.0.3,2021-06-08 17:11:02,pending,NA
+cfid,0.1.1,2021-06-08 17:11:02,inspect,NA
+daiR,0.8.0,2021-06-08 17:11:02,newbies,NA
+drda,1.0.0,2021-06-08 17:11:02,newbies,NA
+epocakir,0.9.7,2021-06-08 17:11:02,newbies,NA
+expectreg,0.51,2021-06-08 17:11:02,pending,NA
+fixest,0.9.0,2021-06-08 17:11:02,pending,NA
+GeoFIS,1.0.1,2021-06-08 17:11:02,pending,NA
+HEDA,0.1.3,2021-06-08 17:11:02,newbies,NA
+hhsmm,0.1.2,2021-06-08 17:11:02,pending,NA
+hillshader,0.1.0,2021-06-08 17:11:02,newbies,NA
+hutilscpp,0.7.2,2021-06-08 17:11:02,pending,NA
+imager,0.42.9,2021-06-08 17:11:02,waiting,NA
+lares,5.0.1,2021-06-08 17:11:02,inspect,NA
+loon,1.3.7,2021-06-08 17:11:02,waiting,NA
+lphom,0.1.4,2021-06-08 17:11:02,pending,NA
+nhdplusTools,0.4.2,2021-06-08 17:11:02,pending,NA
+np,0.60-11,2021-06-08 17:11:02,pending,NA
+qpNCA,1.1.1,2021-06-08 17:11:02,pretest,NA
+ragg,1.1.3,2021-06-08 17:11:02,waiting,NA
+recodeflow,0.1.0,2021-06-08 17:11:02,newbies,NA
+seqinr,4.2-8,2021-06-08 17:11:02,waiting,NA
+susieR,0.11.42,2021-06-08 17:11:02,pending,NA
+vroom,1.5.0,2021-06-08 17:11:02,pending,NA
+zipsae,1.0.1,2021-06-08 17:11:02,newbies,NA
