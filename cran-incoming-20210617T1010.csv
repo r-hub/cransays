@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+addhazard,1.15,2021-06-17 12:10:16,pretest,NA
+BIOMASS,2.1.6,2021-06-17 12:10:16,pending,NA
+dplyr,1.0.7,2021-06-17 12:10:16,waiting,NA
+exdqlm,0.1.0,2021-06-17 12:10:16,human,JH
+ICvectorfields,0.0.1,2021-06-17 12:10:16,human,JH
+MultSurvTests,0.2,2021-06-17 12:10:16,newbies,NA
+nhdplusTools,0.4.2,2021-06-17 12:10:16,pending,NA
+nortsTest,1.0.1,2021-06-17 12:10:16,pretest,NA
+pez,1.2-3,2021-06-17 12:10:16,pretest,NA
+pRecipe,0.1.0,2021-06-17 12:10:16,waiting,NA
+ranlip,1.0.0,2021-06-17 12:10:16,newbies,NA
+RapidoPGS,2.1.0,2021-06-17 12:10:16,publish,NA
+raster,3.4-13,2021-06-17 12:10:16,waiting,NA
+relsurv,2.2-4,2021-06-17 12:10:16,recheck,NA
+requiRements,0.0.1,2021-06-17 12:10:16,human,JH
+Rfmtool,4.1.1,2021-06-17 12:10:16,pending,NA
+s2,1.0.6,2021-06-17 12:10:16,pending,NA
+ScottKnott,1.3-0,2021-06-17 12:10:16,waiting,NA
+SEMgraph,1.0.3,2021-06-17 12:10:16,pretest,NA
+sigminer,2.0.2,2021-06-17 12:10:16,pretest,NA
+sparklyr,1.7.1,2021-06-17 12:10:16,waiting,NA
+UnitStat,1.1.0,2021-06-17 12:10:16,newbies,NA
