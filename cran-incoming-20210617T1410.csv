@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+datawizard,0.1.0,2021-06-17 16:10:52,newbies,NA
+dmdbscan,0.1.1,2021-06-17 16:10:52,newbies,NA
+dplyr,1.0.7,2021-06-17 16:10:52,waiting,NA
+dynplot,1.1.0,2021-06-17 16:10:52,newbies,NA
+medfate,2.2.3,2021-06-17 16:10:52,pending,NA
+mfGARCH,0.2.1,2021-06-17 16:10:52,pretest,NA
+MultSurvTests,0.2,2021-06-17 16:10:52,newbies,NA
+nhdplusTools,0.4.2,2021-06-17 16:10:52,pending,NA
+nortsTest,1.0.1,2021-06-17 16:10:52,inspect,NA
+pedsuite,1.0.3,2021-06-17 16:10:52,newbies,NA
+PolyHaplotyper,1.0.1,2021-06-17 16:10:52,inspect,NA
+pRecipe,0.1.0,2021-06-17 16:10:52,waiting,NA
+ranlip,1.0.0,2021-06-17 16:10:52,newbies,NA
+raster,3.4-13,2021-06-17 16:10:52,waiting,NA
+requiRements,0.0.1,2021-06-17 16:10:52,newbies,NA
+Rfmtool,4.1.2,2021-06-17 16:10:52,pending,NA
+RHRT,1.0,2021-06-17 16:10:52,inspect,NA
+ScottKnott,1.3-0,2021-06-17 16:10:52,waiting,NA
+sfarrow,0.4.0,2021-06-17 16:10:52,newbies,NA
+statgenHTP,1.0.3,2021-06-17 16:10:52,pretest,NA
+touchstone,0.1.1,2021-06-17 16:10:52,newbies,NA
+UnitStat,1.1.0,2021-06-17 16:10:52,newbies,NA
