@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+BIOMASS,2.1.6,2021-06-17 10:13:48,pending,NA
+c2d4u.tools,1.2,2021-06-17 10:13:48,newbies,NA
+dplyr,1.0.7,2021-06-17 10:13:48,waiting,NA
+exdqlm,0.1.0,2021-06-17 10:13:48,newbies,NA
+fhircrackr,1.0.1,2021-06-17 10:13:48,waiting,NA
+gpboost,0.6.3,2021-06-17 10:13:48,waiting,NA
+ICvectorfields,0.0.1,2021-06-17 10:13:48,newbies,NA
+luz,0.1.0,2021-06-17 10:13:48,human,JH
+mBvs,1.5,2021-06-17 10:13:48,newbies,NA
+mshap,0.1.0,2021-06-17 10:13:48,newbies,NA
+MSiP,1.3.7,2021-06-17 10:13:48,newbies,NA
+nhdplusTools,0.4.2,2021-06-17 10:13:48,pending,NA
+pRecipe,0.1.0,2021-06-17 10:13:48,waiting,NA
+raster,3.4-13,2021-06-17 10:13:48,waiting,NA
+realTimeSurv,1.1,2021-06-17 10:13:48,human,GS
+recogito,0.1.1,2021-06-17 10:13:48,human,GS
+requiRements,0.0.1,2021-06-17 10:13:48,newbies,NA
+Rfmtool,4.1.1,2021-06-17 10:13:48,newbies,NA
+RFpredInterval,1.0.0,2021-06-17 10:13:48,human,JH
+s2,1.0.6,2021-06-17 10:13:48,pending,NA
+ScottKnott,1.3-0,2021-06-17 10:13:48,waiting,NA
+sparklyr,1.7.1,2021-06-17 10:13:48,waiting,NA
+vampyr,1.1.1,2021-06-17 10:13:48,newbies,NA
