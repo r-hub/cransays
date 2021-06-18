@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+AnnoProbe,0.1.4,2021-06-18 18:19:58,newbies,NA
+ao,0.1.0,2021-06-18 18:19:58,newbies,NA
+dplyr,1.0.7,2021-06-18 18:19:58,waiting,NA
+dynplot,1.1.0,2021-06-18 18:19:58,newbies,NA
+etrm,1.0,2021-06-18 18:19:58,newbies,NA
+fasano.franceschini.test,1.0.0,2021-06-18 18:19:58,newbies,NA
+fixest,0.9.0,2021-06-18 18:19:58,pending,NA
+genSEIR,0.1.0,2021-06-18 18:19:58,newbies,NA
+GeoFIS,1.0.1,2021-06-18 18:19:58,pending,NA
+mappings,0.1,2021-06-18 18:19:58,newbies,NA
+pedsuite,1.0.4,2021-06-18 18:19:58,newbies,NA
+r2dii.plot,0.0.1,2021-06-18 18:19:58,newbies,NA
+ranlip,1.0.0,2021-06-18 18:19:58,newbies,NA
+Rfmtool,4.1.2,2021-06-18 18:19:58,pending,NA
+RHRT,1.0,2021-06-18 18:19:58,newbies,NA
+RHybridFinder,0.1.0,2021-06-18 18:19:58,newbies,NA
+rio,0.5.27,2021-06-18 18:19:58,pending,NA
+ScottKnott,1.3-0,2021-06-18 18:19:58,waiting,NA
+sfarrow,0.4.0,2021-06-18 18:19:58,newbies,NA
+SHELF,1.8.0,2021-06-18 18:19:58,publish,NA
+tidyestimate,1.0.4,2021-06-18 18:19:58,newbies,NA
+utr.annotation,1.0.1,2021-06-18 18:19:58,newbies,NA
+wordpredictor,0.0.2,2021-06-18 18:19:58,waiting,NA
