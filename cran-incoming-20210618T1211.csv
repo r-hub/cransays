@@ -1,0 +1,15 @@
+package,version,snapshot_time,folder,subfolder
+AnnoProbe,0.1.4,2021-06-18 14:11:47,newbies,NA
+dplyr,1.0.7,2021-06-18 14:11:47,waiting,NA
+etrm,1.0,2021-06-18 14:11:47,newbies,NA
+GeoFIS,1.0.1,2021-06-18 14:11:47,pending,NA
+intePareto,0.1.2,2021-06-18 14:11:47,waiting,NA
+medfate,2.2.3,2021-06-18 14:11:47,pending,NA
+pedsuite,1.0.4,2021-06-18 14:11:47,newbies,NA
+Rfmtool,4.1.2,2021-06-18 14:11:47,pending,NA
+RHRT,1.0,2021-06-18 14:11:47,newbies,NA
+RHybridFinder,0.1.0,2021-06-18 14:11:47,newbies,NA
+rio,0.5.27,2021-06-18 14:11:47,pending,NA
+ScottKnott,1.3-0,2021-06-18 14:11:47,waiting,NA
+sfarrow,0.4.0,2021-06-18 14:11:47,newbies,NA
+tidyestimate,1.0.4,2021-06-18 14:11:47,newbies,NA
