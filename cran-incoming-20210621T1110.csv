@@ -1,0 +1,16 @@
+package,version,snapshot_time,folder,subfolder
+BayesianReasoning,0.3.3,2021-06-21 13:10:16,inspect,NA
+BE,0.1.3,2021-06-21 13:10:16,pretest,NA
+biogrowth,0.2.1,2021-06-21 13:10:16,waiting,NA
+ergm.ego,0.9.0,2021-06-21 13:10:16,inspect,NA
+fastLaplace,0.0.1,2021-06-21 13:10:16,newbies,NA
+GeoFIS,1.0.1,2021-06-21 13:10:16,pending,NA
+mark,0.1.4,2021-06-21 13:10:16,waiting,NA
+OddsPlotty,1.0.1,2021-06-21 13:10:16,newbies,NA
+regions,0.1.8,2021-06-21 13:10:16,inspect,NA
+Rfmtool,4.1.2,2021-06-21 13:10:16,pending,NA
+RMVL,0.0.1.0,2021-06-21 13:10:16,newbies,NA
+ScottKnott,1.3-0,2021-06-21 13:10:16,waiting,NA
+tidytreatment,0.2.0,2021-06-21 13:10:16,inspect,NA
+tssim,0.1.6,2021-06-21 13:10:16,newbies,NA
+UKB.COVID19,0.1.0,2021-06-21 13:10:16,newbies,NA
