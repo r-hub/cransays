@@ -1,0 +1,15 @@
+package,version,snapshot_time,folder,subfolder
+ahMLE,1.17,2021-06-22 13:10:00,newbies,NA
+biogrowth,0.2.1,2021-06-22 13:10:00,inspect,NA
+epcc,1.4.6,2021-06-22 13:10:00,newbies,NA
+ergm.ego,1.0.0,2021-06-22 13:10:00,inspect,NA
+genSEIR,0.1.0,2021-06-22 13:10:00,newbies,NA
+hrqglas,1.0,2021-06-22 13:10:00,newbies,NA
+mappings,0.1,2021-06-22 13:10:00,newbies,NA
+mark,0.1.4,2021-06-22 13:10:00,waiting,NA
+MIIPW,0.1.0,2021-06-22 13:10:00,newbies,NA
+quickNmix,1.0.3,2021-06-22 13:10:00,newbies,NA
+Rfmtool,4.1.2,2021-06-22 13:10:00,pending,NA
+tidytreatment,0.2.0,2021-06-22 13:10:00,pretest,NA
+TreeTools,1.4.5,2021-06-22 13:10:00,pretest,NA
+wcde,0.0.1,2021-06-22 13:10:00,newbies,NA
