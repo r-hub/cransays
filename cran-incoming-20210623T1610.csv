@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+BIOMASS,2.1.6,2021-06-23 18:10:58,pending,NA
+broom,0.7.8,2021-06-23 18:10:58,inspect,NA
+crypto2,1.3.0,2021-06-23 18:10:58,newbies,NA
+EuclideanSD,0.1.0,2021-06-23 18:10:58,newbies,NA
+glmnet,4.1-2,2021-06-23 18:10:58,waiting,NA
+iheiddown,0.8.2,2021-06-23 18:10:58,newbies,NA
+mark,0.1.4,2021-06-23 18:10:58,pending,NA
+MedianaDesigner,0.2,2021-06-23 18:10:58,pretest,NA
+mnreadR,2.1.6,2021-06-23 18:10:58,inspect,NA
+molnet,0.1.0,2021-06-23 18:10:58,newbies,NA
+OenoKPM,0.1.2,2021-06-23 18:10:58,newbies,NA
+PreProcessing,0.1.0,2021-06-23 18:10:58,newbies,NA
+prettyglm,0.1.0,2021-06-23 18:10:58,newbies,NA
+ranlip,1.0.1,2021-06-23 18:10:58,pending,NA
+RcppGSL,0.3.9,2021-06-23 18:10:58,pretest,NA
+RDP,0.1.4,2021-06-23 18:10:58,newbies,NA
+Rfmtool,4.1.2,2021-06-23 18:10:58,pending,NA
+strawr,0.0.8,2021-06-23 18:10:58,newbies,NA
+tergm,4.0.1,2021-06-23 18:10:58,waiting,NA
