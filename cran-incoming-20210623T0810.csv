@@ -1,0 +1,10 @@
+package,version,snapshot_time,folder,subfolder
+bayesnec,1.0.1,2021-06-23 10:10:39,pretest,NA
+BIOMASS,2.1.6,2021-06-23 10:10:39,pending,NA
+bootGOF,0.1.0,2021-06-23 10:10:39,human,GS
+EuclideanSD,0.1.0,2021-06-23 10:10:39,human,JH
+glmnet,4.1-2,2021-06-23 10:10:39,waiting,NA
+mark,0.1.4,2021-06-23 10:10:39,waiting,NA
+ranlip,1.0.1,2021-06-23 10:10:39,pending,NA
+Rfmtool,4.1.2,2021-06-23 10:10:39,pending,NA
+wcde,0.0.1,2021-06-23 10:10:39,human,JH
