@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+bigtime,0.2.0,2021-06-24 15:17:02,pretest,NA
+BIOMASS,2.1.6,2021-06-24 15:17:02,pending,NA
+DImodels,1.1,2021-06-24 15:17:02,pretest,NA
+dyngen,1.0.2,2021-06-24 15:17:02,pretest,NA
+EuclideanSD,0.1.0,2021-06-24 15:17:02,pretest,NA
+ggplot2,3.3.5,2021-06-24 15:17:02,pretest,NA
+jstable,1.0.3,2021-06-24 15:17:02,pretest,NA
+mark,0.1.4,2021-06-24 15:17:02,pending,NA
+msig,1.0.0,2021-06-24 15:17:02,pretest,NA
+neuronorm,1.0.0,2021-06-24 15:17:02,pretest,NA
+NFCP,1.1.0,2021-06-24 15:17:02,pretest,NA
+Rfmtool,4.1.2,2021-06-24 15:17:02,pending,NA
+seedreg,1.0.2,2021-06-24 15:17:02,pretest,NA
+TAM,3.7-16,2021-06-24 15:17:02,pretest,NA
+TraMineRextras,0.6.2,2021-06-24 15:17:02,pretest,NA
+tssim,0.1.7,2021-06-24 15:17:02,pretest,NA
+ugomquantreg,1.0.0,2021-06-24 15:17:02,pretest,NA
