@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+bayesnec,1.0.1,2021-06-25 13:10:59,newbies,NA
+BOSO,1.0.1,2021-06-25 13:10:59,newbies,NA
+ClimDown,1.0.8,2021-06-25 13:10:59,waiting,NA
+disordR,0.0-2,2021-06-25 13:10:59,newbies,NA
+DoseFinding,1.0-1,2021-06-25 13:10:59,recheck,NA
+emayili,0.4.11,2021-06-25 13:10:59,recheck,NA
+EuclideanSD,0.1.0,2021-06-25 13:10:59,human,GS
+fastLaplace,0.0.2,2021-06-25 13:10:59,newbies,NA
+ffp,0.0.1,2021-06-25 13:10:59,human,GS
+fields,12.5,2021-06-25 13:10:59,recheck,NA
+gfilmm,2.0.4,2021-06-25 13:10:59,pretest,NA
+ggplot2,3.3.5,2021-06-25 13:10:59,waiting,NA
+hydroEvents,0.10,2021-06-25 13:10:59,newbies,NA
+jstable,1.0.3,2021-06-25 13:10:59,recheck,NA
+modelROC,1.0,2021-06-25 13:10:59,human,GS
+mosum,1.2.6,2021-06-25 13:10:59,recheck,NA
+msma,2.2,2021-06-25 13:10:59,recheck,NA
+MultivariateAnalysis,0.1.0,2021-06-25 13:10:59,newbies,NA
+shinybatch,0.3,2021-06-25 13:10:59,newbies,NA
+SimInf,8.3.0,2021-06-25 13:10:59,recheck,NA
+strawr,0.0.8,2021-06-25 13:10:59,human,GS
+tergmLite,2.5.0,2021-06-25 13:10:59,recheck,NA
+tssim,0.1.7,2021-06-25 13:10:59,human,GS
+ugomquantreg,1.0.0,2021-06-25 13:10:59,newbies,NA
