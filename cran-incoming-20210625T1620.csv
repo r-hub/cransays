@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+bayesnec,1.0.1,2021-06-25 18:20:27,newbies,NA
+BOSO,1.0.1,2021-06-25 18:20:27,newbies,NA
+btergm,1.10.3,2021-06-25 18:20:27,waiting,NA
+butcher,0.1.5,2021-06-25 18:20:27,waiting,NA
+ClimDown,1.0.8,2021-06-25 18:20:27,waiting,NA
+clinDataReview,1.0.0,2021-06-25 18:20:27,newbies,NA
+cpp11,0.2.7.9000,2021-06-25 18:20:27,pretest,NA
+cpp11,0.3.0,2021-06-25 18:20:27,pretest,NA
+dataRetrieval,2.7.8,2021-06-25 18:20:27,inspect,NA
+disordR,0.0-2,2021-06-25 18:20:27,newbies,NA
+EuclideanSD,0.1.0,2021-06-25 18:20:27,human,GS
+fastLaplace,0.0.2,2021-06-25 18:20:27,newbies,NA
+FuzzyART,1.0.0,2021-06-25 18:20:27,newbies,NA
+hydroEvents,0.10,2021-06-25 18:20:27,newbies,NA
+mbsts,2.2,2021-06-25 18:20:27,inspect,NA
+MisRepARMA,0.0.1,2021-06-25 18:20:27,newbies,NA
+MultivariateAnalysis,0.1.0,2021-06-25 18:20:27,newbies,NA
+NNS,0.7.1,2021-06-25 18:20:27,inspect,NA
+pasadr,1.0,2021-06-25 18:20:27,newbies,NA
+shinybatch,0.3,2021-06-25 18:20:27,newbies,NA
+spam,2.7-0,2021-06-25 18:20:27,waiting,NA
+tosr,0.0.0.9000,2021-06-25 18:20:27,inspect,NA
+ugomquantreg,1.0.0,2021-06-25 18:20:27,newbies,NA
