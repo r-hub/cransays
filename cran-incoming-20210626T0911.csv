@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+APML,0.0.2,2021-06-26 11:11:36,newbies,NA
+bayesnec,1.0.1,2021-06-26 11:11:36,newbies,NA
+BOSO,1.0.1,2021-06-26 11:11:36,newbies,NA
+butcher,0.1.5,2021-06-26 11:11:36,inspect,NA
+clinDataReview,1.0.0,2021-06-26 11:11:36,newbies,NA
+disordR,0.0-2,2021-06-26 11:11:36,newbies,NA
+EuclideanSD,0.1.0,2021-06-26 11:11:36,human,GS
+fastLaplace,0.0.2,2021-06-26 11:11:36,newbies,NA
+FuzzyART,1.0.0,2021-06-26 11:11:36,newbies,NA
+hydroEvents,0.10,2021-06-26 11:11:36,newbies,NA
+kdpee,1.0.0,2021-06-26 11:11:36,newbies,NA
+maat,1.0.0,2021-06-26 11:11:36,newbies,NA
+MisRepARMA,0.0.1,2021-06-26 11:11:36,newbies,NA
+MultivariateAnalysis,0.1.0,2021-06-26 11:11:36,newbies,NA
+pasadr,1.0,2021-06-26 11:11:36,newbies,NA
+shinybatch,0.3,2021-06-26 11:11:36,newbies,NA
+support,0.1.5,2021-06-26 11:11:36,newbies,NA
+ugomquantreg,1.0.0,2021-06-26 11:11:36,newbies,NA
