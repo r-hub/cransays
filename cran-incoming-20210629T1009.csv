@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+adepro,3.1.0,2021-06-29 12:09:21,pretest,NA
+bagged.outliertrees,1.0.0,2021-06-29 12:09:21,newbies,NA
+bayesnec,1.0.1,2021-06-29 12:09:21,newbies,NA
+CICA,0.1.0,2021-06-29 12:09:21,newbies,NA
+EuclideanSD,0.1.0,2021-06-29 12:09:21,human,GS
+hhcartr,1.0.0,2021-06-29 12:09:21,newbies,NA
+hwsdr,1.0,2021-06-29 12:09:21,newbies,NA
+impactr,0.1.0,2021-06-29 12:09:21,newbies,NA
+librarian,1.8.0,2021-06-29 12:09:21,inspect,NA
+npwbs,0.1.0,2021-06-29 12:09:21,newbies,NA
+ODataQuery,0.5.3,2021-06-29 12:09:21,newbies,NA
+phase,1.1.1,2021-06-29 12:09:21,newbies,NA
+potools,0.2.0,2021-06-29 12:09:21,newbies,NA
+ProbitSpatial,1.1,2021-06-29 12:09:21,newbies,NA
+Rfmtool,4.1.3,2021-06-29 12:09:21,pending,NA
+Rogue,1.0.0,2021-06-29 12:09:21,newbies,NA
+rreporter,1.0.1,2021-06-29 12:09:21,pretest,NA
+SEMgraph,1.0.3,2021-06-29 12:09:21,newbies,NA
+shinybatch,0.3,2021-06-29 12:09:21,newbies,NA
+sparsediscrim,0.3.0,2021-06-29 12:09:21,newbies,NA
+spiralize,1.0.0,2021-06-29 12:09:21,newbies,NA
+utr.annotation,1.0.3,2021-06-29 12:09:21,newbies,NA
+yaConsensus,1.0,2021-06-29 12:09:21,newbies,NA
