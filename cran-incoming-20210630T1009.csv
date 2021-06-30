@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+ao,0.1.1,2021-06-30 12:09:21,publish,NA
+archive,1.0.0,2021-06-30 12:09:21,human,JH
+BayesTools,0.1.0,2021-06-30 12:09:21,inspect,NA
+boomer,0.1.0,2021-06-30 12:09:21,human,JH
+cartogramR,0.9-9,2021-06-30 12:09:21,newbies,NA
+ccTensor,0.99.0,2021-06-30 12:09:21,inspect,NA
+clinDataReview,1.0.0,2021-06-30 12:09:21,human,JH
+EuclideanSD,0.1.0,2021-06-30 12:09:21,human,GS
+gen3sis,1.3,2021-06-30 12:09:21,pretest,NA
+ggfun,0.0.2,2021-06-30 12:09:21,newbies,NA
+impactr,0.1.0,2021-06-30 12:09:21,newbies,NA
+lfmm,1.1,2021-06-30 12:09:21,human,JH
+liGP,1.0.0,2021-06-30 12:09:21,human,JH
+MisRepARMA,0.0.1,2021-06-30 12:09:21,human,JH
+NMdata,0.0.8,2021-06-30 12:09:21,newbies,NA
+npwbs,0.1.0,2021-06-30 12:09:21,newbies,NA
+pasadr,1.0,2021-06-30 12:09:21,human,JH
+qrcode,0.1.3,2021-06-30 12:09:21,waiting,NA
+Rdiagnosislist,0.1,2021-06-30 12:09:21,human,JH
+RDP,0.1.5,2021-06-30 12:09:21,waiting,NA
+refreg,0.1.0,2021-06-30 12:09:21,human,JH
+revpref,0.1.0,2021-06-30 12:09:21,newbies,NA
+Rfmtool,4.1.3,2021-06-30 12:09:21,pending,NA
+seriation,1.3.0,2021-06-30 12:09:21,waiting,NA
+tabshiftr,0.3.0,2021-06-30 12:09:21,inspect,NA
