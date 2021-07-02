@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+BayesPPD,1.0.1,2021-07-03 01:09:29,pending,NA
+bqror,0.1.5,2021-07-03 01:09:29,inspect,NA
+cartogramR,0.9-9,2021-07-03 01:09:29,newbies,NA
+ch,0.0.8.0,2021-07-03 01:09:29,newbies,NA
+collapse,1.6.2,2021-07-03 01:09:29,inspect,NA
+cPseudoMaRg,1.0.0,2021-07-03 01:09:29,newbies,NA
+DLMtool,6.0.2,2021-07-03 01:09:29,pretest,NA
+emdi,2.1.0,2021-07-03 01:09:29,inspect,NA
+EpiReport,1.0.2,2021-07-03 01:09:29,pretest,NA
+FLightR,0.5.1,2021-07-03 01:09:29,newbies,NA
+icdpicr,1.0.1,2021-07-03 01:09:29,inspect,NA
+joint.Cox,3.14,2021-07-03 01:09:29,pretest,NA
+leafR,0.3.5,2021-07-03 01:09:29,inspect,NA
+MACER,0.1.0,2021-07-03 01:09:29,newbies,NA
+MSEtool,3.1.0,2021-07-03 01:09:29,pretest,NA
+nhdR,0.5.6,2021-07-03 01:09:29,newbies,NA
+NO.PING.PONG,0.1.4,2021-07-03 01:09:29,newbies,NA
+posterior,1.0.0,2021-07-03 01:09:29,newbies,NA
+r02pro,0.1,2021-07-03 01:09:29,newbies,NA
+readobj,0.4.1,2021-07-03 01:09:29,inspect,NA
+Rfmtool,4.1.3,2021-07-03 01:09:29,pending,NA
+rootSolve,1.8.2.2,2021-07-03 01:09:29,pending,NA
+tangram.pipe,1.0.0,2021-07-03 01:09:29,newbies,NA
