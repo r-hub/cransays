@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+academictwitteR,0.2.1,2021-07-06 12:10:03,waiting,NA
+adepro,3.2.0,2021-07-06 12:10:03,pretest,NA
+BayesPPD,1.0.1,2021-07-06 12:10:03,pending,NA
+CALANGO,1.0.2,2021-07-06 12:10:03,inspect,NA
+collapse,1.6.3,2021-07-06 12:10:03,inspect,NA
+combinationpvalues,0.1.3.1,2021-07-06 12:10:03,waiting,NA
+HeritSeq,1.0.2,2021-07-06 12:10:03,inspect,NA
+JMbayes2,0.1-7,2021-07-06 12:10:03,pretest,NA
+katex,1.0.0,2021-07-06 12:10:03,newbies,NA
+kStatistics,2.1,2021-07-06 12:10:03,inspect,NA
+npwbs,0.2.0,2021-07-06 12:10:03,waiting,NA
+QFASA,1.1.1,2021-07-06 12:10:03,inspect,NA
+Rcpp,1.0.7,2021-07-06 12:10:03,waiting,NA
+revpref,0.1.0,2021-07-06 12:10:03,inspect,NA
+SEMgraph,1.0.3,2021-07-06 12:10:03,pretest,NA
+sensitivity,1.26.0,2021-07-06 12:10:03,waiting,NA
+tidyBdE,0.1.2,2021-07-06 12:10:03,waiting,NA
+visdat,0.6.0,2021-07-06 12:10:03,inspect,NA
