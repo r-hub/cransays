@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+BayesPPD,1.0.1,2021-07-07 14:14:36,pending,NA
+cartogramR,1.0-0,2021-07-07 14:14:36,pending,NA
+dbcsp,0.0.1.0,2021-07-07 14:14:36,newbies,NA
+dcortools,0.1.1,2021-07-07 14:14:36,newbies,NA
+DHARMa,0.4.3,2021-07-07 14:14:36,recheck,NA
+emdi,2.1.0,2021-07-07 14:14:36,newbies,NA
+fusen,0.2.1,2021-07-07 14:14:36,newbies,NA
+GeoFIS,1.0.1,2021-07-07 14:14:36,pending,NA
+hetGP,1.1.4,2021-07-07 14:14:36,waiting,NA
+MedianaDesigner,0.2,2021-07-07 14:14:36,newbies,NA
+mombf,3.0.4,2021-07-07 14:14:36,waiting,NA
+penfa,0.1.0,2021-07-07 14:14:36,newbies,NA
+QFASA,1.1.1,2021-07-07 14:14:36,waiting,NA
+Rcpp,1.0.7,2021-07-07 14:14:36,recheck,NA
+RcppCWB,0.4.2,2021-07-07 14:14:36,pending,NA
+SEMgraph,1.0.3,2021-07-07 14:14:36,newbies,NA
+topologyGSA,1.4.7,2021-07-07 14:14:36,newbies,NA
