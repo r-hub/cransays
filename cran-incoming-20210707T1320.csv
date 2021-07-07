@@ -1,0 +1,17 @@
+package,version,snapshot_time,folder,subfolder
+AMAPVox,0.1.0,2021-07-07 15:20:07,newbies,NA
+BayesPPD,1.0.1,2021-07-07 15:20:07,pending,NA
+cartogramR,1.0-0,2021-07-07 15:20:07,pending,NA
+dbcsp,0.0.1.0,2021-07-07 15:20:07,newbies,NA
+dcortools,0.1.1,2021-07-07 15:20:07,newbies,NA
+emdi,2.1.0,2021-07-07 15:20:07,newbies,NA
+fusen,0.2.1,2021-07-07 15:20:07,newbies,NA
+GeoFIS,1.0.1,2021-07-07 15:20:07,pending,NA
+hetGP,1.1.4,2021-07-07 15:20:07,waiting,NA
+mombf,3.0.4,2021-07-07 15:20:07,pending,NA
+penfa,0.1.0,2021-07-07 15:20:07,newbies,NA
+pense,2.1.0,2021-07-07 15:20:07,pretest,NA
+QFASA,1.1.1,2021-07-07 15:20:07,waiting,NA
+Rcpp,1.0.7,2021-07-07 15:20:07,waiting,NA
+RcppCWB,0.4.2,2021-07-07 15:20:07,pending,NA
+SEMgraph,1.0.3,2021-07-07 15:20:07,newbies,NA
