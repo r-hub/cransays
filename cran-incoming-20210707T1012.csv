@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+academictwitteR,0.2.1,2021-07-07 12:12:45,waiting,NA
+AnnoProbe,0.1.5,2021-07-07 12:12:45,pretest,NA
+BayesPPD,1.0.1,2021-07-07 12:12:45,pending,NA
+cartogramR,1.0-0,2021-07-07 12:12:45,pending,NA
+collapse,1.6.3,2021-07-07 12:12:45,inspect,NA
+dcortools,0.1.1,2021-07-07 12:12:45,newbies,NA
+DHARMa,0.4.3,2021-07-07 12:12:45,recheck,NA
+fusen,0.2.1,2021-07-07 12:12:45,newbies,NA
+GeoFIS,1.0.1,2021-07-07 12:12:45,newbies,NA
+hetGP,1.1.4,2021-07-07 12:12:45,inspect,NA
+JMbayes2,0.1-7,2021-07-07 12:12:45,pretest,NA
+QFASA,1.1.1,2021-07-07 12:12:45,inspect,NA
+Rcpp,1.0.7,2021-07-07 12:12:45,recheck,NA
+RcppCWB,0.4.2,2021-07-07 12:12:45,pending,NA
+SEMgraph,1.0.3,2021-07-07 12:12:45,newbies,NA
+SteppedPower,0.2.0,2021-07-07 12:12:45,inspect,NA
+visdat,0.6.0,2021-07-07 12:12:45,inspect,NA
