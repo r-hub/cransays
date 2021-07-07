@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+AMAPVox,0.1.0,2021-07-07 18:23:57,newbies,NA
+BayesPPD,1.0.1,2021-07-07 18:23:57,pending,NA
+BayesTools,0.1.1,2021-07-07 18:23:57,pending,NA
+cartogramR,1.0-0,2021-07-07 18:23:57,pending,NA
+ColorNameR,0.1.0,2021-07-07 18:23:57,newbies,NA
+dbcsp,0.0.1.0,2021-07-07 18:23:57,newbies,NA
+dcortools,0.1.1,2021-07-07 18:23:57,newbies,NA
+fusen,0.2.1,2021-07-07 18:23:57,newbies,NA
+GeoFIS,1.0.1,2021-07-07 18:23:57,pending,NA
+hetGP,1.1.4,2021-07-07 18:23:57,waiting,NA
+hydrotoolbox,1.0.0,2021-07-07 18:23:57,newbies,NA
+i2extras,0.1.1,2021-07-07 18:23:57,pretest,NA
+MedianaDesigner,0.2,2021-07-07 18:23:57,newbies,NA
+mombf,3.0.4,2021-07-07 18:23:57,pending,NA
+penfa,0.1.0,2021-07-07 18:23:57,newbies,NA
+QFASA,1.1.1,2021-07-07 18:23:57,waiting,NA
+RcppCWB,0.4.2,2021-07-07 18:23:57,pending,NA
+SEMgraph,1.0.3,2021-07-07 18:23:57,newbies,NA
+semTools,0.5-5,2021-07-07 18:23:57,publish,NA
+warabandi,0.1.0,2021-07-07 18:23:57,newbies,NA
