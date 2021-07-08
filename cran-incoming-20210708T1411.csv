@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+AMAPVox,0.1.0,2021-07-08 16:11:13,newbies,NA
+BayesPPD,1.0.1,2021-07-08 16:11:13,pending,NA
+BayesTools,0.1.1,2021-07-08 16:11:13,inspect,NA
+cartogramR,1.0-0,2021-07-08 16:11:13,pending,NA
+ch,0.1.0.2,2021-07-08 16:11:13,waiting,NA
+dedupewider,0.0.1,2021-07-08 16:11:13,newbies,NA
+emmeans,1.6.2,2021-07-08 16:11:13,waiting,NA
+figpatch,0.1.0,2021-07-08 16:11:13,newbies,NA
+GeoFIS,1.0.1,2021-07-08 16:11:13,pending,NA
+glmmTMB,1.1.2,2021-07-08 16:11:13,waiting,NA
+mombf,3.0.4,2021-07-08 16:11:13,pending,NA
+MSMwRA,1.4,2021-07-08 16:11:13,inspect,NA
+MVTests,2.0.8,2021-07-08 16:11:13,inspect,NA
+neuronorm,1.0.0,2021-07-08 16:11:13,newbies,NA
+NPBayesImputeCat,0.4,2021-07-08 16:11:13,pretest,NA
+nser,0.1.0,2021-07-08 16:11:13,newbies,NA
+QFASA,1.1.1,2021-07-08 16:11:13,waiting,NA
+RamanMP,1.0,2021-07-08 16:11:13,newbies,NA
+RcppCWB,0.4.2,2021-07-08 16:11:13,pending,NA
+scCAN,1.0.0,2021-07-08 16:11:13,newbies,NA
+SeqNet,1.1.3,2021-07-08 16:11:13,newbies,NA
+spectre,1.0.2,2021-07-08 16:11:13,pending,NA
+VancouvR,0.1.5,2021-07-08 16:11:13,waiting,NA
+warabandi,0.1.0,2021-07-08 16:11:13,newbies,NA
