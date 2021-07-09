@@ -1,0 +1,22 @@
+package,version,snapshot_time,folder,subfolder
+baggingbwsel,1.0,2021-07-09 17:15:12,newbies,NA
+BayesPPD,1.0.1,2021-07-09 17:15:12,pending,NA
+BayesTools,0.1.1,2021-07-09 17:15:12,pending,NA
+cartogramR,1.0-0,2021-07-09 17:15:12,pending,NA
+collapse,1.6.4,2021-07-09 17:15:12,inspect,NA
+FeatureTerminatoR,1.0.0,2021-07-09 17:15:12,newbies,NA
+gdalcubes,0.4.0,2021-07-09 17:15:12,pending,NA
+GeoFIS,1.0.1,2021-07-09 17:15:12,pending,NA
+glmmTMB,1.1.2,2021-07-09 17:15:12,waiting,NA
+grpsel,1.1.1,2021-07-09 17:15:12,waiting,NA
+individual,0.1.3,2021-07-09 17:15:12,newbies,NA
+mombf,3.0.4,2021-07-09 17:15:12,pending,NA
+nser,1.0.0,2021-07-09 17:15:12,newbies,NA
+portfolio,0.5-2,2021-07-09 17:15:12,newbies,NA
+QFASA,1.1.1,2021-07-09 17:15:12,waiting,NA
+RcppCWB,0.4.2,2021-07-09 17:15:12,pending,NA
+Rdiagnosislist,0.1,2021-07-09 17:15:12,newbies,NA
+spectre,1.0.2,2021-07-09 17:15:12,pending,NA
+ugatsdb,0.1.6,2021-07-09 17:15:12,newbies,NA
+VancouvR,0.1.6,2021-07-09 17:15:12,waiting,NA
+wrProteo,1.4.3,2021-07-09 17:15:12,inspect,NA
