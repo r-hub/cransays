@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+baggingbwsel,1.0,2021-07-09 20:11:20,newbies,NA
+BayesPPD,1.0.1,2021-07-09 20:11:20,pending,NA
+BayesTools,0.1.1,2021-07-09 20:11:20,pending,NA
+cartogramR,1.0-0,2021-07-09 20:11:20,pending,NA
+collapse,1.6.4,2021-07-09 20:11:20,inspect,NA
+FeatureTerminatoR,1.0.0,2021-07-09 20:11:20,newbies,NA
+gdalcubes,0.4.0,2021-07-09 20:11:20,pending,NA
+GeoFIS,1.0.1,2021-07-09 20:11:20,pending,NA
+glmmTMB,1.1.2,2021-07-09 20:11:20,waiting,NA
+grpsel,1.1.1,2021-07-09 20:11:20,waiting,NA
+individual,0.1.3,2021-07-09 20:11:20,newbies,NA
+mase,0.1.3,2021-07-09 20:11:20,inspect,NA
+mombf,3.0.4,2021-07-09 20:11:20,pending,NA
+nser,1.0.0,2021-07-09 20:11:20,newbies,NA
+popsom,5.2,2021-07-09 20:11:20,inspect,NA
+portfolio,0.5-2,2021-07-09 20:11:20,newbies,NA
+QFASA,1.1.1,2021-07-09 20:11:20,waiting,NA
+rankUncertainty,1.0.0.0,2021-07-09 20:11:20,newbies,NA
+RcppCWB,0.4.2,2021-07-09 20:11:20,pending,NA
+Rdiagnosislist,0.1,2021-07-09 20:11:20,newbies,NA
+sClust,1.0,2021-07-09 20:11:20,newbies,NA
+spectre,1.0.2,2021-07-09 20:11:20,pending,NA
+squashinformr,0.2.3,2021-07-09 20:11:20,waiting,NA
+ugatsdb,0.1.6,2021-07-09 20:11:20,newbies,NA
+VancouvR,0.1.6,2021-07-09 20:11:20,waiting,NA
+wrProteo,1.4.3,2021-07-09 20:11:20,inspect,NA
