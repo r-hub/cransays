@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+BayesPPD,1.0.1,2021-07-12 12:10:30,pending,NA
+BayesTools,0.1.1,2021-07-12 12:10:30,pending,NA
+blockcluster,4.5.0,2021-07-12 12:10:30,pending,NA
+cartogramR,1.0-0,2021-07-12 12:10:30,pending,NA
+collapse,1.6.4,2021-07-12 12:10:30,pending,NA
+FeatureTerminatoR,1.0.0,2021-07-12 12:10:30,newbies,NA
+gdalcubes,0.4.0,2021-07-12 12:10:30,pending,NA
+GeoFIS,1.0.1,2021-07-12 12:10:30,pending,NA
+glmmTMB,1.1.2,2021-07-12 12:10:30,waiting,NA
+grpsel,1.1.1,2021-07-12 12:10:30,pending,NA
+HeritSeq,1.0.2,2021-07-12 12:10:30,inspect,NA
+individual,0.1.3,2021-07-12 12:10:30,pending,NA
+kldtools,1.0,2021-07-12 12:10:30,newbies,NA
+lefko3,3.5.2,2021-07-12 12:10:30,inspect,NA
+MedianaDesigner,0.2.1,2021-07-12 12:10:30,pending,NA
+MIIVsem,0.5.8,2021-07-12 12:10:30,waiting,NA
+mombf,3.0.4,2021-07-12 12:10:30,pending,NA
+phase,1.1.2,2021-07-12 12:10:30,pending,NA
+PosRatioDist,1.0.1,2021-07-12 12:10:30,newbies,NA
+QFASA,1.1.1,2021-07-12 12:10:30,waiting,NA
+RcppCWB,0.4.2,2021-07-12 12:10:30,pending,NA
+scDiffCom,0.1.0,2021-07-12 12:10:30,newbies,NA
+SEofM,0.1.0,2021-07-12 12:10:30,inspect,NA
+spectre,1.0.2,2021-07-12 12:10:30,pending,NA
+wrProteo,1.4.3,2021-07-12 12:10:30,pending,NA
+zonebuilder,0.0.2,2021-07-12 12:10:30,newbies,NA
