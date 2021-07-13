@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+covid19india,0.1.2,2021-07-13 18:16:04,pretest,NA
+csv,0.6.1,2021-07-13 18:16:04,recheck,NA
+FeatureTerminatoR,1.0.0,2021-07-13 18:16:04,pretest,NA
+ICDS,0.1.2,2021-07-13 18:16:04,waiting,NA
+mark,0.1.4,2021-07-13 18:16:04,human,JH
+nhdR,0.5.6,2021-07-13 18:16:04,newbies,NA
+nhdR,0.5.6,2021-07-13 18:16:04,waiting,NA
+optimall,0.1.0,2021-07-13 18:16:04,human,JH
+PhageCocktail,1.0.0,2021-07-13 18:16:04,newbies,NA
+phase,1.1.2,2021-07-13 18:16:04,waiting,NA
+PosRatioDist,1.0.1,2021-07-13 18:16:04,human,JH
+QFASA,1.1.1,2021-07-13 18:16:04,waiting,NA
+RATest,0.1.9,2021-07-13 18:16:04,pretest,NA
+readr,2.0.0,2021-07-13 18:16:04,waiting,NA
+rock,0.4.1,2021-07-13 18:16:04,inspect,NA
+SOP,1.0,2021-07-13 18:16:04,pretest,NA
+tcplfit2,0.1.1,2021-07-13 18:16:04,newbies,NA
+tidysq,1.1.2,2021-07-13 18:16:04,pending,NA
+Tplyr,0.4.1,2021-07-13 18:16:04,pretest,NA
