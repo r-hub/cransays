@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+BGVAR,2.2.3,2021-07-16 12:25:05,pending,NA
+circletyper,1.0.1,2021-07-16 12:25:05,pending,NA
+CKMRpop,0.1.3,2021-07-16 12:25:05,pending,NA
+fedmatch,2.0.0,2021-07-16 12:25:05,newbies,NA
+fedstatAPIr,0.1,2021-07-16 12:25:05,newbies,NA
+glmmTMB,1.1.2,2021-07-16 12:25:05,pending,NA
+iMRMC,1.2.4,2021-07-16 12:25:05,waiting,NA
+individual,0.1.4,2021-07-16 12:25:05,newbies,NA
+kinematics,1.0.0,2021-07-16 12:25:05,newbies,NA
+liGP,1.0.1,2021-07-16 12:25:05,pending,NA
+messydates,0.1.1,2021-07-16 12:25:05,newbies,NA
+nhdR,0.5.6,2021-07-16 12:25:05,pending,NA
+nhdR,0.5.6,2021-07-16 12:25:05,waiting,NA
+penfa,0.1.1,2021-07-16 12:25:05,pending,NA
+phase,1.1.2,2021-07-16 12:25:05,waiting,NA
+QFASA,1.1.1,2021-07-16 12:25:05,waiting,NA
+readr,2.0.0,2021-07-16 12:25:05,waiting,NA
+RstoxData,1.2.1,2021-07-16 12:25:05,pending,NA
+scoringutils,0.1.7.1,2021-07-16 12:25:05,pending,NA
+set6,0.2.2,2021-07-16 12:25:05,waiting,NA
+shinyauthr,1.0.0,2021-07-16 12:25:05,newbies,NA
+spectre,1.0.2,2021-07-16 12:25:05,pending,NA
+swissdd,1.1.4,2021-07-16 12:25:05,pending,NA
+tidysq,1.1.2,2021-07-16 12:25:05,pending,NA
+UCSCXenaTools,1.4.6,2021-07-16 12:25:05,waiting,NA
