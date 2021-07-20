@@ -1,0 +1,13 @@
+package,version,snapshot_time,folder,subfolder
+AntMAN,1.1.0,2021-07-20 12:10:55,newbies,NA
+dowser,0.1.0,2021-07-20 12:10:55,inspect,NA
+ecochange,2.0,2021-07-20 12:10:55,inspect,NA
+iMRMC,1.2.4,2021-07-20 12:10:55,waiting,NA
+ISLR2,1.0,2021-07-20 12:10:55,inspect,NA
+matsbyname,0.4.20,2021-07-20 12:10:55,inspect,NA
+mutualinf,1.0.1,2021-07-20 12:10:55,inspect,NA
+mutualinf,1.0.1,2021-07-20 12:10:55,waiting,NA
+nmaINLA,1.1.0,2021-07-20 12:10:55,inspect,NA
+rbedrock,0.1.1,2021-07-20 12:10:55,inspect,NA
+scoringutils,0.1.7.2,2021-07-20 12:10:55,inspect,NA
+tidytransit,1.1.0,2021-07-20 12:10:55,newbies,NA
