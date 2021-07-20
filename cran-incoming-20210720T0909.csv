@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+boomer,0.1.0,2021-07-20 11:09:01,newbies,NA
+dowser,0.1.0,2021-07-20 11:09:01,inspect,NA
+ecochange,2.0,2021-07-20 11:09:01,inspect,NA
+iMRMC,1.2.4,2021-07-20 11:09:01,waiting,NA
+influxdbclient,0.1.0,2021-07-20 11:09:01,newbies,NA
+ISLR2,1.0,2021-07-20 11:09:01,inspect,NA
+ISLR2,1.0,2021-07-20 11:09:01,newbies,NA
+kdtools,0.5.0,2021-07-20 11:09:01,newbies,NA
+matsbyname,0.4.20,2021-07-20 11:09:01,inspect,NA
+mutualinf,1.0.1,2021-07-20 11:09:01,inspect,NA
+mutualinf,1.0.1,2021-07-20 11:09:01,waiting,NA
+nmaINLA,1.1.0,2021-07-20 11:09:01,inspect,NA
+objectProperties,0.6.7,2021-07-20 11:09:01,newbies,NA
+rbedrock,0.1.1,2021-07-20 11:09:01,inspect,NA
+sbtools,1.1.17,2021-07-20 11:09:01,inspect,NA
+scoringutils,0.1.7.2,2021-07-20 11:09:01,inspect,NA
+SpiceFP,0.1.0,2021-07-20 11:09:01,newbies,NA
