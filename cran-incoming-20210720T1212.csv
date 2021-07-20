@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+AntMAN,1.1.0,2021-07-20 14:12:24,newbies,NA
+clinUtils,0.0.4,2021-07-20 14:12:24,waiting,NA
+ConfusionTableR,1.0.1,2021-07-20 14:12:24,pretest,NA
+dowser,0.1.0,2021-07-20 14:12:24,inspect,NA
+ecochange,2.0,2021-07-20 14:12:24,inspect,NA
+iMRMC,1.2.4,2021-07-20 14:12:24,waiting,NA
+influxdbclient,0.1.0,2021-07-20 14:12:24,newbies,NA
+ISLR2,1.0,2021-07-20 14:12:24,inspect,NA
+isoWater,1.0.1,2021-07-20 14:12:24,pretest,NA
+matsbyname,0.4.20,2021-07-20 14:12:24,inspect,NA
+mutualinf,1.0.1,2021-07-20 14:12:24,inspect,NA
+mutualinf,1.0.1,2021-07-20 14:12:24,waiting,NA
+nmaINLA,1.1.0,2021-07-20 14:12:24,inspect,NA
+Numero,1.8.2,2021-07-20 14:12:24,pretest,NA
+rbedrock,0.1.1,2021-07-20 14:12:24,inspect,NA
+rstyles,0.4.0,2021-07-20 14:12:24,newbies,NA
+rTG,0.2.2,2021-07-20 14:12:24,newbies,NA
+scoringutils,0.1.7.2,2021-07-20 14:12:24,inspect,NA
+tidytransit,1.1.0,2021-07-20 14:12:24,newbies,NA
