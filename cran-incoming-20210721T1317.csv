@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+AovBay,0.1.0,2021-07-21 15:17:57,newbies,NA
+CausalGPS,0.2.5,2021-07-21 15:17:57,newbies,NA
+codemeta,0.1.0,2021-07-21 15:17:57,newbies,NA
+DCSmooth,1.0.0,2021-07-21 15:17:57,newbies,NA
+dowser,0.1.0,2021-07-21 15:17:57,inspect,NA
+ecochange,2.0,2021-07-21 15:17:57,inspect,NA
+geodiv,1.0.3,2021-07-21 15:17:57,pending,NA
+GeoFIS,1.0.1,2021-07-21 15:17:57,pending,NA
+gitdown,0.1.3,2021-07-21 15:17:57,pending,NA
+iMRMC,1.2.4,2021-07-21 15:17:57,waiting,NA
+IndexNumR,0.3.0,2021-07-21 15:17:57,recheck,NA
+ISLR2,1.0,2021-07-21 15:17:57,newbies,NA
+magi,1.0.0,2021-07-21 15:17:57,newbies,NA
+nmaINLA,1.1.0,2021-07-21 15:17:57,waiting,NA
+pacs,0.2.1,2021-07-21 15:17:57,newbies,NA
+pathlit,0.1.0,2021-07-21 15:17:57,newbies,NA
+rebmix,2.13.1,2021-07-21 15:17:57,pending,NA
+RMBC,0.1.0,2021-07-21 15:17:57,newbies,NA
+rstyles,0.4.0,2021-07-21 15:17:57,inspect,NA
+Rttf2pt1,1.3.9,2021-07-21 15:17:57,pending,NA
+ScottKnott,1.3-0,2021-07-21 15:17:57,recheck,NA
+SignacX,2.2.4,2021-07-21 15:17:57,waiting,NA
+SMME,1.0.1,2021-07-21 15:17:57,pending,NA
+SpiceFP,0.1.0,2021-07-21 15:17:57,inspect,NA
+tibble,3.1.3,2021-07-21 15:17:57,recheck,NA
