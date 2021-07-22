@@ -1,0 +1,14 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.1,2021-07-22 16:08:43,inspect,NA
+blockcluster,4.5.1,2021-07-22 16:08:43,pending,NA
+chicane,0.1.6,2021-07-22 16:08:43,inspect,NA
+ecochange,2.0,2021-07-22 16:08:43,inspect,NA
+glmmTMB,1.1.2.1,2021-07-22 16:08:43,pending,NA
+iMRMC,1.2.4,2021-07-22 16:08:43,waiting,NA
+mcboost,0.3.2.0,2021-07-22 16:08:43,pending,NA
+NPCirc,3.0.1,2021-07-22 16:08:43,publish,NA
+popRF,1.0.0,2021-07-22 16:08:43,inspect,NA
+rbedrock,0.1.1,2021-07-22 16:08:43,pending,NA
+rebmix,2.13.1,2021-07-22 16:08:43,pending,NA
+rstyles,0.4.0,2021-07-22 16:08:43,newbies,NA
+tibble,3.1.3,2021-07-22 16:08:43,waiting,NA
