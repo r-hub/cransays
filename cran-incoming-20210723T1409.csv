@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+bayestestR,0.10.5,2021-07-23 16:09:30,recheck,NA
+BIRDS,0.2.1,2021-07-23 16:09:30,pending,NA
+blockcluster,4.5.1,2021-07-23 16:09:30,pending,NA
+blogdown,1.4,2021-07-23 16:09:30,publish,NA
+bqror,0.1.6,2021-07-23 16:09:30,publish,NA
+clusrank,1.0-1,2021-07-23 16:09:30,waiting,NA
+ecochange,2.0,2021-07-23 16:09:30,pending,NA
+ggmulti,1.0.4,2021-07-23 16:09:30,recheck,NA
+glmmTMB,1.1.2.1,2021-07-23 16:09:30,pending,NA
+grpreg,3.4.0,2021-07-23 16:09:30,waiting,NA
+H2x2Factorial,2.0.0,2021-07-23 16:09:30,publish,NA
+hutilscpp,0.8.0,2021-07-23 16:09:30,waiting,NA
+ibdsim2,1.4.0,2021-07-23 16:09:30,inspect,NA
+individual,0.1.4,2021-07-23 16:09:30,pending,NA
+loon.tourr,0.1.2,2021-07-23 16:09:30,pretest,NA
+mcboost,0.3.3.0,2021-07-23 16:09:30,pending,NA
+MultivariateAnalysis,0.3.0,2021-07-23 16:09:30,publish,NA
+pollucheck,1.0.0,2021-07-23 16:09:30,pretest,NA
+PropensitySub,NA,2021-07-23 16:09:30,pretest,NA
+rbedrock,0.1.1,2021-07-23 16:09:30,pending,NA
+rebmix,2.13.1,2021-07-23 16:09:30,pending,NA
+tidytreatment,0.2.1,2021-07-23 16:09:30,inspect,NA
