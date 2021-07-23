@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+bayestestR,0.10.5,2021-07-23 15:16:14,inspect,NA
+BIRDS,0.2.1,2021-07-23 15:16:14,pending,NA
+blockcluster,4.5.1,2021-07-23 15:16:14,pending,NA
+bs4Dash,2.0.2,2021-07-23 15:16:14,pretest,NA
+clusrank,1.0-1,2021-07-23 15:16:14,waiting,NA
+diceR,1.1.0,2021-07-23 15:16:14,inspect,NA
+ecochange,2.0,2021-07-23 15:16:14,pending,NA
+glmmTMB,1.1.2.1,2021-07-23 15:16:14,pending,NA
+grpreg,3.4.0,2021-07-23 15:16:14,waiting,NA
+H2x2Factorial,2.0.0,2021-07-23 15:16:14,inspect,NA
+hutilscpp,0.8.0,2021-07-23 15:16:14,waiting,NA
+ibdsim2,1.4.0,2021-07-23 15:16:14,inspect,NA
+individual,0.1.4,2021-07-23 15:16:14,pending,NA
+mcboost,0.3.3.0,2021-07-23 15:16:14,pending,NA
+MultivariateAnalysis,0.3.0,2021-07-23 15:16:14,inspect,NA
+PropensitySub,NA,2021-07-23 15:16:14,pretest,NA
+rbedrock,0.1.1,2021-07-23 15:16:14,pending,NA
+rebmix,2.13.1,2021-07-23 15:16:14,pending,NA
+tidytreatment,0.2.1,2021-07-23 15:16:14,inspect,NA
