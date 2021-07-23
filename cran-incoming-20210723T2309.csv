@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+bayestestR,0.10.5,2021-07-24 01:09:22,waiting,NA
+BIRDS,0.2.1,2021-07-24 01:09:22,pending,NA
+blockcluster,4.5.1,2021-07-24 01:09:22,pending,NA
+changepoint.influence,1.0,2021-07-24 01:09:22,newbies,NA
+clusrank,1.0-1,2021-07-24 01:09:22,waiting,NA
+cuml4r,0.1.0,2021-07-24 01:09:22,inspect,NA
+DMtest,1.0.0,2021-07-24 01:09:22,newbies,NA
+ecochange,2.0,2021-07-24 01:09:22,pending,NA
+glmmTMB,1.1.2.1,2021-07-24 01:09:22,pending,NA
+grpreg,3.4.0,2021-07-24 01:09:22,waiting,NA
+hutilscpp,0.8.0,2021-07-24 01:09:22,recheck,NA
+ibdsim2,1.4.0,2021-07-24 01:09:22,recheck,NA
+individual,0.1.4,2021-07-24 01:09:22,pending,NA
+mcboost,0.3.3.0,2021-07-24 01:09:22,pending,NA
+OmicNavigator,1.4.2,2021-07-24 01:09:22,newbies,NA
+Ostats,0.1.0,2021-07-24 01:09:22,newbies,NA
+predfairness,0.1.0,2021-07-24 01:09:22,newbies,NA
+rankUncertainty,1.0.1.0,2021-07-24 01:09:22,waiting,NA
+rbedrock,0.1.1,2021-07-24 01:09:22,pending,NA
+rebmix,2.13.1,2021-07-24 01:09:22,pending,NA
+scPOP,0.1.0,2021-07-24 01:09:22,pretest,NA
+serp,0.1.9,2021-07-24 01:09:22,waiting,NA
+tidytreatment,0.2.1,2021-07-24 01:09:22,inspect,NA
+tongfen,0.3.3,2021-07-24 01:09:22,pretest,NA
