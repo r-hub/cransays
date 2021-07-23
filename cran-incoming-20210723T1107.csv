@@ -1,0 +1,17 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.1,2021-07-23 13:07:56,pending,NA
+blockcluster,4.5.1,2021-07-23 13:07:56,pending,NA
+diceR,1.1.0,2021-07-23 13:07:56,inspect,NA
+ecochange,2.0,2021-07-23 13:07:56,pending,NA
+glmmTMB,1.1.2.1,2021-07-23 13:07:56,pending,NA
+grpreg,3.4.0,2021-07-23 13:07:56,waiting,NA
+H2x2Factorial,2.0.0,2021-07-23 13:07:56,inspect,NA
+hutilscpp,0.8.0,2021-07-23 13:07:56,waiting,NA
+ibdsim2,1.4.0,2021-07-23 13:07:56,inspect,NA
+individual,0.1.4,2021-07-23 13:07:56,pending,NA
+mcboost,0.3.3.0,2021-07-23 13:07:56,pending,NA
+MultivariateAnalysis,0.3.0,2021-07-23 13:07:56,inspect,NA
+PropensitySub,NA,2021-07-23 13:07:56,pretest,NA
+rbedrock,0.1.1,2021-07-23 13:07:56,pending,NA
+rebmix,2.13.1,2021-07-23 13:07:56,pending,NA
+tidytreatment,0.2.1,2021-07-23 13:07:56,inspect,NA
