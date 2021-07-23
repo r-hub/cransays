@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+amanpg,0.2.0,2021-07-23 09:12:09,newbies,NA
+BIRDS,0.2.1,2021-07-23 09:12:09,pending,NA
+blockcluster,4.5.1,2021-07-23 09:12:09,pending,NA
+CausalGPS,0.2.5,2021-07-23 09:12:09,newbies,NA
+connectwidgets,0.1.1,2021-07-23 09:12:09,newbies,NA
+ctsem,3.5.4,2021-07-23 09:12:09,pretest,NA
+cuml4r,0.1.0,2021-07-23 09:12:09,newbies,NA
+deeptime,0.1.0,2021-07-23 09:12:09,newbies,NA
+diceR,1.1.0,2021-07-23 09:12:09,inspect,NA
+DMtest,1.0.0,2021-07-23 09:12:09,newbies,NA
+ecochange,2.0,2021-07-23 09:12:09,pending,NA
+glmmTMB,1.1.2.1,2021-07-23 09:12:09,pending,NA
+grpreg,3.4.0,2021-07-23 09:12:09,waiting,NA
+H2x2Factorial,2.0.0,2021-07-23 09:12:09,inspect,NA
+hutilscpp,0.8.0,2021-07-23 09:12:09,waiting,NA
+itdr,1.0,2021-07-23 09:12:09,newbies,NA
+mcboost,0.3.3.0,2021-07-23 09:12:09,pending,NA
+MultivariateAnalysis,0.3.0,2021-07-23 09:12:09,inspect,NA
+popRF,1.0.0,2021-07-23 09:12:09,newbies,NA
+PropensitySub,NA,2021-07-23 09:12:09,pretest,NA
+rbedrock,0.1.1,2021-07-23 09:12:09,pending,NA
+rebmix,2.13.1,2021-07-23 09:12:09,pending,NA
+robustcov,0.1,2021-07-23 09:12:09,newbies,NA
+rstyles,0.4.0,2021-07-23 09:12:09,newbies,NA
+tibble,3.1.3,2021-07-23 09:12:09,waiting,NA
+tidytreatment,0.2.1,2021-07-23 09:12:09,inspect,NA
