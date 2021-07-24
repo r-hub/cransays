@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+bayestestR,0.10.5,2021-07-24 10:10:58,waiting,NA
+biClassify,1.1,2021-07-24 10:10:58,newbies,NA
+BIRDS,0.2.1,2021-07-24 10:10:58,pending,NA
+blockcluster,4.5.1,2021-07-24 10:10:58,pending,NA
+changepoint.influence,1.0,2021-07-24 10:10:58,newbies,NA
+clusrank,1.0-1,2021-07-24 10:10:58,waiting,NA
+cuml4r,0.1.0,2021-07-24 10:10:58,inspect,NA
+DMtest,1.0.0,2021-07-24 10:10:58,newbies,NA
+ecochange,2.0,2021-07-24 10:10:58,pending,NA
+glmmTMB,1.1.2.1,2021-07-24 10:10:58,pending,NA
+grpreg,3.4.0,2021-07-24 10:10:58,waiting,NA
+individual,0.1.4,2021-07-24 10:10:58,pending,NA
+ipeadatar,0.1.4,2021-07-24 10:10:58,newbies,NA
+lpl,0.11,2021-07-24 10:10:58,newbies,NA
+mcboost,0.3.3.0,2021-07-24 10:10:58,pending,NA
+OmicNavigator,1.4.2,2021-07-24 10:10:58,newbies,NA
+Ostats,0.1.0,2021-07-24 10:10:58,newbies,NA
+predfairness,0.1.0,2021-07-24 10:10:58,newbies,NA
+rankUncertainty,1.0.1.0,2021-07-24 10:10:58,waiting,NA
+rbedrock,0.1.1,2021-07-24 10:10:58,pending,NA
+rebmix,2.13.1,2021-07-24 10:10:58,pending,NA
+Rfmtool,4.1.4,2021-07-24 10:10:58,newbies,NA
+serp,0.1.9,2021-07-24 10:10:58,waiting,NA
+serp,0.2.0,2021-07-24 10:10:58,waiting,NA
+stringfish,0.15.2,2021-07-24 10:10:58,waiting,NA
+tidytreatment,0.2.1,2021-07-24 10:10:58,inspect,NA
