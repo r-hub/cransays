@@ -1,0 +1,15 @@
+package,version,snapshot_time,folder,subfolder
+biClassify,1.2,2021-07-28 14:12:09,pending,NA
+BIRDS,0.2.1,2021-07-28 14:12:09,pending,NA
+convey,0.2.4,2021-07-28 14:12:09,pending,NA
+deepNN,1.1,2021-07-28 14:12:09,inspect,NA
+fastai,2.0.9,2021-07-28 14:12:09,inspect,NA
+glmmTMB,1.1.2.1,2021-07-28 14:12:09,pending,NA
+individual,0.1.4,2021-07-28 14:12:09,pending,NA
+PropensitySub,0.2.0,2021-07-28 14:12:09,human,UL
+protolite,2.1.1,2021-07-28 14:12:09,recheck,NA
+rKOMICS,1.2,2021-07-28 14:12:09,waiting,NA
+RVIpkg,0.2.6,2021-07-28 14:12:09,waiting,NA
+statgenGWAS,1.0.7,2021-07-28 14:12:09,pending,NA
+tsbox,0.3.0,2021-07-28 14:12:09,pending,NA
+vapour,0.7.6,2021-07-28 14:12:09,inspect,NA
