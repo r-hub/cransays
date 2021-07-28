@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+biClassify,1.2,2021-07-28 19:19:47,pending,NA
+BIRDS,0.2.1,2021-07-28 19:19:47,pending,NA
+CENFA,1.1.1,2021-07-28 19:19:47,newbies,NA
+convey,0.2.4,2021-07-28 19:19:47,pending,NA
+didimputation,0.1.0,2021-07-28 19:19:47,pretest,NA
+dPCP,1.0.4,2021-07-28 19:19:47,waiting,NA
+dssd,0.3.0,2021-07-28 19:19:47,waiting,NA
+fasi,0.0.0.9000,2021-07-28 19:19:47,newbies,NA
+fritools,2.2.1,2021-07-28 19:19:47,inspect,NA
+gllvm,1.3.1,2021-07-28 19:19:47,publish,NA
+glmmTMB,1.1.2.1,2021-07-28 19:19:47,pending,NA
+individual,0.1.4,2021-07-28 19:19:47,pending,NA
+MALDIquant,1.20,2021-07-28 19:19:47,inspect,NA
+pacs,0.2.5,2021-07-28 19:19:47,newbies,NA
+PropensitySub,0.2.0,2021-07-28 19:19:47,human,UL
+refineR,1.0.0,2021-07-28 19:19:47,newbies,NA
+rKOMICS,1.2,2021-07-28 19:19:47,waiting,NA
+RVIpkg,0.2.6,2021-07-28 19:19:47,waiting,NA
+SPSP,0.1.0,2021-07-28 19:19:47,newbies,NA
+statgenGWAS,1.0.7,2021-07-28 19:19:47,pending,NA
+track2KBA,1.0.0,2021-07-28 19:19:47,inspect,NA
+tsbox,0.3.0,2021-07-28 19:19:47,pending,NA
+vapour,0.7.6,2021-07-28 19:19:47,inspect,NA
