@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+ADP,0.1.4,2021-07-29 11:10:09,inspect,NA
+arrow,5.0.0,2021-07-29 11:10:09,publish,NA
+BIRDS,0.2.1,2021-07-29 11:10:09,pending,NA
+cansim,0.3.9,2021-07-29 11:10:09,pending,NA
+dssd,0.3.0,2021-07-29 11:10:09,waiting,NA
+ecochange,2.0,2021-07-29 11:10:09,inspect,NA
+fritools,2.2.1,2021-07-29 11:10:09,inspect,NA
+glmmTMB,1.1.2.1,2021-07-29 11:10:09,pending,NA
+IPMbook,0.1.1,2021-07-29 11:10:09,newbies,NA
+magi,1.0.1,2021-07-29 11:10:09,inspect,NA
+mvoutlier,2.1.0,2021-07-29 11:10:09,newbies,NA
+pacs,0.2.5,2021-07-29 11:10:09,waiting,NA
+PICBayes,1.0,2021-07-29 11:10:09,pretest,NA
+PropensitySub,0.2.0,2021-07-29 11:10:09,human,UL
+rKOMICS,1.2,2021-07-29 11:10:09,waiting,NA
+RVIpkg,0.2.6,2021-07-29 11:10:09,waiting,NA
+vapour,0.7.6,2021-07-29 11:10:09,inspect,NA
