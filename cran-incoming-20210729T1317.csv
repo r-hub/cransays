@@ -1,0 +1,17 @@
+package,version,snapshot_time,folder,subfolder
+AlphaSimR,1.0.3,2021-07-29 15:17:51,pretest,NA
+BIRDS,0.2.1,2021-07-29 15:17:51,pending,NA
+dispositionEffect,1.0.0,2021-07-29 15:17:51,newbies,NA
+dssd,0.3.0,2021-07-29 15:17:51,waiting,NA
+EmiR,1.0.0,2021-07-29 15:17:51,newbies,NA
+fritools,2.2.1,2021-07-29 15:17:51,pending,NA
+ggeffects,1.1.1,2021-07-29 15:17:51,recheck,NA
+glmmTMB,1.1.2.1,2021-07-29 15:17:51,waiting,NA
+magi,1.0.1,2021-07-29 15:17:51,pending,NA
+pacs,0.2.5,2021-07-29 15:17:51,publish,NA
+PropensitySub,0.2.0,2021-07-29 15:17:51,human,UL
+rKOMICS,1.2,2021-07-29 15:17:51,waiting,NA
+sprtt,0.1.0,2021-07-29 15:17:51,pretest,NA
+track2KBA,1.0.0,2021-07-29 15:17:51,newbies,NA
+vapour,0.7.6,2021-07-29 15:17:51,inspect,NA
+XLConnect,1.0.4,2021-07-29 15:17:51,pretest,NA
