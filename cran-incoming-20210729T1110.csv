@@ -1,0 +1,13 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.1,2021-07-29 13:10:10,pending,NA
+dssd,0.3.0,2021-07-29 13:10:10,waiting,NA
+fritools,2.2.1,2021-07-29 13:10:10,pending,NA
+glmmTMB,1.1.2.1,2021-07-29 13:10:10,pending,NA
+magi,1.0.1,2021-07-29 13:10:10,pending,NA
+opitools,1.6.0,2021-07-29 13:10:10,inspect,NA
+pacs,0.2.5,2021-07-29 13:10:10,waiting,NA
+PropensitySub,0.2.0,2021-07-29 13:10:10,human,UL
+rKOMICS,1.2,2021-07-29 13:10:10,waiting,NA
+RVIpkg,0.2.6,2021-07-29 13:10:10,waiting,NA
+track2KBA,1.0.0,2021-07-29 13:10:10,inspect,NA
+vapour,0.7.6,2021-07-29 13:10:10,inspect,NA
