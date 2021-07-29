@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+AgroReg,1.0.0,2021-07-29 21:07:46,newbies,NA
+BIRDS,0.2.1,2021-07-29 21:07:46,pending,NA
+BlanketStatsments,0.1.2,2021-07-29 21:07:46,newbies,NA
+chronochrt,0.1.0,2021-07-29 21:07:46,newbies,NA
+CINmetrics,0.1.0,2021-07-29 21:07:46,newbies,NA
+didimputation,0.1.0,2021-07-29 21:07:46,newbies,NA
+DIGSS,1.0.1,2021-07-29 21:07:46,newbies,NA
+dispositionEffect,1.0.0,2021-07-29 21:07:46,newbies,NA
+dssd,0.3.0,2021-07-29 21:07:46,waiting,NA
+EmiR,1.0.0,2021-07-29 21:07:46,newbies,NA
+fasi,1.0.0,2021-07-29 21:07:46,pretest,NA
+fwildclusterboot,0.3.6,2021-07-29 21:07:46,waiting,NA
+glmmTMB,1.1.2.1,2021-07-29 21:07:46,waiting,NA
+gsrs,0.1.1,2021-07-29 21:07:46,newbies,NA
+MixedIndTests,0.1.4,2021-07-29 21:07:46,newbies,NA
+mvoutlier,2.1.1,2021-07-29 21:07:46,newbies,NA
+PhitestR,0.1.0,2021-07-29 21:07:46,newbies,NA
+refineR,1.0.0,2021-07-29 21:07:46,newbies,NA
+rKOMICS,1.2,2021-07-29 21:07:46,waiting,NA
+semtree,0.9.17,2021-07-29 21:07:46,newbies,NA
+sidrar,0.2.6,2021-07-29 21:07:46,inspect,NA
+sprtt,0.1.0,2021-07-29 21:07:46,newbies,NA
+track2KBA,1.0.0,2021-07-29 21:07:46,newbies,NA
+vapour,0.7.6,2021-07-29 21:07:46,inspect,NA
