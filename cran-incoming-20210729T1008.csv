@@ -1,0 +1,15 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.1,2021-07-29 12:08:54,pending,NA
+cansim,0.3.9,2021-07-29 12:08:54,publish,NA
+crctStepdown,0.1,2021-07-29 12:08:54,newbies,NA
+dssd,0.3.0,2021-07-29 12:08:54,waiting,NA
+fritools,2.2.1,2021-07-29 12:08:54,pending,NA
+ggeffects,1.1.1,2021-07-29 12:08:54,pretest,NA
+glmmTMB,1.1.2.1,2021-07-29 12:08:54,pending,NA
+IPMbook,0.1.1,2021-07-29 12:08:54,newbies,NA
+magi,1.0.1,2021-07-29 12:08:54,pending,NA
+pacs,0.2.5,2021-07-29 12:08:54,waiting,NA
+PropensitySub,0.2.0,2021-07-29 12:08:54,human,UL
+rKOMICS,1.2,2021-07-29 12:08:54,waiting,NA
+RVIpkg,0.2.6,2021-07-29 12:08:54,waiting,NA
+vapour,0.7.6,2021-07-29 12:08:54,inspect,NA
