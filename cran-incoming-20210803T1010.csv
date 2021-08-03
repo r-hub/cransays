@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.1,2021-08-03 12:10:20,pending,NA
+bnpsd,1.3.12,2021-08-03 12:10:20,waiting,NA
+cylcop,0.1.0,2021-08-03 12:10:20,inspect,NA
+do,2.0.0.0,2021-08-03 12:10:20,waiting,NA
+doMIsaul,1.0.0,2021-08-03 12:10:20,newbies,NA
+ExpImage,0.1.0,2021-08-03 12:10:20,pending,NA
+fdaPOIFD,1.0.2,2021-08-03 12:10:20,inspect,NA
+funData,1.3-7,2021-08-03 12:10:20,newbies,NA
+glmmTMB,1.1.2.2,2021-08-03 12:10:20,waiting,NA
+gregRy,0.1.0,2021-08-03 12:10:20,newbies,NA
+icardaFIGSr,1.0.1,2021-08-03 12:10:20,newbies,NA
+informedSen,1.0.7,2021-08-03 12:10:20,newbies,NA
+MODIStsp,2.0.6,2021-08-03 12:10:20,waiting,NA
+MultivariateAnalysis,0.4.0,2021-08-03 12:10:20,waiting,NA
+PICBayes,1.0,2021-08-03 12:10:20,pretest,NA
+R6P,0.2.2,2021-08-03 12:10:20,waiting,NA
+rbokeh,0.5.2,2021-08-03 12:10:20,newbies,NA
+robustcov,0.1,2021-08-03 12:10:20,newbies,NA
+roclang,0.1.0,2021-08-03 12:10:20,newbies,NA
+smmR,1.0.3,2021-08-03 12:10:20,pending,NA
+string2path,0.0.1,2021-08-03 12:10:20,newbies,NA
+threeBrain,0.2.1,2021-08-03 12:10:20,inspect,NA
+track2KBA,1.0.0,2021-08-03 12:10:20,newbies,NA
