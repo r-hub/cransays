@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.1,2021-08-04 09:10:48,pending,NA
+bmstdr,0.1.1,2021-08-04 09:10:48,newbies,NA
+changepoint.influence,1.0.1,2021-08-04 09:10:48,newbies,NA
+cylcop,0.1.0,2021-08-04 09:10:48,newbies,NA
+dateutils,0.1.3,2021-08-04 09:10:48,newbies,NA
+degross,0.9.0,2021-08-04 09:10:48,newbies,NA
+DIGSS,1.0.2,2021-08-04 09:10:48,newbies,NA
+dnapath,0.6.8,2021-08-04 09:10:48,newbies,NA
+doMIsaul,1.0.0,2021-08-04 09:10:48,newbies,NA
+ei.Datasets,0.0.1-1,2021-08-04 09:10:48,newbies,NA
+ExpImage,0.1.0,2021-08-04 09:10:48,pending,NA
+glmmTMB,1.1.2.2,2021-08-04 09:10:48,waiting,NA
+gregRy,0.1.0,2021-08-04 09:10:48,newbies,NA
+gumboot,1.0.0,2021-08-04 09:10:48,newbies,NA
+handwriter,1.0.0,2021-08-04 09:10:48,newbies,NA
+icardaFIGSr,1.0.1,2021-08-04 09:10:48,newbies,NA
+informedSen,1.0.7,2021-08-04 09:10:48,newbies,NA
+MultivariateAnalysis,0.4.0,2021-08-04 09:10:48,waiting,NA
+rBiasCorrection,0.3.2,2021-08-04 09:10:48,waiting,NA
+robustcov,0.1,2021-08-04 09:10:48,newbies,NA
+roclang,0.1.0,2021-08-04 09:10:48,newbies,NA
+scBSC,0.1.2,2021-08-04 09:10:48,newbies,NA
+scPOP,0.1.0,2021-08-04 09:10:48,newbies,NA
+staggered,1.1,2021-08-04 09:10:48,newbies,NA
+string2path,0.0.1,2021-08-04 09:10:48,newbies,NA
+symphony,0.1.0,2021-08-04 09:10:48,newbies,NA
