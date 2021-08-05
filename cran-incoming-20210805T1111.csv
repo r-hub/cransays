@@ -1,0 +1,16 @@
+package,version,snapshot_time,folder,subfolder
+bbsBayes,2.3.8.2020,2021-08-05 13:11:35,inspect,NA
+BIRDS,0.2.1,2021-08-05 13:11:35,pending,NA
+cloudstoR,0.1.0,2021-08-05 13:11:35,pretest,NA
+divseg,0.0.3,2021-08-05 13:11:35,inspect,NA
+ExpImage,0.1.0,2021-08-05 13:11:35,pending,NA
+gitlabr,2.0.0,2021-08-05 13:11:35,waiting,NA
+glmmTMB,1.1.2.2,2021-08-05 13:11:35,waiting,NA
+gsrs,0.1.2,2021-08-05 13:11:35,inspect,NA
+IPDFileCheck,0.7.3,2021-08-05 13:11:35,inspect,NA
+missDiag,1.0.1,2021-08-05 13:11:35,newbies,NA
+movecost,1.3,2021-08-05 13:11:35,inspect,NA
+openSkies,1.1.3,2021-08-05 13:11:35,inspect,NA
+roclang,0.1.1,2021-08-05 13:11:35,inspect,NA
+sars,1.3.5,2021-08-05 13:11:35,pretest,NA
+sdcHierarchies,0.19.1,2021-08-05 13:11:35,recheck,NA
