@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+bbsBayes,2.3.8.2020,2021-08-05 19:26:41,inspect,NA
+BIRDS,0.2.1,2021-08-05 19:26:41,pending,NA
+cylcop,0.1.0,2021-08-05 19:26:41,inspect,NA
+divseg,0.0.3,2021-08-05 19:26:41,inspect,NA
+dnapath,0.6.8,2021-08-05 19:26:41,newbies,NA
+ExpImage,0.1.0,2021-08-05 19:26:41,pending,NA
+glmmTMB,1.1.2.2,2021-08-05 19:26:41,waiting,NA
+gsrs,0.1.2,2021-08-05 19:26:41,inspect,NA
+iAdapt,2.0.1,2021-08-05 19:26:41,waiting,NA
+IPDFileCheck,0.7.3,2021-08-05 19:26:41,inspect,NA
+karel,0.1.0,2021-08-05 19:26:41,newbies,NA
+missDiag,1.0.1,2021-08-05 19:26:41,newbies,NA
+openSkies,1.1.3,2021-08-05 19:26:41,inspect,NA
+PEcAn.logger,1.8.0,2021-08-05 19:26:41,inspect,NA
+plumbertableau,0.1.0,2021-08-05 19:26:41,newbies,NA
+R6causal,0.6.0,2021-08-05 19:26:41,inspect,NA
+roclang,0.1.1,2021-08-05 19:26:41,inspect,NA
+sprtt,0.1.0,2021-08-05 19:26:41,inspect,NA
