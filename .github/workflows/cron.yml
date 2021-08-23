@@ -8,6 +8,8 @@ jobs:
   dashboarddown:
     name: Render-dashboard
     runs-on: macOS-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v1
