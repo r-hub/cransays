@@ -1,0 +1,4 @@
+package,version,snapshot_time,folder,subfolder
+BIRDS,0.2.2,2021-08-31 01:21:57,pending,NA
+glmmTMB,1.1.2.2,2021-08-31 01:21:57,waiting,NA
+SWTools,0.2.1.0,2021-08-31 01:21:57,human,UL
