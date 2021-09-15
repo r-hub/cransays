@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+abmR,1.0.1,2021-09-15 15:30:20,newbies,NA
+AzureAppInsights,0.2.0,2021-09-15 15:30:20,newbies,NA
+backbone,1.5.1,2021-09-15 15:30:20,waiting,NA
+bpr,1.0.1,2021-09-15 15:30:20,newbies,NA
+fsr,1.0.0,2021-09-15 15:30:20,newbies,NA
+FuzzyResampling,0.1.0,2021-09-15 15:30:20,newbies,NA
+jds.rmd,0.3.0,2021-09-15 15:30:20,newbies,NA
+mrbayes,0.5.0,2021-09-15 15:30:20,waiting,NA
+performance,0.8.0,2021-09-15 15:30:20,waiting,NA
+rbioacc,1.0.2,2021-09-15 15:30:20,newbies,NA
+RcppCensSpatial,0.1.0,2021-09-15 15:30:20,newbies,NA
+rehh,3.2.2,2021-09-15 15:30:20,pretest,NA
+rmBayes,0.1.13,2021-09-15 15:30:20,newbies,NA
+sGBJ,0.1.0,2021-09-15 15:30:20,newbies,NA
+shiny,1.7.0,2021-09-15 15:30:20,waiting,NA
+simrel,2.1.0,2021-09-15 15:30:20,pending,NA
+staggered,1.1,2021-09-15 15:30:20,newbies,NA
+StanMoMo,1.0.0,2021-09-15 15:30:20,newbies,NA
+starvars,1.1.7,2021-09-15 15:30:20,inspect,NA
+statgenHTP,1.0.5,2021-09-15 15:30:20,inspect,NA
+Statsomat,1.0,2021-09-15 15:30:20,newbies,NA
+stratEst,1.1.2,2021-09-15 15:30:20,newbies,NA
+SWTools,0.2.1.0,2021-09-15 15:30:20,human,UL
