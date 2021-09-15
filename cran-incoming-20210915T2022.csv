@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+backbone,1.5.1,2021-09-15 22:22:06,pending,NA
+BayesSenMC,0.1.4,2021-09-15 22:22:06,waiting,NA
+biosurvey,0.1.1,2021-09-15 22:22:06,inspect,NA
+cuml,0.2.0,2021-09-15 22:22:06,inspect,NA
+excursions,2.5.2,2021-09-15 22:22:06,inspect,NA
+FairPAN,0.1.0,2021-09-15 22:22:06,pretest,NA
+gJLS2,0.2.0,2021-09-15 22:22:06,inspect,NA
+insee,1.1.1,2021-09-15 22:22:06,inspect,NA
+jmvReadWrite,0.2.2,2021-09-15 22:22:06,newbies,NA
+landmap,0.0.12,2021-09-15 22:22:06,inspect,NA
+mrbayes,0.5.0,2021-09-15 22:22:06,waiting,NA
+nipals,0.8,2021-09-15 22:22:06,waiting,NA
+performance,0.8.0,2021-09-15 22:22:06,waiting,NA
+PupillometryR,0.0.4,2021-09-15 22:22:06,inspect,NA
+rdaemon,1.0.6,2021-09-15 22:22:06,inspect,NA
+reticulate,1.22,2021-09-15 22:22:06,inspect,NA
+robcp,0.3.2,2021-09-15 22:22:06,pending,NA
+ScoreEB,0.1.1,2021-09-15 22:22:06,inspect,NA
+shiny,1.7.0,2021-09-15 22:22:06,waiting,NA
+simrel,2.1.0,2021-09-15 22:22:06,pending,NA
+starvars,1.1.7,2021-09-15 22:22:06,inspect,NA
+stratEst,1.1.2,2021-09-15 22:22:06,pending,NA
+SWTools,0.2.1.0,2021-09-15 22:22:06,human,UL
+vars,1.5-5,2021-09-15 22:22:06,inspect,NA
