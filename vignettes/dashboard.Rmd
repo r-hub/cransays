@@ -100,7 +100,7 @@ should check your emails!
 - **pretest**: the CRAN maintainers restarted automated tests on your package to
 see whether an issue has been fixed by your action or is still here.
 - **archive**: if the package does not pass the checks cleanly and the problem
-are not likely to be false positives, your package will be rejected
+are not likely to be false positives, your package will be rejected.
 - **recheck**: your package seems ready for publication. This step checks 
 whether reverse dependencies will still work after the update.
 - **publish**: you're all set! Your package has passed the review process and 
