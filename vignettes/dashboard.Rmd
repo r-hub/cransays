@@ -35,7 +35,7 @@ cran_raw <- cransays::take_snapshot()
 
 cran_incoming <- cran_raw %>% 
   arrange(subfolder, howlongago) %>% 
-  #filter(subfolder != "archive") %>% 
+  filter(subfolder != "archive") %>% 
   mutate(
     folder = ifelse(subfolder %in% standard_folders, subfolder, "human"),
     subfolder = ifelse(subfolder %in% standard_folders, NA, subfolder)
