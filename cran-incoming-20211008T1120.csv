@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+cartogramR,1.0-3,2021-10-08 13:20:47,pending,NA
+csodata,1.2.1,2021-10-08 13:20:47,pending,NA
+discretefit,0.0.0,2021-10-08 13:20:47,newbies,NA
+DMCfun,2.0.1,2021-10-08 13:20:47,pending,NA
+EpiSignalDetection,0.1.2,2021-10-08 13:20:47,pending,NA
+exactRankTests,0.8-34,2021-10-08 13:20:47,pending,NA
+excessmort,0.6.0,2021-10-08 13:20:47,newbies,NA
+expDB,0.1.0,2021-10-08 13:20:47,newbies,NA
+gapclosing,1.0.2,2021-10-08 13:20:47,pending,NA
+L1mstate,1.0.1,2021-10-08 13:20:47,newbies,NA
+landmap,0.0.13,2021-10-08 13:20:47,inspect,NA
+LIC,0.0.1,2021-10-08 13:20:47,newbies,NA
+madrat,2.3.2,2021-10-08 13:20:47,pending,NA
+netmeta,1.6-0,2021-10-08 13:20:47,waiting,NA
+owidR,1.0.0,2021-10-08 13:20:47,newbies,NA
+qra,0.2.3,2021-10-08 13:20:47,pending,NA
+qtl2,0.26,2021-10-08 13:20:47,pending,NA
+raster,3.5-1,2021-10-08 13:20:47,waiting,NA
+RMVL,0.0.3.3,2021-10-08 13:20:47,pending,NA
+scMappR,1.0.4,2021-10-08 13:20:47,pending,NA
+semptools,0.2.9.3,2021-10-08 13:20:47,pending,NA
+Seurat,4.0.5,2021-10-08 13:20:47,inspect,NA
+spm2,1.1.0,2021-10-08 13:20:47,newbies,NA
+SWTools,0.2.1.0,2021-10-08 13:20:47,human,UL
+trustOptim,0.8.7.3,2021-10-08 13:20:47,pending,NA
