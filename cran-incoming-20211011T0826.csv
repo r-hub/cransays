@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+Anthropometry,1.16,2021-10-11 10:26:03,pretest,NA
+designsize,0.1.0,2021-10-11 10:26:03,newbies,NA
+fipio,1.0.0,2021-10-11 10:26:03,human,GS
+GWPR.light,0.1.0,2021-10-11 10:26:03,newbies,NA
+landmap,0.0.13,2021-10-11 10:26:03,inspect,NA
+magi,1.1.1,2021-10-11 10:26:03,pending,NA
+MALDIrppa,1.0.5-1,2021-10-11 10:26:03,human,GS
+metaconfoundr,0.1.0,2021-10-11 10:26:03,newbies,NA
+netmeta,1.6-0,2021-10-11 10:26:03,waiting,NA
+owidR,1.0.0,2021-10-11 10:26:03,newbies,NA
+paletteknife,0.4.0,2021-10-11 10:26:03,newbies,NA
+portfolioBacktest,0.3.1,2021-10-11 10:26:03,pending,NA
+qra,0.2.6,2021-10-11 10:26:03,pending,NA
+rasterVis,0.51.0,2021-10-11 10:26:03,recheck,NA
+rbibutils,2.2.4,2021-10-11 10:26:03,pretest,NA
+rcbayes,0.1.0,2021-10-11 10:26:03,human,GS
+RJDemetra,0.1.8,2021-10-11 10:26:03,pending,NA
+RMVL,0.0.3.3,2021-10-11 10:26:03,pending,NA
+Seurat,4.0.5,2021-10-11 10:26:03,inspect,NA
+stableGR,1.1,2021-10-11 10:26:03,human,GS
+supc,0.2.6,2021-10-11 10:26:03,pending,NA
+swdpwr,1.6,2021-10-11 10:26:03,pretest,NA
+SWTools,0.2.1.0,2021-10-11 10:26:03,human,UL
+test2norm,0.2.0,2021-10-11 10:26:03,waiting,NA
+TPmsm,1.2.5,2021-10-11 10:26:03,pending,NA
+WeightSVM,1.7-9,2021-10-11 10:26:03,inspect,NA
