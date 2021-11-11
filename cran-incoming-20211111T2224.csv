@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-11 23:24:46,pending,NA
+cartogramR,1.0-4,2021-11-11 23:24:46,waiting,NA
+EpiSignalDetection,0.1.2,2021-11-11 23:24:46,pending,NA
+Eunomia,1.0.2,2021-11-11 23:24:46,pending,NA
+gamlss.spatial,2.0.1,2021-11-11 23:24:46,inspect,NA
+glinvci,1.1.13,2021-11-11 23:24:46,pending,NA
+googlePubsubR,0.0.1,2021-11-11 23:24:46,newbies,NA
+hypervolume,3.0.0,2021-11-11 23:24:46,waiting,NA
+icardaFIGSr,1.0.2,2021-11-11 23:24:46,inspect,NA
+libproj,8.1.0-2,2021-11-11 23:24:46,pending,NA
+magi,1.1.1,2021-11-11 23:24:46,pending,NA
+mlr3pipelines,0.3.7,2021-11-11 23:24:46,waiting,NA
+rio,0.5.29,2021-11-11 23:24:46,pending,NA
+RMVL,0.0.3.3,2021-11-11 23:24:46,pending,NA
+rstac,0.9.1-6,2021-11-11 23:24:46,waiting,NA
+SWTools,0.2.1.0,2021-11-11 23:24:46,human,UL
+taxadb,0.1.4,2021-11-11 23:24:46,pending,NA
+tayloRswift,0.1.0,2021-11-11 23:24:46,newbies,NA
+torch,0.6.1,2021-11-11 23:24:46,pending,NA
+tsentiment,1.0.2,2021-11-11 23:24:46,pending,NA
