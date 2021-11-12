@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-12 09:29:57,pending,NA
+cartogramR,1.0-4,2021-11-12 09:29:57,waiting,NA
+dietr,1.1.2,2021-11-12 09:29:57,inspect,NA
+EpiSignalDetection,0.1.2,2021-11-12 09:29:57,pending,NA
+Eunomia,1.0.2,2021-11-12 09:29:57,pending,NA
+gamlss.spatial,2.0.1,2021-11-12 09:29:57,inspect,NA
+glinvci,1.1.13,2021-11-12 09:29:57,pending,NA
+googlePubsubR,0.0.1,2021-11-12 09:29:57,newbies,NA
+hsem,1.0,2021-11-12 09:29:57,newbies,NA
+hypervolume,3.0.0,2021-11-12 09:29:57,waiting,NA
+icardaFIGSr,1.0.2,2021-11-12 09:29:57,inspect,NA
+LBC,1.0,2021-11-12 09:29:57,newbies,NA
+libproj,8.1.0-2,2021-11-12 09:29:57,pending,NA
+magi,1.1.1,2021-11-12 09:29:57,pending,NA
+MicrobiomeStat,1.0,2021-11-12 09:29:57,newbies,NA
+mlr3pipelines,0.3.7,2021-11-12 09:29:57,waiting,NA
+rio,0.5.29,2021-11-12 09:29:57,pending,NA
+RMVL,0.0.3.3,2021-11-12 09:29:57,pending,NA
+rstac,0.9.1-6,2021-11-12 09:29:57,waiting,NA
+SWTools,0.2.1.0,2021-11-12 09:29:57,human,UL
+taxadb,0.1.4,2021-11-12 09:29:57,pending,NA
+tayloRswift,0.1.0,2021-11-12 09:29:57,newbies,NA
+testdat,0.3.0,2021-11-12 09:29:57,newbies,NA
+tidytree,0.3.6,2021-11-12 09:29:57,publish,NA
+torch,0.6.1,2021-11-12 09:29:57,pending,NA
+tsentiment,1.0.2,2021-11-12 09:29:57,pending,NA
