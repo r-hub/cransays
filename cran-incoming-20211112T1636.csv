@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-12 17:36:54,pending,NA
+citrus,1.0.1,2021-11-12 17:36:54,newbies,NA
+dietr,1.1.2,2021-11-12 17:36:54,inspect,NA
+EpiSignalDetection,0.1.2,2021-11-12 17:36:54,pending,NA
+Eunomia,1.0.2,2021-11-12 17:36:54,pending,NA
+glinvci,1.1.13,2021-11-12 17:36:54,pending,NA
+LBC,1.0,2021-11-12 17:36:54,newbies,NA
+libproj,8.1.0-2,2021-11-12 17:36:54,pending,NA
+magi,1.1.1,2021-11-12 17:36:54,pending,NA
+manymodelr,0.3.7,2021-11-12 17:36:54,waiting,NA
+mlr3pipelines,0.3.7,2021-11-12 17:36:54,waiting,NA
+MorphoTools2,0.9.0,2021-11-12 17:36:54,pretest,NA
+MultipleRegression,0.1.0,2021-11-12 17:36:54,newbies,NA
+pathfindR,1.6.3,2021-11-12 17:36:54,pending,NA
+rio,0.5.29,2021-11-12 17:36:54,pending,NA
+RMVL,0.0.3.3,2021-11-12 17:36:54,pending,NA
+RprobitB,1.0.0,2021-11-12 17:36:54,pretest,NA
+rstac,0.9.1-6,2021-11-12 17:36:54,waiting,NA
+susieR,0.11.92,2021-11-12 17:36:54,inspect,NA
+SWTools,0.2.1.0,2021-11-12 17:36:54,human,UL
+taxadb,0.1.4,2021-11-12 17:36:54,pending,NA
+torch,0.6.1,2021-11-12 17:36:54,pending,NA
+tsentiment,1.0.2,2021-11-12 17:36:54,pending,NA
+zoid,1.0.0,2021-11-12 17:36:54,newbies,NA
