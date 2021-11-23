@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-23 21:27:05,pending,NA
+antaresViz,0.17,2021-11-23 21:27:05,inspect,NA
+diffudist,1.0.0,2021-11-23 21:27:05,inspect,NA
+DPQ,0.5-0,2021-11-23 21:27:05,inspect,NA
+EpiSignalDetection,0.1.2,2021-11-23 21:27:05,pending,NA
+GenericML,0.1.0,2021-11-23 21:27:05,newbies,NA
+igraph,1.2.9,2021-11-23 21:27:05,waiting,NA
+kernelboot,0.1.8,2021-11-23 21:27:05,waiting,NA
+MatchIt,4.3.2,2021-11-23 21:27:05,waiting,NA
+mice,3.14.0,2021-11-23 21:27:05,waiting,NA
+ncdf4,1.18,2021-11-23 21:27:05,waiting,NA
+neuronorm,1.0.1,2021-11-23 21:27:05,inspect,NA
+npROCRegression,1.0-6,2021-11-23 21:27:05,waiting,NA
+quanteda.textstats,0.95,2021-11-23 21:27:05,inspect,NA
+RandomFieldsUtils,1.0.12,2021-11-23 21:27:05,pending,NA
+Rbeast,0.9.1,2021-11-23 21:27:05,waiting,NA
+RCzechia,1.8.6,2021-11-23 21:27:05,pending,NA
+Rmixmod,2.1.6,2021-11-23 21:27:05,pending,NA
+RMVL,0.0.3.3,2021-11-23 21:27:05,pending,NA
+ROCnReg,1.0-6,2021-11-23 21:27:05,waiting,NA
+soilphysics,4.1,2021-11-23 21:27:05,inspect,NA
+SWTools,0.2.1.0,2021-11-23 21:27:05,human,UL
+synr,0.5.0,2021-11-23 21:27:05,inspect,NA
+taxadb,0.1.4,2021-11-23 21:27:05,pending,NA
+torch,0.6.1,2021-11-23 21:27:05,pending,NA
