@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-24 10:29:01,pending,NA
+diffudist,1.0.0,2021-11-24 10:29:01,pretest,NA
+EpiSignalDetection,0.1.2,2021-11-24 10:29:01,pending,NA
+gbmt,0.1.2,2021-11-24 10:29:01,publish,NA
+kernelboot,0.1.8,2021-11-24 10:29:01,waiting,NA
+mice,3.14.0,2021-11-24 10:29:01,waiting,NA
+ncdf4,1.18,2021-11-24 10:29:01,waiting,NA
+neuronorm,1.0.1,2021-11-24 10:29:01,inspect,NA
+RandomFieldsUtils,1.0.12,2021-11-24 10:29:01,pending,NA
+RCzechia,1.8.6,2021-11-24 10:29:01,pending,NA
+rethnicity,0.2.0,2021-11-24 10:29:01,waiting,NA
+rgoogleads,0.4.1,2021-11-24 10:29:01,pretest,NA
+RMVL,0.0.3.3,2021-11-24 10:29:01,pending,NA
+soilphysics,4.1,2021-11-24 10:29:01,inspect,NA
+sweater,0.1.2,2021-11-24 10:29:01,pending,NA
+SWTools,0.2.1.0,2021-11-24 10:29:01,human,UL
+taxadb,0.1.4,2021-11-24 10:29:01,pending,NA
+torch,0.6.1,2021-11-24 10:29:01,pending,NA
