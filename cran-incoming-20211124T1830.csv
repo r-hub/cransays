@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-24 19:30:42,pending,NA
+aMNLFA,1.1.0,2021-11-24 19:30:42,pretest,NA
+anthroplus,0.9.0,2021-11-24 19:30:42,newbies,NA
+ATbounds,0.1.0,2021-11-24 19:30:42,newbies,NA
+bsreg,0.0.1,2021-11-24 19:30:42,newbies,NA
+diffudist,1.0.0,2021-11-24 19:30:42,newbies,NA
+EpiSignalDetection,0.1.2,2021-11-24 19:30:42,pending,NA
+fca,0.1.0,2021-11-24 19:30:42,inspect,NA
+kernelboot,0.1.8,2021-11-24 19:30:42,waiting,NA
+mapscanner,0.0.6,2021-11-24 19:30:42,pending,NA
+ncdf4,1.18,2021-11-24 19:30:42,waiting,NA
+neuronorm,1.0.1,2021-11-24 19:30:42,waiting,NA
+QWDAP,1.1.6,2021-11-24 19:30:42,newbies,NA
+r2spss,0.2.0,2021-11-24 19:30:42,newbies,NA
+RandomFieldsUtils,1.0.12,2021-11-24 19:30:42,pending,NA
+RCzechia,1.8.6,2021-11-24 19:30:42,pending,NA
+rmangal,2.1.0,2021-11-24 19:30:42,newbies,NA
+RMVL,0.0.3.3,2021-11-24 19:30:42,pending,NA
+rotations,1.6.3,2021-11-24 19:30:42,pending,NA
+soilphysics,4.1,2021-11-24 19:30:42,inspect,NA
+spOccupancy,0.1.3,2021-11-24 19:30:42,pending,NA
+SWTools,0.2.1.0,2021-11-24 19:30:42,human,UL
+synr,0.5.1,2021-11-24 19:30:42,newbies,NA
+taxadb,0.1.4,2021-11-24 19:30:42,pending,NA
+torch,0.6.1,2021-11-24 19:30:42,pending,NA
+umiAnalyzer,1.0.0,2021-11-24 19:30:42,newbies,NA
