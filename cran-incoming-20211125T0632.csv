@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+AgroR,1.2.4,2021-11-25 07:32:17,pending,NA
+EpiSignalDetection,0.1.2,2021-11-25 07:32:17,pending,NA
+eseis,0.6.0,2021-11-25 07:32:17,inspect,NA
+fca,0.1.0,2021-11-25 07:32:17,inspect,NA
+hospitals,0.1.0,2021-11-25 07:32:17,inspect,NA
+kernelboot,0.1.8,2021-11-25 07:32:17,waiting,NA
+kfa,0.1.0,2021-11-25 07:32:17,newbies,NA
+memoise,2.0.1,2021-11-25 07:32:17,waiting,NA
+ncdf4,1.18,2021-11-25 07:32:17,waiting,NA
+neuronorm,1.0.1,2021-11-25 07:32:17,waiting,NA
+pyMTurkR,1.1.5,2021-11-25 07:32:17,newbies,NA
+QWDAP,1.1.6,2021-11-25 07:32:17,newbies,NA
+RandomFieldsUtils,1.0.12,2021-11-25 07:32:17,pending,NA
+RCzechia,1.8.6,2021-11-25 07:32:17,pending,NA
+rex,1.2.1,2021-11-25 07:32:17,waiting,NA
+rflsgen,0.1.1,2021-11-25 07:32:17,inspect,NA
+RMVL,0.0.3.3,2021-11-25 07:32:17,pending,NA
+sandbox,0.2.0,2021-11-25 07:32:17,newbies,NA
+soilphysics,4.1,2021-11-25 07:32:17,inspect,NA
+SWTools,0.2.1.0,2021-11-25 07:32:17,human,UL
+taxadb,0.1.4,2021-11-25 07:32:17,pending,NA
+torch,0.6.1,2021-11-25 07:32:17,pending,NA
+umiAnalyzer,1.0.0,2021-11-25 07:32:17,newbies,NA
+VisitorCounts,1.0.0,2021-11-25 07:32:17,newbies,NA
+WienR,0.3-0,2021-11-25 07:32:17,inspect,NA
+worldfootballR,0.4.4,2021-11-25 07:32:17,newbies,NA
