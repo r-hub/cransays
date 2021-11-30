@@ -1,0 +1,22 @@
+package,version,snapshot_time,folder,subfolder
+activegp,1.0.6,2021-11-30 23:36:47,waiting,NA
+ActivePathways,1.0.3,2021-11-30 23:36:47,newbies,NA
+bcTSNE,0.11.1,2021-11-30 23:36:47,inspect,NA
+CAMML,0.1.0,2021-11-30 23:36:47,newbies,NA
+conleyreg,0.1.5,2021-11-30 23:36:47,waiting,NA
+easyDifferentialGeneCoexpression,0.6,2021-11-30 23:36:47,newbies,NA
+gplsim,0.9.0,2021-11-30 23:36:47,newbies,NA
+huito,0.1.0,2021-11-30 23:36:47,newbies,NA
+nowcastDFM,1.0.0,2021-11-30 23:36:47,newbies,NA
+onemap,2.8.0,2021-11-30 23:36:47,newbies,NA
+optedr,1.0.0,2021-11-30 23:36:47,newbies,NA
+PostcodesioR,0.3.1,2021-11-30 23:36:47,waiting,NA
+pvaluefunctions,1.6.2,2021-11-30 23:36:47,inspect,NA
+RandomFieldsUtils,1.0.15,2021-11-30 23:36:47,pending,NA
+regweight,1.0.1,2021-11-30 23:36:47,newbies,NA
+siqr,0.8.0,2021-11-30 23:36:47,newbies,NA
+skater,0.1.0,2021-11-30 23:36:47,newbies,NA
+stratifyR,1.0-3,2021-11-30 23:36:47,newbies,NA
+SWTools,0.2.1.0,2021-11-30 23:36:47,human,UL
+table.express,0.3.2,2021-11-30 23:36:47,waiting,NA
+weathercan,0.6.2,2021-11-30 23:36:47,newbies,NA
