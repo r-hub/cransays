@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+ActivePathways,1.0.3,2021-12-01 16:37:12,inspect,NA
+cmcR,0.1.7,2021-12-01 16:37:12,inspect,NA
+conleyreg,0.1.5,2021-12-01 16:37:12,inspect,NA
+DeductiveR,1.0.0,2021-12-01 16:37:12,pretest,NA
+DrBats,0.1.6,2021-12-01 16:37:12,pretest,NA
+easyDifferentialGeneCoexpression,0.7,2021-12-01 16:37:12,newbies,NA
+gplsim,0.9.0,2021-12-01 16:37:12,newbies,NA
+jagstargets,1.0.1,2021-12-01 16:37:12,inspect,NA
+mispitools,0.1.0,2021-12-01 16:37:12,newbies,NA
+MorphoTools2,0.9.1,2021-12-01 16:37:12,pending,NA
+pak,0.2.0,2021-12-01 16:37:12,pretest,NA
+quiltr,0.1.0,2021-12-01 16:37:12,inspect,NA
+RandomFieldsUtils,1.0.15,2021-12-01 16:37:12,pending,NA
+RCzechia,1.9.0,2021-12-01 16:37:12,newbies,NA
+recolorize,0.1.0,2021-12-01 16:37:12,newbies,NA
+skater,0.1.0,2021-12-01 16:37:12,inspect,NA
+SWTools,0.2.1.0,2021-12-01 16:37:12,human,UL
+tesseract,4.2.0,2021-12-01 16:37:12,waiting,NA
