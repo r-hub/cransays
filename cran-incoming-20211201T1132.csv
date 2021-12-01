@@ -1,0 +1,9 @@
+package,version,snapshot_time,folder,subfolder
+ActivePathways,1.0.3,2021-12-01 12:32:25,inspect,NA
+conleyreg,0.1.5,2021-12-01 12:32:25,inspect,NA
+DrBats,0.1.6,2021-12-01 12:32:25,pretest,NA
+MorphoTools2,0.9.1,2021-12-01 12:32:25,pending,NA
+opencpu,2.2.6,2021-12-01 12:32:25,inspect,NA
+RandomFieldsUtils,1.0.15,2021-12-01 12:32:25,pending,NA
+stringfish,0.15.5,2021-12-01 12:32:25,recheck,NA
+SWTools,0.2.1.0,2021-12-01 12:32:25,human,UL
