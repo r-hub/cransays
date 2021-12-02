@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+ActivePathways,1.0.3,2021-12-02 16:29:12,inspect,NA
+AgroR,1.2.5,2021-12-02 16:29:12,inspect,NA
+clock,0.6.0,2021-12-02 16:29:12,recheck,NA
+conleyreg,0.1.5,2021-12-02 16:29:12,inspect,NA
+DrBats,0.1.6,2021-12-02 16:29:12,pretest,NA
+FPLdata,0.1.0,2021-12-02 16:29:12,newbies,NA
+GOCompare,1.0.0,2021-12-02 16:29:12,inspect,NA
+index0,0.0.1,2021-12-02 16:29:12,newbies,NA
+jagstargets,1.0.1,2021-12-02 16:29:12,newbies,NA
+kfa,0.1.0,2021-12-02 16:29:12,newbies,NA
+lactater,0.1.0,2021-12-02 16:29:12,newbies,NA
+lares,5.0.4,2021-12-02 16:29:12,pretest,NA
+NetSci,0.1.2,2021-12-02 16:29:12,pretest,NA
+preferably,0.4,2021-12-02 16:29:12,publish,NA
+RandomFieldsUtils,1.0.15,2021-12-02 16:29:12,pending,NA
+RCzechia,1.9.1,2021-12-02 16:29:12,pretest,NA
+sjmisc,2.8.9,2021-12-02 16:29:12,waiting,NA
+skater,0.1.0,2021-12-02 16:29:12,newbies,NA
+SNPassoc,2.0-11,2021-12-02 16:29:12,newbies,NA
+stringfish,0.15.5.1,2021-12-02 16:29:12,pending,NA
+SWTools,0.2.1.0,2021-12-02 16:29:12,human,UL
+tesseract,4.2.0,2021-12-02 16:29:12,pending,NA
