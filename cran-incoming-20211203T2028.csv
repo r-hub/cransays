@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+BayesMallows,1.1.0,2021-12-03 21:28:51,pretest,NA
+cfda,0.9.10,2021-12-03 21:28:51,inspect,NA
+dnapath,0.6.11,2021-12-03 21:28:51,pending,NA
+dtplyr,1.2.0,2021-12-03 21:28:51,waiting,NA
+easyDifferentialGeneCoexpression,0.8,2021-12-03 21:28:51,inspect,NA
+excluder,0.3.3,2021-12-03 21:28:51,pretest,NA
+harmonizer,0.1.0,2021-12-03 21:28:51,pretest,NA
+iai,1.7.0,2021-12-03 21:28:51,waiting,NA
+jstor,0.3.10,2021-12-03 21:28:51,pretest,NA
+lares,5.0.4,2021-12-03 21:28:51,pretest,NA
+mapsPERU,1.0.2,2021-12-03 21:28:51,inspect,NA
+mispitools,0.1.0,2021-12-03 21:28:51,newbies,NA
+PhaseTypeR,1.0.1,2021-12-03 21:28:51,inspect,NA
+RandomFieldsUtils,1.0.15,2021-12-03 21:28:51,pending,NA
+sregsurvey,0.1.1,2021-12-03 21:28:51,inspect,NA
+stepgbm,1.0.0,2021-12-03 21:28:51,newbies,NA
+stringfish,0.15.5.1,2021-12-03 21:28:51,pending,NA
+SWTools,0.2.1.0,2021-12-03 21:28:51,human,UL
+tesseract,4.2.0,2021-12-03 21:28:51,pending,NA
+testthat,3.1.1,2021-12-03 21:28:51,waiting,NA
