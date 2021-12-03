@@ -1,0 +1,22 @@
+package,version,snapshot_time,folder,subfolder
+AeroSampleR,0.1.12,2021-12-03 16:31:51,newbies,NA
+amt,0.1.5,2021-12-03 16:31:51,newbies,NA
+cata,0.0.10.3,2021-12-03 16:31:51,newbies,NA
+cfda,0.9.10,2021-12-03 16:31:51,inspect,NA
+COR,0.0.1,2021-12-03 16:31:51,newbies,NA
+crestr,1.0.0,2021-12-03 16:31:51,newbies,NA
+DeductiveR,1.0.0,2021-12-03 16:31:51,newbies,NA
+dnapath,0.6.11,2021-12-03 16:31:51,newbies,NA
+GOCompare,1.0.0,2021-12-03 16:31:51,newbies,NA
+iai,1.7.0,2021-12-03 16:31:51,waiting,NA
+imageseg,0.4.0,2021-12-03 16:31:51,newbies,NA
+MulvariateRandomForestVarImp,0.0.1,2021-12-03 16:31:51,newbies,NA
+PhaseTypeR,1.0.1,2021-12-03 16:31:51,inspect,NA
+RandomFieldsUtils,1.0.15,2021-12-03 16:31:51,pending,NA
+sdmpredictors,0.2.11,2021-12-03 16:31:51,pretest,NA
+skater,0.1.0,2021-12-03 16:31:51,newbies,NA
+spectator,0.1.0,2021-12-03 16:31:51,newbies,NA
+stepgbm,1.0.0,2021-12-03 16:31:51,newbies,NA
+stringfish,0.15.5.1,2021-12-03 16:31:51,pending,NA
+SWTools,0.2.1.0,2021-12-03 16:31:51,human,UL
+tesseract,4.2.0,2021-12-03 16:31:51,pending,NA
