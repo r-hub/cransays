@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+ActivePathways,1.0.3,2021-12-03 11:29:17,inspect,NA
+AeroSampleR,0.1.12,2021-12-03 11:29:17,newbies,NA
+AgroR,1.2.5,2021-12-03 11:29:17,publish,NA
+amt,0.1.5,2021-12-03 11:29:17,newbies,NA
+cata,0.0.10.3,2021-12-03 11:29:17,newbies,NA
+conleyreg,0.1.5,2021-12-03 11:29:17,inspect,NA
+COR,0.0.1,2021-12-03 11:29:17,newbies,NA
+DeductiveR,1.0.0,2021-12-03 11:29:17,newbies,NA
+DrBats,0.1.6,2021-12-03 11:29:17,pretest,NA
+geodata,0.3-5,2021-12-03 11:29:17,inspect,NA
+GOCompare,1.0.0,2021-12-03 11:29:17,newbies,NA
+iai,1.7.0,2021-12-03 11:29:17,inspect,NA
+MulvariateRandomForestVarImp,0.0.1,2021-12-03 11:29:17,newbies,NA
+ocean,0.3.0,2021-12-03 11:29:17,newbies,NA
+RandomFieldsUtils,1.0.15,2021-12-03 11:29:17,pending,NA
+sdcTable,0.32.2,2021-12-03 11:29:17,publish,NA
+sjmisc,2.8.9,2021-12-03 11:29:17,waiting,NA
+skater,0.1.0,2021-12-03 11:29:17,newbies,NA
+stepgbm,1.0.0,2021-12-03 11:29:17,newbies,NA
+stratifyR,1.0-3,2021-12-03 11:29:17,newbies,NA
+stringfish,0.15.5.1,2021-12-03 11:29:17,pending,NA
+SWTools,0.2.1.0,2021-12-03 11:29:17,human,UL
+tesseract,4.2.0,2021-12-03 11:29:17,pending,NA
