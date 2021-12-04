@@ -1,0 +1,17 @@
+package,version,snapshot_time,folder,subfolder
+COR,0.0.1,2021-12-04 06:22:52,newbies,NA
+dnapath,0.6.11,2021-12-04 06:22:52,pending,NA
+dtplyr,1.2.0,2021-12-04 06:22:52,waiting,NA
+exactextractr,0.7.2,2021-12-04 06:22:52,pretest,NA
+GOCompare,1.0.0,2021-12-04 06:22:52,newbies,NA
+healthyR.ts,0.1.6,2021-12-04 06:22:52,recheck,NA
+iai,1.7.0,2021-12-04 06:22:52,waiting,NA
+jstor,0.3.10,2021-12-04 06:22:52,inspect,NA
+leidenAlg,1.0.1,2021-12-04 06:22:52,pretest,NA
+paws.common,0.3.15,2021-12-04 06:22:52,pretest,NA
+PhaseTypeR,1.0.1,2021-12-04 06:22:52,pending,NA
+RandomFieldsUtils,1.0.15,2021-12-04 06:22:52,pending,NA
+sld,1.0.0,2021-12-04 06:22:52,waiting,NA
+stepgbm,1.0.0,2021-12-04 06:22:52,newbies,NA
+stringfish,0.15.5.1,2021-12-04 06:22:52,pending,NA
+SWTools,0.2.1.0,2021-12-04 06:22:52,human,UL
