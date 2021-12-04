@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+bytescircle,1.1.2,2021-12-04 04:24:46,pretest,NA
+Clustering,1.7.4,2021-12-04 04:24:46,pretest,NA
+COR,0.0.1,2021-12-04 04:24:46,pretest,NA
+dnapath,0.6.11,2021-12-04 04:24:46,pending,NA
+dtplyr,1.2.0,2021-12-04 04:24:46,waiting,NA
+exactextractr,0.7.2,2021-12-04 04:24:46,pretest,NA
+fasstr,0.4.0,2021-12-04 04:24:46,pretest,NA
+GOCompare,1.0.0,2021-12-04 04:24:46,newbies,NA
+harmonizer,0.1.0,2021-12-04 04:24:46,pretest,NA
+healthyR.ts,0.1.6,2021-12-04 04:24:46,pretest,NA
+iai,1.7.0,2021-12-04 04:24:46,waiting,NA
+jstor,0.3.10,2021-12-04 04:24:46,inspect,NA
+paws.common,0.3.15,2021-12-04 04:24:46,pretest,NA
+PhaseTypeR,1.0.1,2021-12-04 04:24:46,pending,NA
+RandomFieldsUtils,1.0.15,2021-12-04 04:24:46,pending,NA
+sld,1.0.0,2021-12-04 04:24:46,pretest,NA
+stepgbm,1.0.0,2021-12-04 04:24:46,newbies,NA
+stringfish,0.15.5.1,2021-12-04 04:24:46,pending,NA
+SWTools,0.2.1.0,2021-12-04 04:24:46,human,UL
+thestats,0.1.0,2021-12-04 04:24:46,pretest,NA
