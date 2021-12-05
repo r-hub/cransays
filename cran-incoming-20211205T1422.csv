@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+APCI,1.0.5,2021-12-05 15:22:24,waiting,NA
+batchtma,0.1.6,2021-12-05 15:22:24,newbies,NA
+crossvalidationCP,1.0-0,2021-12-05 15:22:24,pretest,NA
+dnapath,0.6.11,2021-12-05 15:22:24,pending,NA
+exactextractr,0.7.2,2021-12-05 15:22:24,recheck,NA
+GOCompare,1.0.0,2021-12-05 15:22:24,newbies,NA
+iai,1.7.0,2021-12-05 15:22:24,inspect,NA
+ivdoctr,1.0.1,2021-12-05 15:22:24,newbies,NA
+KSgeneral,1.1.0,2021-12-05 15:22:24,newbies,NA
+Mega2R,1.0.9,2021-12-05 15:22:24,newbies,NA
+MorphoTools2,0.9.1.1,2021-12-05 15:22:24,pending,NA
+PhaseTypeR,1.0.1,2021-12-05 15:22:24,pending,NA
+RandomFieldsUtils,1.0.15,2021-12-05 15:22:24,pending,NA
+spcosa,0.4-0,2021-12-05 15:22:24,newbies,NA
+stan4bart,0.0-2,2021-12-05 15:22:24,pending,NA
+stepgbm,1.0.0,2021-12-05 15:22:24,newbies,NA
+stringfish,0.15.5.1,2021-12-05 15:22:24,pending,NA
+SWTools,0.2.1.0,2021-12-05 15:22:24,human,UL
