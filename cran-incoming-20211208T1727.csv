@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+agrifeature,1.0.3,2021-12-08 18:27:07,newbies,NA
+bRacatus,1.0.7,2021-12-08 18:27:07,newbies,NA
+Clustering,1.7.4,2021-12-08 18:27:07,pretest,NA
+DRviaSPCN,0.1.0,2021-12-08 18:27:07,newbies,NA
+eSIR,0.4.2,2021-12-08 18:27:07,inspect,NA
+fs,1.5.2,2021-12-08 18:27:07,recheck,NA
+FWRGB,0.1.0,2021-12-08 18:27:07,newbies,NA
+hibayes,1.0.0,2021-12-08 18:27:07,newbies,NA
+imageseg,0.4.0,2021-12-08 18:27:07,newbies,NA
+ISCO08ConveRsions,0.1.1,2021-12-08 18:27:07,waiting,NA
+LOMAR,0.1.0,2021-12-08 18:27:07,newbies,NA
+lrd,0.1.0,2021-12-08 18:27:07,newbies,NA
+quid,0.0.1,2021-12-08 18:27:07,newbies,NA
+QWDAP,1.1.9,2021-12-08 18:27:07,waiting,NA
+Rpadrino,0.0.3,2021-12-08 18:27:07,newbies,NA
+scImmuneGraph,1.1.1,2021-12-08 18:27:07,inspect,NA
+sets,1.0-20,2021-12-08 18:27:07,recheck,NA
+Signac,1.5.0,2021-12-08 18:27:07,pretest,NA
+TSANN,0.1.0,2021-12-08 18:27:07,newbies,NA
