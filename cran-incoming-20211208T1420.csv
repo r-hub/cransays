@@ -1,0 +1,12 @@
+package,version,snapshot_time,folder,subfolder
+agrifeature,1.0.3,2021-12-08 15:20:02,newbies,NA
+ctsem,3.5.5,2021-12-08 15:20:02,pretest,NA
+DRviaSPCN,0.1.0,2021-12-08 15:20:02,newbies,NA
+eSIR,0.4.2,2021-12-08 15:20:02,inspect,NA
+FWRGB,0.1.0,2021-12-08 15:20:02,newbies,NA
+hibayes,1.0.0,2021-12-08 15:20:02,newbies,NA
+imageseg,0.4.0,2021-12-08 15:20:02,newbies,NA
+quid,0.0.1,2021-12-08 15:20:02,newbies,NA
+QWDAP,1.1.9,2021-12-08 15:20:02,waiting,NA
+Rpadrino,0.0.3,2021-12-08 15:20:02,newbies,NA
+TSANN,0.1.0,2021-12-08 15:20:02,newbies,NA
