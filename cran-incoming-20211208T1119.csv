@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+agrifeature,1.0.3,2021-12-08 12:19:13,newbies,NA
+ATAforecasting,0.0.56,2021-12-08 12:19:13,inspect,NA
+BSSasymp,1.2-2,2021-12-08 12:19:13,waiting,NA
+coarseDataTools,0.6-6,2021-12-08 12:19:13,inspect,NA
+disprofas,0.1.3,2021-12-08 12:19:13,inspect,NA
+DRviaSPCN,0.1.0,2021-12-08 12:19:13,newbies,NA
+eSIR,0.4.2,2021-12-08 12:19:13,inspect,NA
+evolvability,2.0.0,2021-12-08 12:19:13,inspect,NA
+fICA,1.1-2,2021-12-08 12:19:13,waiting,NA
+FWRGB,0.1.0,2021-12-08 12:19:13,inspect,NA
+ggiraph,0.8.0,2021-12-08 12:19:13,pretest,NA
+gorica,0.1.2,2021-12-08 12:19:13,pending,NA
+hibayes,1.0.0,2021-12-08 12:19:13,newbies,NA
+icardaFIGSr,1.0.2,2021-12-08 12:19:13,inspect,NA
+imageseg,0.4.0,2021-12-08 12:19:13,inspect,NA
+matsindf,0.3.10,2021-12-08 12:19:13,inspect,NA
+munsellinterpol,2.7-0,2021-12-08 12:19:13,inspect,NA
+polysat,1.7-6,2021-12-08 12:19:13,waiting,NA
+quid,0.0.1,2021-12-08 12:19:13,inspect,NA
+QWDAP,1.1.9,2021-12-08 12:19:13,waiting,NA
+ReplicationSuccess,1.1.1,2021-12-08 12:19:13,inspect,NA
+sequoia,2.3.8,2021-12-08 12:19:13,pending,NA
+SpatialNP,1.1-5,2021-12-08 12:19:13,waiting,NA
+table.express,0.3.3,2021-12-08 12:19:13,inspect,NA
+TSANN,0.1.0,2021-12-08 12:19:13,pretest,NA
