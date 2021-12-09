@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+agrifeature,1.0.3,2021-12-09 01:57:11,newbies,NA
+DRviaSPCN,0.1.0,2021-12-09 01:57:11,newbies,NA
+eSIR,0.4.2,2021-12-09 01:57:11,inspect,NA
+exact2x2,1.6.6,2021-12-09 01:57:11,recheck,NA
+FWRGB,0.1.0,2021-12-09 01:57:11,newbies,NA
+gFPCAClassif,0.1.0,2021-12-09 01:57:11,newbies,NA
+hibayes,1.0.0,2021-12-09 01:57:11,newbies,NA
+imageseg,0.4.0,2021-12-09 01:57:11,newbies,NA
+LOMAR,0.1.0,2021-12-09 01:57:11,newbies,NA
+lrd,0.1.0,2021-12-09 01:57:11,newbies,NA
+morph,1.0.0,2021-12-09 01:57:11,newbies,NA
+move,4.1.6,2021-12-09 01:57:11,recheck,NA
+onemap,2.8.0,2021-12-09 01:57:11,pretest,NA
+ppmf,0.1.1,2021-12-09 01:57:11,pretest,NA
+quid,0.0.1,2021-12-09 01:57:11,newbies,NA
+QWDAP,1.1.9,2021-12-09 01:57:11,waiting,NA
+rcDEA,0.0.0.9000,2021-12-09 01:57:11,pretest,NA
+Rpadrino,0.0.3,2021-12-09 01:57:11,pending,NA
+scImmuneGraph,1.1.1,2021-12-09 01:57:11,newbies,NA
+SimJoint,0.3.8,2021-12-09 01:57:11,pretest,NA
+stepgbm,1.0.0,2021-12-09 01:57:11,newbies,NA
+tempR,0.9.9.19,2021-12-09 01:57:11,pretest,NA
+TrueSkillThroughTime,0.1.0,2021-12-09 01:57:11,newbies,NA
+TSANN,0.1.0,2021-12-09 01:57:11,newbies,NA
+twosigma,1.0.2,2021-12-09 01:57:11,pretest,NA
+ViewPipeSteps,0.1.0,2021-12-09 01:57:11,newbies,NA
