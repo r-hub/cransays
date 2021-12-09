@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+Anthropometry,1.17,2021-12-09 15:20:41,recheck,NA
+CoTiMA,0.5.2,2021-12-09 15:20:41,inspect,NA
+eSIR,0.4.2,2021-12-09 15:20:41,inspect,NA
+familial,1.0.0,2021-12-09 15:20:41,newbies,NA
+fastRhockey,0.1.0,2021-12-09 15:20:41,pretest,NA
+gwpcormapper,0.1.3,2021-12-09 15:20:41,pretest,NA
+hibayes,1.0.0,2021-12-09 15:20:41,newbies,NA
+icardaFIGSr,1.0.2,2021-12-09 15:20:41,newbies,NA
+mhurdle,1.3-0,2021-12-09 15:20:41,pretest,NA
+MortalityLaws,1.9.0,2021-12-09 15:20:41,inspect,NA
+ppmf,0.1.1,2021-12-09 15:20:41,newbies,NA
+QWDAP,1.1.9,2021-12-09 15:20:41,waiting,NA
+rcDEA,0.0.0.9000,2021-12-09 15:20:41,newbies,NA
+RCreliability,0.1.0,2021-12-09 15:20:41,pretest,NA
+Rpadrino,0.0.3,2021-12-09 15:20:41,pending,NA
+scImmuneGraph,1.1.2,2021-12-09 15:20:41,inspect,NA
+sirt,3.11-21,2021-12-09 15:20:41,recheck,NA
+stepgbm,1.0.0,2021-12-09 15:20:41,newbies,NA
+TrueSkillThroughTime,0.1.0,2021-12-09 15:20:41,newbies,NA
+twosigma,1.0.2,2021-12-09 15:20:41,newbies,NA
+unrtf,1.4.1,2021-12-09 15:20:41,inspect,NA
+unrtf,1.4.1,2021-12-09 15:20:41,pretest,NA
+WSGeometry,1.2,2021-12-09 15:20:41,pretest,NA
