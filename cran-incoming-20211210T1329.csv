@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+ARPALData,1.2.2,2021-12-10 14:29:40,pretest,NA
+backbone,2.0.0,2021-12-10 14:29:40,publish,NA
+BIOMASS,2.1.7,2021-12-10 14:29:40,waiting,NA
+changepoints,1.0.0,2021-12-10 14:29:40,newbies,NA
+cmtest,0.1-1,2021-12-10 14:29:40,newbies,NA
+funmediation,1.0.0,2021-12-10 14:29:40,newbies,NA
+InflectSSP,1.4,2021-12-10 14:29:40,newbies,NA
+morph,1.0.0,2021-12-10 14:29:40,newbies,NA
+oceanic,0.1.1,2021-12-10 14:29:40,waiting,NA
+ox,0.1.0,2021-12-10 14:29:40,newbies,NA
+PRP,0.1.0,2021-12-10 14:29:40,newbies,NA
+QWDAP,1.1.9,2021-12-10 14:29:40,waiting,NA
+regfilter,1.0,2021-12-10 14:29:40,newbies,NA
+spcosa,0.4-0,2021-12-10 14:29:40,pending,NA
+tidydatatutor,0.1.0,2021-12-10 14:29:40,newbies,NA
+TrueSkillThroughTime,0.1.0,2021-12-10 14:29:40,pretest,NA
+TSANN,0.1.0,2021-12-10 14:29:40,newbies,NA
