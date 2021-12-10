@@ -1,0 +1,11 @@
+package,version,snapshot_time,folder,subfolder
+BIOMASS,2.1.7,2021-12-10 16:23:22,waiting,NA
+changepoints,1.0.0,2021-12-10 16:23:22,publish,NA
+cmtest,0.1-1,2021-12-10 16:23:22,human,JH
+ecoval,1.2.9,2021-12-10 16:23:22,inspect,NA
+oceanic,0.1.1,2021-12-10 16:23:22,waiting,NA
+QWDAP,1.1.9,2021-12-10 16:23:22,waiting,NA
+RBaseX,1.0.0,2021-12-10 16:23:22,inspect,NA
+spcosa,0.4-0,2021-12-10 16:23:22,pending,NA
+tobit1,0.1-1,2021-12-10 16:23:22,inspect,NA
+TrueSkillThroughTime,0.1.0,2021-12-10 16:23:22,human,JH
