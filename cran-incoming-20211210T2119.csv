@@ -1,0 +1,19 @@
+package,version,snapshot_time,folder,subfolder
+adjSURVCI,1.0,2021-12-10 22:19:17,newbies,NA
+BIOMASS,2.1.7,2021-12-10 22:19:17,waiting,NA
+bmgarch,1.1.0,2021-12-10 22:19:17,inspect,NA
+ComplexUpset,1.3.3,2021-12-10 22:19:17,inspect,NA
+datavyur,1.1.0,2021-12-10 22:19:17,newbies,NA
+ecoval,1.2.9,2021-12-10 22:19:17,inspect,NA
+GIC,1.0.0,2021-12-10 22:19:17,newbies,NA
+InflectSSP,1.4.2,2021-12-10 22:19:17,newbies,NA
+oceanic,0.1.1,2021-12-10 22:19:17,waiting,NA
+PRP,0.1.1,2021-12-10 22:19:17,newbies,NA
+PwrGSD,2.3.6,2021-12-10 22:19:17,inspect,NA
+QWDAP,1.1.9,2021-12-10 22:19:17,waiting,NA
+RcppCWB,0.4.4,2021-12-10 22:19:17,inspect,NA
+rTLS,0.2.5.2,2021-12-10 22:19:17,inspect,NA
+spcosa,0.4-0,2021-12-10 22:19:17,pending,NA
+supc,0.2.6.2,2021-12-10 22:19:17,newbies,NA
+tobit1,0.1-1,2021-12-10 22:19:17,newbies,NA
+trajeR,0.9.0.1,2021-12-10 22:19:17,newbies,NA
