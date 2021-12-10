@@ -1,0 +1,10 @@
+package,version,snapshot_time,folder,subfolder
+BIOMASS,2.1.7,2021-12-10 18:29:06,waiting,NA
+GIC,0.1.0,2021-12-10 18:29:06,pretest,NA
+oceanic,0.1.1,2021-12-10 18:29:06,waiting,NA
+PRP,0.1.1,2021-12-10 18:29:06,pretest,NA
+QWDAP,1.1.9,2021-12-10 18:29:06,waiting,NA
+RcppCWB,0.4.4,2021-12-10 18:29:06,pretest,NA
+spcosa,0.4-0,2021-12-10 18:29:06,pending,NA
+tobit1,0.1-1,2021-12-10 18:29:06,newbies,NA
+trajeR,0.9.0.1,2021-12-10 18:29:06,newbies,NA
