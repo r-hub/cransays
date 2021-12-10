@@ -1,0 +1,18 @@
+package,version,snapshot_time,folder,subfolder
+BIOMASS,2.1.7,2021-12-10 13:30:07,waiting,NA
+BSSasymp,1.2-3,2021-12-10 13:30:07,pretest,NA
+eSIR,0.4.2,2021-12-10 13:30:07,inspect,NA
+funmediation,1.0.0,2021-12-10 13:30:07,newbies,NA
+InflectSSP,1.4,2021-12-10 13:30:07,newbies,NA
+morph,1.0.0,2021-12-10 13:30:07,newbies,NA
+oceanic,0.1.1,2021-12-10 13:30:07,waiting,NA
+onemap,2.8.1,2021-12-10 13:30:07,pending,NA
+ox,0.1.0,2021-12-10 13:30:07,newbies,NA
+PRP,0.1.0,2021-12-10 13:30:07,newbies,NA
+QWDAP,1.1.9,2021-12-10 13:30:07,waiting,NA
+regfilter,1.0,2021-12-10 13:30:07,newbies,NA
+sentencepiece,0.2,2021-12-10 13:30:07,pending,NA
+spcosa,0.4-0,2021-12-10 13:30:07,pending,NA
+tidydatatutor,0.1.0,2021-12-10 13:30:07,newbies,NA
+TSANN,0.1.0,2021-12-10 13:30:07,newbies,NA
+xlsimple,1.0.7,2021-12-10 13:30:07,pretest,NA
