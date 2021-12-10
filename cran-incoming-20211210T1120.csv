@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+BayesFactor,0.9.12-4.3,2021-12-10 12:19:59,inspect,NA
+BIOMASS,2.1.7,2021-12-10 12:19:59,pretest,NA
+changepoints,1.0.0,2021-12-10 12:19:59,pretest,NA
+eSIR,0.4.2,2021-12-10 12:19:59,inspect,NA
+funmediation,1.0.0,2021-12-10 12:19:59,newbies,NA
+GEVACO,1.0.1,2021-12-10 12:19:59,inspect,NA
+icardaFIGSr,1.0.2,2021-12-10 12:19:59,newbies,NA
+InflectSSP,1.4,2021-12-10 12:19:59,newbies,NA
+inti,0.5.1,2021-12-10 12:19:59,pretest,NA
+morph,1.0.0,2021-12-10 12:19:59,newbies,NA
+oceanic,0.1.1,2021-12-10 12:19:59,inspect,NA
+onemap,2.8.1,2021-12-10 12:19:59,pending,NA
+ox,0.1.0,2021-12-10 12:19:59,inspect,NA
+PRP,0.1.0,2021-12-10 12:19:59,newbies,NA
+QWDAP,1.1.9,2021-12-10 12:19:59,waiting,NA
+regfilter,1.0,2021-12-10 12:19:59,newbies,NA
+sentencepiece,0.2,2021-12-10 12:19:59,waiting,NA
+skewt,1.0,2021-12-10 12:19:59,waiting,NA
+SLOPE,0.4.0,2021-12-10 12:19:59,inspect,NA
+spcosa,0.4-0,2021-12-10 12:19:59,newbies,NA
+statgenIBD,1.0.2,2021-12-10 12:19:59,inspect,NA
+tidydatatutor,0.1.0,2021-12-10 12:19:59,newbies,NA
+trajeR,0.9.0.1,2021-12-10 12:19:59,newbies,NA
+TSANN,0.1.0,2021-12-10 12:19:59,newbies,NA
+WeightedTreemaps,0.1.1,2021-12-10 12:19:59,newbies,NA
+WSGeometry,1.2,2021-12-10 12:19:59,inspect,NA
