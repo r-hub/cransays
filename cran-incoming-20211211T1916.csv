@@ -1,0 +1,26 @@
+package,version,snapshot_time,folder,subfolder
+adjSURVCI,1.0,2021-12-11 20:16:02,newbies,NA
+BIOMASS,2.1.7,2021-12-11 20:16:02,waiting,NA
+conleyreg,0.1.6,2021-12-11 20:16:02,pending,NA
+DPQ,0.5-1,2021-12-11 20:16:02,inspect,NA
+ggpmisc,0.4.5,2021-12-11 20:16:02,recheck,NA
+ggside,0.2.0,2021-12-11 20:16:02,recheck,NA
+GIC,1.0.0,2021-12-11 20:16:02,newbies,NA
+InflectSSP,1.4.2,2021-12-11 20:16:02,newbies,NA
+insurancerating,0.6.9,2021-12-11 20:16:02,pretest,NA
+ppmf,0.1.2,2021-12-11 20:16:02,newbies,NA
+PRP,0.1.1,2021-12-11 20:16:02,newbies,NA
+qgcompint,0.6.6,2021-12-11 20:16:02,pretest,NA
+QWDAP,1.1.9,2021-12-11 20:16:02,waiting,NA
+rcDEA,1.0,2021-12-11 20:16:02,newbies,NA
+RcppCWB,0.4.4,2021-12-11 20:16:02,pretest,NA
+SAMtool,1.2.4,2021-12-11 20:16:02,pending,NA
+SOAs,1.0,2021-12-11 20:16:02,newbies,NA
+spatstat.linnet,2.3-1,2021-12-11 20:16:02,recheck,NA
+spcosa,0.4-0,2021-12-11 20:16:02,pending,NA
+tobit1,0.1-1,2021-12-11 20:16:02,newbies,NA
+trajeR,0.9.0.1,2021-12-11 20:16:02,newbies,NA
+TSANN,0.1.0,2021-12-11 20:16:02,newbies,NA
+twosigma,1.0.2,2021-12-11 20:16:02,newbies,NA
+vembedr,0.1.5,2021-12-11 20:16:02,pretest,NA
+WSGeometry,1.2.1,2021-12-11 20:16:02,pending,NA
