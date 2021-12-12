@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+adjSURVCI,1.0,2021-12-12 08:19:00,newbies,NA
+BIOMASS,2.1.7,2021-12-12 08:19:00,waiting,NA
+conleyreg,0.1.6,2021-12-12 08:19:00,pending,NA
+DPQ,0.5-1,2021-12-12 08:19:00,waiting,NA
+GIC,1.0.0,2021-12-12 08:19:00,newbies,NA
+InflectSSP,1.4.2,2021-12-12 08:19:00,newbies,NA
+ppmf,0.1.2,2021-12-12 08:19:00,newbies,NA
+PRP,0.1.1,2021-12-12 08:19:00,newbies,NA
+QWDAP,1.1.9,2021-12-12 08:19:00,waiting,NA
+RcppCWB,0.4.4,2021-12-12 08:19:00,inspect,NA
+Rstg,0.0.1,2021-12-12 08:19:00,newbies,NA
+SAMtool,1.2.4,2021-12-12 08:19:00,pending,NA
+SOAs,1.0,2021-12-12 08:19:00,newbies,NA
+spcosa,0.4-0,2021-12-12 08:19:00,pending,NA
+tobit1,0.1-1,2021-12-12 08:19:00,newbies,NA
+trajeR,0.9.0.1,2021-12-12 08:19:00,newbies,NA
+TSANN,0.1.0,2021-12-12 08:19:00,newbies,NA
+twosigma,1.0.2,2021-12-12 08:19:00,newbies,NA
+WSGeometry,1.2.1,2021-12-12 08:19:00,pending,NA
