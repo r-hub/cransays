@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+adjSURVCI,1.0,2021-12-12 13:27:07,newbies,NA
+BayesFactor,0.9.12-4.3,2021-12-12 13:27:07,inspect,NA
+BIOMASS,2.1.7,2021-12-12 13:27:07,waiting,NA
+conleyreg,0.1.6,2021-12-12 13:27:07,pending,NA
+DPQ,0.5-1,2021-12-12 13:27:07,waiting,NA
+fmsb,0.7.2,2021-12-12 13:27:07,waiting,NA
+GIC,1.0.0,2021-12-12 13:27:07,newbies,NA
+InflectSSP,1.4.2,2021-12-12 13:27:07,newbies,NA
+pema,0.1.0,2021-12-12 13:27:07,newbies,NA
+ppmf,0.1.2,2021-12-12 13:27:07,newbies,NA
+PRP,0.1.1,2021-12-12 13:27:07,newbies,NA
+QWDAP,1.1.9,2021-12-12 13:27:07,waiting,NA
+rcDEA,1.0,2021-12-12 13:27:07,newbies,NA
+Rstg,0.0.1,2021-12-12 13:27:07,newbies,NA
+SAMtool,1.2.4,2021-12-12 13:27:07,pending,NA
+SOAs,1.0,2021-12-12 13:27:07,newbies,NA
+spcosa,0.4-0,2021-12-12 13:27:07,pending,NA
+tobit1,0.1-1,2021-12-12 13:27:07,newbies,NA
+trajeR,0.9.0.1,2021-12-12 13:27:07,newbies,NA
+TSANN,0.1.0,2021-12-12 13:27:07,newbies,NA
+twosigma,1.0.2,2021-12-12 13:27:07,newbies,NA
+typedjs,0.0.3,2021-12-12 13:27:07,newbies,NA
+WSGeometry,1.2.1,2021-12-12 13:27:07,pending,NA
