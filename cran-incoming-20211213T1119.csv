@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+abbreviate,0.1,2021-12-13 12:19:23,newbies,NA
+backports,1.4.1,2021-12-13 12:19:23,recheck,NA
+bayMDS,1.5,2021-12-13 12:19:23,newbies,NA
+BIOMASS,2.1.7,2021-12-13 12:19:23,inspect,NA
+BIOMASS,2.1.7,2021-12-13 12:19:23,waiting,NA
+cgam,1.17,2021-12-13 12:19:23,waiting,NA
+cmtest,0.1-1,2021-12-13 12:19:23,newbies,NA
+conleyreg,0.1.6,2021-12-13 12:19:23,pending,NA
+DPQ,0.5-1,2021-12-13 12:19:23,pending,NA
+genekitr,0.5.0,2021-12-13 12:19:23,newbies,NA
+HCV,1.0.0,2021-12-13 12:19:23,waiting,NA
+huito,0.1.1,2021-12-13 12:19:23,pretest,NA
+lessR,4.1.2,2021-12-13 12:19:23,waiting,NA
+pema,0.1.0,2021-12-13 12:19:23,newbies,NA
+QWDAP,1.1.9,2021-12-13 12:19:23,waiting,NA
+rcDEA,1.0,2021-12-13 12:19:23,newbies,NA
+RNAsmc,0.7.0,2021-12-13 12:19:23,newbies,NA
+SAMtool,1.2.4,2021-12-13 12:19:23,pending,NA
+sentencepiece,0.2,2021-12-13 12:19:23,pending,NA
+TSANN,0.1.0,2021-12-13 12:19:23,newbies,NA
+typedjs,0.0.3,2021-12-13 12:19:23,newbies,NA
+WSGeometry,1.2.1,2021-12-13 12:19:23,pending,NA
