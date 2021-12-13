@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+abbreviate,0.1,2021-12-13 11:21:13,newbies,NA
+bayMDS,1.5,2021-12-13 11:21:13,newbies,NA
+BIOMASS,2.1.7,2021-12-13 11:21:13,waiting,NA
+cgam,1.17,2021-12-13 11:21:13,waiting,NA
+cmtest,0.1-1,2021-12-13 11:21:13,newbies,NA
+conleyreg,0.1.6,2021-12-13 11:21:13,pending,NA
+DPQ,0.5-1,2021-12-13 11:21:13,pending,NA
+genekitr,0.5.0,2021-12-13 11:21:13,newbies,NA
+HCV,1.0.0,2021-12-13 11:21:13,waiting,NA
+lessR,4.1.2,2021-12-13 11:21:13,waiting,NA
+pema,0.1.0,2021-12-13 11:21:13,newbies,NA
+QWDAP,1.1.9,2021-12-13 11:21:13,waiting,NA
+rcDEA,1.0,2021-12-13 11:21:13,newbies,NA
+RNAsmc,0.7.0,2021-12-13 11:21:13,newbies,NA
+Rstg,0.0.1,2021-12-13 11:21:13,human,GS
+SAMtool,1.2.4,2021-12-13 11:21:13,pending,NA
+sentencepiece,0.2,2021-12-13 11:21:13,pending,NA
+TSANN,0.1.0,2021-12-13 11:21:13,newbies,NA
+typedjs,0.0.3,2021-12-13 11:21:13,newbies,NA
+WSGeometry,1.2.1,2021-12-13 11:21:13,pending,NA
