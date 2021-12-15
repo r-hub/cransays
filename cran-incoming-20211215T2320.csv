@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+ANTs,0.0.14,2021-12-16 00:20:53,pretest,NA
+BigDataStatMeth,0.99.14,2021-12-16 00:20:53,pretest,NA
+christmas,1.1.1,2021-12-16 00:20:53,pretest,NA
+CLA,0.96-2,2021-12-16 00:20:53,pretest,NA
+covid19srilanka,0.0.0.9000,2021-12-16 00:20:53,pretest,NA
+crctStepdown,0.2.1,2021-12-16 00:20:53,inspect,NA
+crossvalidationCP,1.0-1,2021-12-16 00:20:53,inspect,NA
+fusen,0.3.0,2021-12-16 00:20:53,pretest,NA
+geneExpressionFromGEO,0.9,2021-12-16 00:20:53,inspect,NA
+googleAuthR,1.4.1,2021-12-16 00:20:53,pretest,NA
+googleCloudStorageR,0.7.0,2021-12-16 00:20:53,pretest,NA
+HCV,1.0.0,2021-12-16 00:20:53,waiting,NA
+InflectSSP,1.4.3,2021-12-16 00:20:53,newbies,NA
+miceafter,0.1.0,2021-12-16 00:20:53,newbies,NA
+PRSPGx,0.1.10,2021-12-16 00:20:53,publish,NA
+QuantileGH,0.1.0,2021-12-16 00:20:53,inspect,NA
+QWDAP,1.1.9,2021-12-16 00:20:53,waiting,NA
+rasterbc,1.0.0,2021-12-16 00:20:53,inspect,NA
+rfacebookstat,2.5.0,2021-12-16 00:20:53,pretest,NA
+sfnetworks,0.5.4,2021-12-16 00:20:53,inspect,NA
+tfhub,0.8.1,2021-12-16 00:20:53,waiting,NA
+thewitcher,1.0.0,2021-12-16 00:20:53,inspect,NA
+umx,4.10.50,2021-12-16 00:20:53,pretest,NA
