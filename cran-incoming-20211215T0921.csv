@@ -1,0 +1,25 @@
+package,version,snapshot_time,folder,subfolder
+aba,0.0.9,2021-12-15 10:21:38,newbies,NA
+adjSURVCI,1.0,2021-12-15 10:21:38,newbies,NA
+BayesRGMM,2.1,2021-12-15 10:21:38,pending,NA
+BigDataStatMeth,0.99.14,2021-12-15 10:21:38,pretest,NA
+brulee,0.0.1,2021-12-15 10:21:38,newbies,NA
+familial,1.0.1,2021-12-15 10:21:38,pending,NA
+fusen,0.2.5,2021-12-15 10:21:38,pretest,NA
+genekitr,0.5.0,2021-12-15 10:21:38,inspect,NA
+googleAuthR,1.4.1,2021-12-15 10:21:38,pretest,NA
+HCV,1.0.0,2021-12-15 10:21:38,waiting,NA
+LOMAR,0.1.0,2021-12-15 10:21:38,human,GS
+midas2,0.1.0,2021-12-15 10:21:38,newbies,NA
+MulvariateRandomForestVarImp,0.0.2,2021-12-15 10:21:38,pending,NA
+pins,1.0.1,2021-12-15 10:21:38,inspect,NA
+PRSPGx,0.1.10,2021-12-15 10:21:38,newbies,NA
+QWDAP,1.1.9,2021-12-15 10:21:38,waiting,NA
+regfilter,1.0,2021-12-15 10:21:38,newbies,NA
+rfacebookstat,2.5.0,2021-12-15 10:21:38,pretest,NA
+Rita,1.0.0,2021-12-15 10:21:38,newbies,NA
+survival.svb,0.0-1,2021-12-15 10:21:38,newbies,NA
+toolStability,0.1.0,2021-12-15 10:21:38,newbies,NA
+vapour,0.8.7,2021-12-15 10:21:38,pending,NA
+ViewPipeSteps,0.1.0,2021-12-15 10:21:38,newbies,NA
+viewshed3d,4.1.0,2021-12-15 10:21:38,inspect,NA
