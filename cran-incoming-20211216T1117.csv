@@ -1,0 +1,24 @@
+package,version,snapshot_time,folder,subfolder
+christmas,1.1.1,2021-12-16 12:17:18,pretest,NA
+covid19srilanka,0.0.0.9000,2021-12-16 12:17:18,inspect,NA
+eaf,2.3,2021-12-16 12:17:18,inspect,NA
+edecob,1.0.0,2021-12-16 12:17:18,newbies,NA
+fusen,0.3.0,2021-12-16 12:17:18,pretest,NA
+gausscov,0.1.2,2021-12-16 12:17:18,inspect,NA
+genekitr,0.5.1,2021-12-16 12:17:18,newbies,NA
+googleAuthR,1.4.1,2021-12-16 12:17:18,inspect,NA
+HCV,1.0.0,2021-12-16 12:17:18,waiting,NA
+JSUparameters,1.0.0,2021-12-16 12:17:18,newbies,NA
+knitr,1.37,2021-12-16 12:17:18,waiting,NA
+mlt.docreg,1.1-2,2021-12-16 12:17:18,pending,NA
+PRSPGx,0.1.10,2021-12-16 12:17:18,publish,NA
+QWDAP,1.1.9,2021-12-16 12:17:18,waiting,NA
+rfacebookstat,2.5.0,2021-12-16 12:17:18,inspect,NA
+rsat,0.1.17,2021-12-16 12:17:18,inspect,NA
+sfnetworks,0.5.4,2021-12-16 12:17:18,inspect,NA
+tfhub,0.8.1,2021-12-16 12:17:18,waiting,NA
+thewitcher,1.0.0,2021-12-16 12:17:18,newbies,NA
+umx,4.10.50,2021-12-16 12:17:18,inspect,NA
+viewpoly,0.1.0,2021-12-16 12:17:18,inspect,NA
+wsprv,0.1.0,2021-12-16 12:17:18,newbies,NA
+yorkr,0.0.30,2021-12-16 12:17:18,inspect,NA
