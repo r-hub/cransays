@@ -1,0 +1,27 @@
+package,version,snapshot_time,folder,subfolder
+aMNLFA,1.1.1,2021-12-17 03:09:01,pending,NA
+BigDataStatMeth,0.99.14,2021-12-17 03:09:01,newbies,NA
+christmas,1.1.1,2021-12-17 03:09:01,inspect,NA
+ClusTorus,0.2.1,2021-12-17 03:09:01,pretest,NA
+covid19sf,0.1.2,2021-12-17 03:09:01,inspect,NA
+covid19sf,0.1.2,2021-12-17 03:09:01,pretest,NA
+crossvalidationCP,1.0-1,2021-12-17 03:09:01,inspect,NA
+CSHShydRology,1.2.0,2021-12-17 03:09:01,newbies,NA
+genekitr,0.5.1,2021-12-17 03:09:01,inspect,NA
+ghclass,0.2.1,2021-12-17 03:09:01,newbies,NA
+glue,1.6.0,2021-12-17 03:09:01,waiting,NA
+HCV,1.0.0,2021-12-17 03:09:01,waiting,NA
+IDSL.IPA,1.3,2021-12-17 03:09:01,inspect,NA
+JSUparameters,1.0.0,2021-12-17 03:09:01,newbies,NA
+ks,1.13.3,2021-12-17 03:09:01,pretest,NA
+lrstat,0.1.0,2021-12-17 03:09:01,newbies,NA
+nftbart,1.0,2021-12-17 03:09:01,inspect,NA
+panelr,0.7.6,2021-12-17 03:09:01,inspect,NA
+pcatsAPIclientR,1.0.0,2021-12-17 03:09:01,newbies,NA
+PRSPGx,0.1.10,2021-12-17 03:09:01,publish,NA
+QuantileGH,0.1.0,2021-12-17 03:09:01,newbies,NA
+RcppCGAL,5.3.1,2021-12-17 03:09:01,newbies,NA
+sfnetworks,0.5.4,2021-12-17 03:09:01,inspect,NA
+spatstat.sparse,2.1-0,2021-12-17 03:09:01,pretest,NA
+tfhub,0.8.1,2021-12-17 03:09:01,waiting,NA
+vannstats,1.0.12.16,2021-12-17 03:09:01,inspect,NA
