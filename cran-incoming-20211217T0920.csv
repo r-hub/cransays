@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder
+aMNLFA,1.1.1,2021-12-17 10:20:29,pending,NA
+BayesRGMM,2.1,2021-12-17 10:20:29,waiting,NA
+BigDataStatMeth,0.99.14,2021-12-17 10:20:29,waiting,NA
+Counternull,0.1.0,2021-12-17 10:20:29,newbies,NA
+CSHShydRology,1.2.0,2021-12-17 10:20:29,newbies,NA
+DBItest,1.7.2,2021-12-17 10:20:29,pretest,NA
+edecob,1.0.0,2021-12-17 10:20:29,newbies,NA
+genekitr,0.5.1,2021-12-17 10:20:29,inspect,NA
+h2o,3.34.0.6,2021-12-17 10:20:29,recheck,NA
+HCV,1.0.0,2021-12-17 10:20:29,waiting,NA
+JSUparameters,1.0.0,2021-12-17 10:20:29,newbies,NA
+nftbart,1.0,2021-12-17 10:20:29,newbies,NA
+pcatsAPIclientR,1.0.0,2021-12-17 10:20:29,newbies,NA
+PRSPGx,0.1.10,2021-12-17 10:20:29,publish,NA
+RcppArmadillo,0.10.7.5.0,2021-12-17 10:20:29,recheck,NA
+RcppCGAL,5.3.1,2021-12-17 10:20:29,newbies,NA
+redland,1.0.17-15,2021-12-17 10:20:29,recheck,NA
+rsat,0.1.17,2021-12-17 10:20:29,waiting,NA
+tfhub,0.8.1,2021-12-17 10:20:29,waiting,NA
+tobit1,0.1-1,2021-12-17 10:20:29,newbies,NA
+vannstats,1.0.12.16,2021-12-17 10:20:29,inspect,NA
+wsprv,0.1.0,2021-12-17 10:20:29,newbies,NA
