@@ -1,0 +1,14 @@
+package,version,snapshot_time,folder,subfolder
+ape,5.6,2021-12-20 18:31:00,waiting,NA
+BayesianReasoning,0.4.0,2021-12-20 18:31:00,inspect,NA
+ffsimulator,1.2.0,2021-12-20 18:31:00,waiting,NA
+glinvci,1.1.16,2021-12-20 18:31:00,inspect,NA
+HCV,1.0.0,2021-12-20 18:31:00,waiting,NA
+IDSL.UFAx,1.0,2021-12-20 18:31:00,pretest,NA
+lemna,0.9.0,2021-12-20 18:31:00,newbies,NA
+NicheBarcoding,1.0,2021-12-20 18:31:00,newbies,NA
+optistock,0.0.1,2021-12-20 18:31:00,newbies,NA
+PRSPGx,0.1.10,2021-12-20 18:31:00,publish,NA
+Rbeast,0.9.2,2021-12-20 18:31:00,waiting,NA
+sequoia,2.3.11,2021-12-20 18:31:00,waiting,NA
+VFP,1.4,2021-12-20 18:31:00,pretest,NA
