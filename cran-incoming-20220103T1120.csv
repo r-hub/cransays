@@ -1,0 +1,20 @@
+package,version,snapshot_time,folder,subfolder
+AMR,latest,2022-01-03 12:19:59,pretest,NA
+BuyseTest,2.3.9,2022-01-03 12:19:59,pretest,NA
+casabourse,0.1.0,2022-01-03 12:19:59,newbies,NA
+compositions,2.0-4,2022-01-03 12:19:59,waiting,NA
+DQAstats,0.2.0,2022-01-03 12:19:59,newbies,NA
+EpiLPS,1.0.2,2022-01-03 12:19:59,pretest,NA
+fritools,3.1.0,2022-01-03 12:19:59,inspect,NA
+hfr,0.5.0,2022-01-03 12:19:59,newbies,NA
+meta.shrinkage,0.1.2,2022-01-03 12:19:59,pretest,NA
+PDtoolkit,0.0.9,2022-01-03 12:19:59,inspect,NA
+pedprobr,0.6.0,2022-01-03 12:19:59,pretest,NA
+psyphy,0.2-3,2022-01-03 12:19:59,pretest,NA
+scCATCH,3.0,2022-01-03 12:19:59,newbies,NA
+SurvRegCensCov,1.5,2022-01-03 12:19:59,inspect,NA
+terra,1.5-5,2022-01-03 12:19:59,waiting,NA
+thestats,0.1.0,2022-01-03 12:19:59,newbies,NA
+trajeR,0.9.0.2,2022-01-03 12:19:59,newbies,NA
+wiesbaden,1.2.5,2022-01-03 12:19:59,inspect,NA
+wordpredictor,0.0.3,2022-01-03 12:19:59,inspect,NA
