@@ -1,0 +1,21 @@
+package,version,snapshot_time,folder,subfolder
+aMNLFA,1.1.2,2022-01-12 00:23:30,pending,NA
+contingencytables,1.0.0,2022-01-12 00:23:30,waiting,NA
+edlibR,1.0.0,2022-01-12 00:23:30,inspect,NA
+fansi,1.0.1,2022-01-12 00:23:30,pending,NA
+foreach,1.5.2,2022-01-12 00:23:30,waiting,NA
+greatR,0.1.0,2022-01-12 00:23:30,pretest,NA
+hal9001,0.4.2,2022-01-12 00:23:30,waiting,NA
+IDSL.UFAx,1.0.1,2022-01-12 00:23:30,waiting,NA
+prioriactions,0.3.3,2022-01-12 00:23:30,pending,NA
+quantreg,5.87,2022-01-12 00:23:30,waiting,NA
+quickcheck,0.0.1,2022-01-12 00:23:30,pretest,NA
+Rcpp,1.0.8,2022-01-12 00:23:30,recheck,NA
+RoBMA,2.1.2,2022-01-12 00:23:30,pretest,NA
+rSPDE,1.1.1,2022-01-12 00:23:30,inspect,NA
+SAMtool,1.2.5,2022-01-12 00:23:30,recheck,NA
+scryr,1.0.0,2022-01-12 00:23:30,publish,NA
+sctransform,0.3.3,2022-01-12 00:23:30,waiting,NA
+splm,1.5-3,2022-01-12 00:23:30,inspect,NA
+terra,1.5-10,2022-01-12 00:23:30,waiting,NA
+yuima,1.15.0,2022-01-12 00:23:30,waiting,NA
