@@ -55,7 +55,7 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: https://github.com/r-hub/cransays
+URL: https://github.com/r-hub/cransays, https://r-hub.github.io/cransays/
 BugReports: https://github.com/r-hub/cransays/issues
 Remotes: 
     r-lib/xml2
