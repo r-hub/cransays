@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://r-hub.github.io/cransays/404.html</loc>
   </url>
   <url>
-    <loc>/CODE_OF_CONDUCT.html</loc>
+    <loc>https://r-hub.github.io/cransays/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>/CONTRIBUTING.html</loc>
+    <loc>https://r-hub.github.io/cransays/CONTRIBUTING.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://r-hub.github.io/cransays/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://r-hub.github.io/cransays/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/articles/dashboard.html</loc>
+    <loc>https://r-hub.github.io/cransays/articles/dashboard.html</loc>
   </url>
   <url>
-    <loc>/articles/index.html</loc>
+    <loc>https://r-hub.github.io/cransays/articles/index.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://r-hub.github.io/cransays/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://r-hub.github.io/cransays/index.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://r-hub.github.io/cransays/reference/index.html</loc>
   </url>
   <url>
-    <loc>/reference/pipe.html</loc>
+    <loc>https://r-hub.github.io/cransays/reference/pipe.html</loc>
   </url>
   <url>
-    <loc>/reference/take_snapshot.html</loc>
+    <loc>https://r-hub.github.io/cransays/reference/take_snapshot.html</loc>
   </url>
 </urlset>
