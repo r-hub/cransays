@@ -41,10 +41,11 @@ jobs:
 
       - name: Commit results
         run: |
-          git clone https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git --branch history --single-branch
-          cp vignettes/cran-incoming-*.csv cransays
-          cd cransays
-          git init
-          git add .
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git checkout history
+          mv vignettes/cran-incoming-*.csv .
+          git add cran-incoming-*.csv
           git commit -m 'new data'
-          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:history --force
+          git push
+          echo "pushed to github"
