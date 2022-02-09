@@ -56,8 +56,8 @@ Suggests:
     rmarkdown,
     lockedatapkg
 VignetteBuilder: knitr
-URL: https://github.com/lockedata/cransays
-BugReports: https://github.com/lockedata/cransays/issues
+URL: https://github.com/r-hub/cransays
+BugReports: https://github.com/r-hub/cransays/issues
 Remotes: 
     lockedatapublished/lockedatapkg,
     r-lib/xml2
