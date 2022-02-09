@@ -1,6 +1,7 @@
-pandoc: 2.7.3
-pkgdown: 1.4.1.9000
-pkgdown_sha: 732fb5b9ccc0ef87a73dfd0772ae661a4039b2a8
+pandoc: 2.14.2
+pkgdown: 2.0.2
+pkgdown_sha: ~
 articles:
   dashboard: dashboard.html
+last_built: 2022-02-09T12:04Z
 
