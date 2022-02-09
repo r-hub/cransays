@@ -1,4 +1,5 @@
 template:
+  bootstrap: 5
   default_assets: false
 
 authors:
