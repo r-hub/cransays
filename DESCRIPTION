@@ -53,11 +53,9 @@ RoxygenNote: 6.1.0.9000
 Suggests: 
     pkgdown,
     knitr,
-    rmarkdown,
-    lockedatapkg
+    rmarkdown
 VignetteBuilder: knitr
 URL: https://github.com/r-hub/cransays
 BugReports: https://github.com/r-hub/cransays/issues
 Remotes: 
-    lockedatapublished/lockedatapkg,
     r-lib/xml2
