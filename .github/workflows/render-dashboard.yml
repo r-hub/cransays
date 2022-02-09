@@ -39,12 +39,28 @@ jobs:
           branch: gh-pages
           folder: docs
 
-      - name: Commit results
+      - uses: actions/upload-artifact@v2
+        with:
+          name: latest-waitinglist-data
+          retention-days: 5
+          path: vignettes/cran-incoming-*.csv
+
+  save-history:
+    needs: dashboarddown
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: history
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: latest-waitinglist-data
+
+      - name: Commit historical data
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git checkout -b history --track origin/history
-          mv vignettes/cran-incoming-*.csv .
           git add cran-incoming-*.csv
           git commit -m 'new data'
           git push
