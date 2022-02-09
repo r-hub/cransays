@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron:  '0 * * * *'
 
 name: Render-dashboard
 
@@ -9,6 +11,8 @@ jobs:
   dashboarddown:
     name: Render-dashboard
     runs-on: macOS-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v1
@@ -37,7 +41,7 @@ jobs:
       - name: Commit results
         run: |
           git clone https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git --branch history --single-branch
-          cp vignettes/cran* cransays
+          cp vignettes/cran-incoming-*.csv cransays
           cd cransays
           git init
           git add .
