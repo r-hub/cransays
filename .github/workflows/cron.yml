@@ -32,7 +32,7 @@ jobs:
           git config --global user.name "gh-pages committer"
       - name: Deploy package
         run: |
-          pkgdown:::deploy_local(new_process = FALSE, remote_url = 'https://x-access-token:${{secrets.DEPLOY_PAT}}@github.com/${{github.repository}}.git')
+          pkgdown:::deploy_local(new_process = FALSE, remote_url = 'https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git')
         shell: Rscript {0}
 
       - name: Commit results
