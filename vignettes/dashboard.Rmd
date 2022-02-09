@@ -114,7 +114,3 @@ repository:
 ```{r, out.width="50%", fig.align='center'}
 knitr::include_graphics("cran-diagram.png")
 ```
-
-# Need help with your R package?
-
-Get in touch with us about how we at Locke Data can help you get your package CRAN ready. Fill out [our contact page](//itsalocke.com/#contact).
