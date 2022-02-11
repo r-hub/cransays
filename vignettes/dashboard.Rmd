@@ -42,7 +42,7 @@ cran_incoming <- cran_raw %>%
   )
 
 cran_incoming %>% 
-  select(package, version, snapshot_time, folder, subfolder) %>% 
+  select(package, version, submission_time, folder, subfolder) %>% 
   arrange(package, version) %>% 
   write.csv(
     paste0("cran-incoming-", format(Sys.time(), "%Y%m%dT%H%M"), ".csv"),
