@@ -22,7 +22,7 @@ The data in this table stems from our querying ftp://cran.r-project.org/incoming
 We update it every hour. [See below](#cran-review-workflow) for a description of each 
 folder meaning.
 
-![](https://github.com/r-hub/cransays/workflows/Render-dashboard/badge.svg)
+<img src="https://github.com/r-hub/cransays/workflows/Render-dashboard/badge.svg" aria-hidden="true">
 
 # Dashboard
 
