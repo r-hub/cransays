@@ -86,7 +86,7 @@ jobs:
       - run: |
           gh::gh(
             "PATCH /repos/{repo}/issues/{issue_number}",
-            repo = ${{ github.repository }},
+            repo = "${{ github.repository }}",
             issue_number = 53,
             state = "open"
           )
