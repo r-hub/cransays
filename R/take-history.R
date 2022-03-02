@@ -8,7 +8,6 @@ download_history <- function() {
   # We unzip the files
   dat <- unzip(tmp_f, exdir = tmp_dir, setTimes = TRUE)
   dat <- dat[endsWith(dat, ".csv")]
-  dat <- normalizePath(file.path(getwd(), dat))
 
   # First two heading systems:
   incoming_1 <- dat[startsWith(basename(dat), "cran-incoming_-")]
