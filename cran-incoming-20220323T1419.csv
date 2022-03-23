@@ -1,0 +1,15 @@
+package,version,snapshot_time,folder,subfolder,submission_time
+AMR,1.8.1,2022-03-23 15:19:34,waiting,NA,2022-03-16 18:23:00
+bibliometrixData,0.2.0,2022-03-23 15:19:34,inspect,NA,2022-03-23 14:03:00
+BRACoD.R,0.0.2.0,2022-03-23 15:19:34,waiting,NA,2022-03-17 14:31:00
+Compositional,5.5,2022-03-23 15:19:34,pending,NA,2022-03-22 17:16:00
+contribution,0.2.2,2022-03-23 15:19:34,inspect,NA,2022-03-23 02:47:00
+covid19us,0.1.8,2022-03-23 15:19:34,pending,NA,2022-03-23 00:09:00
+file2meco,0.2.2,2022-03-23 15:19:34,inspect,NA,2022-03-23 08:44:00
+finetune,0.2.0,2022-03-23 15:19:34,waiting,NA,2022-03-23 10:49:00
+FlywayNet,0.1.1,2022-03-23 15:19:34,waiting,NA,2022-03-14 16:25:00
+insight,0.17.0,2022-03-23 15:19:34,inspect,NA,2022-03-23 06:49:00
+Matrix,1.4-1,2022-03-23 15:19:34,waiting,NA,2022-03-22 11:29:00
+Rfmtool,4.1.7,2022-03-23 15:19:34,pending,NA,2022-03-23 07:13:00
+RJDemetra,0.2.0,2022-03-23 15:19:34,inspect,NA,2022-03-23 13:48:00
+TMB,1.8.1,2022-03-23 15:19:34,pretest,NA,2022-03-23 14:11:00
