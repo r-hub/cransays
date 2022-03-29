@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 ![Dashboard status](https://github.com/r-hub/cransays/workflows/Render-dashboard/badge.svg)
+[![R-CMD-check](https://github.com/r-hub/cransays/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-hub/cransays/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of cransays is to scrape the [CRAN incoming ftp folder](ftp://cran.r-project.org/incoming/) to find where each of the submission is, and to 
