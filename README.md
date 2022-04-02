@@ -12,7 +12,7 @@ make a [dashboard](https://r-hub.github.io/cransays/articles/dashboard.html).
 ## Installation
 
 ``` r
-remotes::install_github("lockedata/cransays")
+remotes::install_github("r-hub/cransays")
 ```
 
 ## Example
