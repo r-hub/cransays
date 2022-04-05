@@ -1,5 +1,9 @@
 
+#' Downloads history
+#'
+#' Downloads history of packages on the submission queue as recorded on github
 #' @export
+#' @importFrom utils download.file read.csv unzip
 download_history <- function() {
   tmp_f <- tempfile(pattern = "cransays-history", fileext = ".zip")
   tmp_dir <- tempdir()
@@ -11,10 +15,12 @@ download_history <- function() {
 
   # First two heading systems:
   incoming_1 <- dat[startsWith(basename(dat), "cran-incoming_-")]
+  # Header used 2020-09-12 till 2020-09-14
   headers_1 <- lapply(incoming_1, read.csv, nrow = 1, header = FALSE)
   headers_1_length <- lengths(headers_1)
   header_1 <- lapply(incoming_1[headers_1_length == 10], read.csv)
   h1 <- do.call(rbind, header_1)
+  # Header used 2020-09-12 till 2020-09-12 (15 hours)
   header_2 <- lapply(incoming_1[headers_1_length == 11], read.csv)
   h2 <- do.call(rbind, header_2)
   h1[, setdiff(colnames(h2), colnames(h1))] <- NA
