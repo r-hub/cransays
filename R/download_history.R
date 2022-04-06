@@ -33,8 +33,10 @@ download_history <- function() {
 
   # De difference between headers are the length if they are reordered/rename
   # It might fail.
+  # Header 3 from 2020-09-14 to 2022-02-14
   header_3 <- lapply(incoming_2[headers_2_length == 5], read.csv)
   h3 <- do.call(rbind, header_3)
+  # Header 4 from 2022-02-14 onward.
   header_4 <- lapply(incoming_2[headers_2_length == 6], read.csv)
   h4 <- do.call(rbind, header_4)
   h3[, setdiff(colnames(h4), colnames(h3))] <- NA
