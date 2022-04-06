@@ -1,7 +1,12 @@
 
 #' Downloads history
 #'
-#' Downloads history of packages on the submission queue as recorded on github
+#' Downloads history of packages on the submission queue as recorded on github branch.
+#'
+#' For some periods github actions recording the data didn't run,
+#' so there are some periods with missing data.
+#' @return A `data.frame` with columns: package, version, snapshot_time, folder,
+#' subfolder, submission_time.
 #' @export
 #' @importFrom utils download.file read.csv unzip
 download_history <- function() {
