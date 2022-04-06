@@ -1,61 +1,48 @@
 Package: cransays
 Title: Creates an Overview of CRAN Incoming Submissions
 Version: 0.0.0.9000
-Authors@R: 
-    c(person(given = "Maëlle",
-             family = "Salmon",
-             role = "aut",
-             comment = c(ORCID = "0000-0002-2815-0399")),
-      person(given = "Locke Data",
-             role = "fnd",
-             comment = "https://itsalocke.com"),
-      person(given = "Stephanie",
-             family = "Locke",
-             role = "aut",
-             email = "steph@itsalocke.com",
-             comment = c(ORCID = "0000-0002-2387-3723")),
-      person(given = "Mitchell",
-             family = "O'Hara-Wild",
-             role = "aut",
-             comment = c(ORCID = "0000-0001-6729-7695")),
-      person(given = "Hugo",
-             family = "Gruson",
-             role = c("cre", "aut"),
-             email = "hugo.gruson+R@normalesup.org",
-             comment = c(ORCID = "0000-0002-4094-1476")),
-      person(given = "Jim",
-             family = "Hester",
-             role = "ctb",
-             comment = c(ORCID = "0000-0002-2739-7082")),
-      person(given = "Hadley",
-             family = "Wickham",
-             role = "ctb",
-             comment = c(ORCID = "0000-0003-4757-117X"))
-    )
-Description: It scrapes the CRAN incoming FTP folder to find where 
-      each submission is.
+Authors@R: c(
+    person("Maëlle", "Salmon", role = "aut",
+           comment = c(ORCID = "0000-0002-2815-0399")),
+    person("Locke Data", role = "fnd",
+           comment = "https://itsalocke.com"),
+    person("Stephanie", "Locke", , "steph@itsalocke.com", role = "aut",
+           comment = c(ORCID = "0000-0002-2387-3723")),
+    person("Mitchell", "O'Hara-Wild", role = "aut",
+           comment = c(ORCID = "0000-0001-6729-7695")),
+    person("Hugo", "Gruson", , "hugo.gruson+R@normalesup.org", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-4094-1476")),
+    person("Jim", "Hester", role = "ctb",
+           comment = c(ORCID = "0000-0002-2739-7082")),
+    person("Hadley", "Wickham", role = "ctb",
+           comment = c(ORCID = "0000-0003-4757-117X"))
+  )
+Description: It scrapes the CRAN incoming FTP folder to find where each
+    submission is.
 License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-Imports: 
-    dplyr,
-    tidyr,
-    magrittr,
-    purrr,
-    curl,
-    prettyunits,
-    reactable,
-    glue,
-    tibble,
-    lubridate,
-    ps
-RoxygenNote: 6.1.0.9000
-Suggests: 
-    pkgdown,
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
 URL: https://github.com/r-hub/cransays, https://r-hub.github.io/cransays/
 BugReports: https://github.com/r-hub/cransays/issues
+Imports: 
+    curl,
+    dplyr,
+    glue,
+    lubridate,
+    magrittr,
+    prettyunits,
+    ps,
+    purrr,
+    reactable,
+    tibble,
+    tidyr,
+    utils
+Suggests: 
+    knitr,
+    pkgdown,
+    rmarkdown
+VignetteBuilder: 
+    knitr
 Remotes: 
     r-lib/xml2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
