@@ -19,9 +19,9 @@ download_history <- function() {
   dat <- dat[endsWith(dat, ".csv")]
 
   # First two heading systems:
-  incoming_1 <- dat[startsWith(basename(dat), "cran-incoming_-")]
   # Header used 2020-09-12 till 2020-09-12 (15 hours)
   # Changed in 977a76f3eaa069270ae0f923e6357b3da691c218.
+  incoming_1 <- dat[startsWith(basename(dat), "cran-incoming_-")]
   headers_1 <- lapply(incoming_1, read.csv, nrow = 1, header = FALSE)
   headers_1_length <- lengths(headers_1)
   header_1 <- lapply(incoming_1[headers_1_length == 11], read.csv)
