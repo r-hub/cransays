@@ -20,13 +20,17 @@ download_history <- function() {
 
   # First two heading systems:
   incoming_1 <- dat[startsWith(basename(dat), "cran-incoming_-")]
-  # Header used 2020-09-12 till 2020-09-14
+  # Header used 2020-09-12 till 2020-09-12 (15 hours)
+  # Changed in 977a76f3eaa069270ae0f923e6357b3da691c218.
   headers_1 <- lapply(incoming_1, read.csv, nrow = 1, header = FALSE)
   headers_1_length <- lengths(headers_1)
-  header_1 <- lapply(incoming_1[headers_1_length == 10], read.csv)
+  header_1 <- lapply(incoming_1[headers_1_length == 11], read.csv)
   h1 <- do.call(rbind, header_1)
-  # Header used 2020-09-12 till 2020-09-12 (15 hours)
-  header_2 <- lapply(incoming_1[headers_1_length == 11], read.csv)
+  # Header used 2020-09-12 till 2020-09-14
+  # Changed in 55aa8ee7311143289e03d3f9bdc8cea8016bf208.
+  # Removes the `submitted` column, which contains human readable time since
+  # submission.
+  header_2 <- lapply(incoming_1[headers_1_length == 10], read.csv)
   h2 <- do.call(rbind, header_2)
   h1[, setdiff(colnames(h2), colnames(h1))] <- NA
   h12 <- rbind(h1, h2[, colnames(h1)])
@@ -42,6 +46,8 @@ download_history <- function() {
   header_3 <- lapply(incoming_2[headers_2_length == 5], read.csv)
   h3 <- do.call(rbind, header_3)
   # Header 4 from 2022-02-14 onward.
+  # Changed in 799f779d4b0004039b9f14a6fcdbe7a154c78a67.
+  # Restores the `submission_time` column.
   header_4 <- lapply(incoming_2[headers_2_length == 6], read.csv)
   h4 <- do.call(rbind, header_4)
   h3[, setdiff(colnames(h4), colnames(h3))] <- NA
