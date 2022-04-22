@@ -33,7 +33,7 @@ download_history <- function() {
   header_2 <- lapply(incoming_1[headers_1_length == 10], read.csv)
   h2 <- do.call(rbind, header_2)
   h1[, setdiff(colnames(h2), colnames(h1))] <- NA
-  h12 <- rbind(h1, h2[, colnames(h1)])
+  h12 <- rbind(h1[, colnames(h2)], h2)
 
   # Stable heading system 1
   incoming_2 <- dat[startsWith(basename(dat), "cran-incoming-")]
