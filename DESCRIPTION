@@ -10,6 +10,8 @@ Authors@R: c(
            comment = c(ORCID = "0000-0002-2387-3723")),
     person("Mitchell", "O'Hara-Wild", role = "aut",
            comment = c(ORCID = "0000-0001-6729-7695")),
+    person("Lluís", "Revilla Sancho", role = "aut",
+           comment = c(ORCID = "0000-0001-9747-2570")),
     person("Hugo", "Gruson", , "hugo.gruson+R@normalesup.org", role = c("cre", "aut"),
            comment = c(ORCID = "0000-0002-4094-1476")),
     person("Jim", "Hester", role = "ctb",
