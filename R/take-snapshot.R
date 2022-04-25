@@ -48,7 +48,8 @@ take_snapshot <- function(){
                                                    tz="Europe/Vienna"),
       submission_time = dplyr::if_else(as.numeric(snapshot_time - submission_time, units = "days") < 0,
                                lubridate::parse_date_time(paste(as.numeric(as.character(year)) - 1, V6, V7, time),
-                                                          "%Y %b %d %R"),
+                                                          "%Y %b %d %R",
+                                                          tz="Europe/Vienna"),
                                submission_time),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) %>%
