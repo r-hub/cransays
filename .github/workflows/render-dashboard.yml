@@ -24,6 +24,8 @@ jobs:
         with:
           install-r: false
           use-public-rspm: true
+      
+      - run: sudo apt-get update
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
