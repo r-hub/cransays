@@ -89,27 +89,22 @@ cran_incoming %>%
 # CRAN review workflow
 
 Your package will be stored in a different folder depending on its current state
-in the review process. The exact meaning of each folder is detailed in an 
-[article from the 
-R Journal](https://journal.r-project.org/archive/2018-1/cran.pdf) as well as in [another article from the same journal](https://journal.r-project.org/archive/2019-1/cran.pdf):
+in the review process. The exact meaning of each folder is detailed in articles from 
+the R Journal in [2018](https://journal.r-project.org/archive/2018-1/cran.pdf) and [2019](https://journal.r-project.org/archive/2019-1/cran.pdf), and updated by a [2019 mailing list post](https://stat.ethz.ch/pipermail/r-package-devel/2019q1/003631.html) (and [confirmed in 2022](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/008084.html)):
 
-- **inspect**: this is your first submission or the automated tests found an 
-error that requires human review.
-- **newbies**: a specific queue for the manual inspection of first time CRAN submissions.
-- **pending**: the CRAN maintainers are waiting for an action on your side. You 
-should check your emails!
-- **waiting**: packages for which the CRAN team waits for an answer from the maintainer.
+- **inspect**: your package is awaiting manual inspection by the CRAN team, probably because automated tests found a problem that is likely to be a false positive
+- **newbies**: a specific queue for the manual inspection of first-time CRAN submissions.
+- **pending**: a [CRAN] team member has to do a closer inspection and needs more time.
+- **human**: your package has been assigned to a specific CRAN member (with initials as indicated by `subfolder`) for further inspection.
+- **waiting**: the CRAN team is waiting for an answer from you, e.g. because issues are present that CRAN cannot automatically check for, such as maintainer changes (check your e-mail ...)
 - **pretest**: the CRAN maintainers restarted automated tests on your package to
-see whether an issue has been fixed by your action or is still here.
-- **archive**: if the package does not pass the checks cleanly and the problem
-are not likely to be false positives, your package will be rejected.
-- **recheck**: your package seems ready for publication. This step checks 
-whether reverse dependencies will still work after the update.
+see whether an issue has been fixed by your action or is still present.
+- **archive**: your package has been rejected from CRAN because it did not pass checks cleanly and the problems were not likely to be false positives.
+- **recheck**: your package has passed basic checks. Because other CRAN packages depend on yours ("reverse dependencies"), a reverse-dependency-checking step is underway to see if your update has broken anything downstream.
 - **publish**: you're all set! Your package has passed the review process and 
 will soon be available on CRAN.
 
-
-This information is summarised in the following diagram by Hadley Wickham,
+This information is (approximately) summarised in the following diagram by Hadley Wickham,
 available in the [cran-stages Github](https://github.com/edgararuiz/cran-stages)
 repository:
 
