@@ -94,7 +94,7 @@ the R Journal in [2018](https://journal.r-project.org/archive/2018-1/cran.pdf) a
 
 - **inspect**: your package is awaiting manual inspection by the CRAN team, probably because automated tests found a problem that is likely to be a false positive
 - **newbies**: a specific queue for the manual inspection of first-time CRAN submissions.
-- **pending**: a [CRAN] team member has to do a closer inspection and needs more time.
+- **pending**: a CRAN team member has to do a closer inspection and needs more time.
 - **human**: your package has been assigned to a specific CRAN member (with initials as indicated by `subfolder`) for further inspection.
 - **waiting**: the CRAN team is waiting for an answer from you, e.g. because issues are present that CRAN cannot automatically check for, such as maintainer changes (check your e-mail ...)
 - **pretest**: the CRAN maintainers restarted automated tests on your package to
