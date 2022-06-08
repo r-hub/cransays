@@ -7,8 +7,17 @@
 download_history()
 }
 \value{
-A `data.frame` with columns: package, version, snapshot_time, folder,
-subfolder, submission_time.
+A `data.frame` with columns:
+- `package`: the package name
+- `version`: the package submitted version
+- `snapshot_time`: time of the \pkg{cransays} snapshot, in `"Europe/Vienna"`
+timezone, same, as the CRAN servers.
+- `folder`: folder where the submitted package is stored at the time of the
+snapshot
+- `subfolder`: subfolder where the submitted package is stored at the time of
+the snapshot
+- `submission_time`: time when the package was submitted to CRAN, in
+`"Europe/Vienna"` timezone, same as the CRAN servers
 }
 \description{
 Downloads history of packages on the submission queue as recorded on github branch.
