@@ -5,8 +5,18 @@
 #'
 #' For some periods github actions recording the data didn't run,
 #' so there are some periods with missing data.
-#' @return A `data.frame` with columns: package, version, snapshot_time, folder,
-#' subfolder, submission_time.
+#' @return A `data.frame` with columns:
+#' - `package`: the package name
+#' - `version`: the package submitted version
+#' - `snapshot_time`: time of the \pkg{cransays} snapshot, in `"Europe/Vienna"`
+#' timezone, same, as the CRAN servers.
+#' - `folder`: folder where the submitted package is stored at the time of the
+#' snapshot
+#' - `subfolder`: subfolder where the submitted package is stored at the time of
+#' the snapshot
+#' - `submission_time`: time when the package was submitted to CRAN, in
+#' `"Europe/Vienna"` timezone, same as the CRAN servers
+#'
 #' @export
 #' @importFrom utils download.file read.csv unzip
 download_history <- function() {
@@ -36,7 +46,7 @@ download_history <- function() {
   h12 <- rbind(h1[, colnames(h2)], h2)
 
   # Stable heading system 1
-  incoming_2 <- dat[startsWith(basename(dat), "cran-incoming-")]
+  incoming_2 <- dat[grepl("^cran\\-incoming\\-[^v]", basename(dat))]
   headers_2 <- lapply(incoming_2, read.csv, nrow = 1, header = FALSE)
   headers_2_length <- lengths(headers_2)
 
@@ -52,5 +62,19 @@ download_history <- function() {
   h4 <- do.call(rbind, header_4)
   h3[, setdiff(colnames(h4), colnames(h3))] <- NA
   h34 <- rbind(h3[, colnames(h4)], h4)
-  rbind(h12[, colnames(h34)], h34)
+
+
+  h1234 <- rbind(h12[, colnames(h34)], h34)
+  h1234$submission_time <- as.POSIXct(h1234$submission_time, tz = "UTC")
+  attr(h1234$submission_time, "tzone") <- "Europe/Vienna"
+
+  # Explicit versioning system.
+  # Introduced in e2250076a123136e7d03dc840636e605d57bd468.
+  v5 <- dat[grepl("^cran\\-incoming\\-v5-", basename(dat))]
+  h5 <- do.call(rbind, lapply(v5, read.csv))
+
+  h_all <- rbind(h1234, h5)
+  h_all$snapshot_time <- as.POSIXct(h_all$snapshot_time, tz = "Europe/Vienna")
+
+  return(h_all)
 }
