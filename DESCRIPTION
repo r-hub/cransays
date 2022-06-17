@@ -2,7 +2,9 @@ Package: cransays
 Title: Creates an Overview of CRAN Incoming Submissions
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Maëlle", "Salmon", role = "aut",
+    person("Hugo", "Gruson", , "hugo.gruson+R@normalesup.org", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-4094-1476")),
+    person("Maëlle", "Salmon", role = c("aut", "cpp"),
            comment = c(ORCID = "0000-0002-2815-0399")),
     person("Locke Data", role = "fnd",
            comment = "https://itsalocke.com"),
@@ -12,8 +14,6 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-6729-7695")),
     person("Lluís", "Revilla Sancho", role = "aut",
            comment = c(ORCID = "0000-0001-9747-2570")),
-    person("Hugo", "Gruson", , "hugo.gruson+R@normalesup.org", role = c("cre", "aut"),
-           comment = c(ORCID = "0000-0002-4094-1476")),
     person("Jim", "Hester", role = "ctb",
            comment = c(ORCID = "0000-0002-2739-7082")),
     person("Hadley", "Wickham", role = "ctb",
