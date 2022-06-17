@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: c(
     person("Hugo", "Gruson", , "hugo.gruson+R@normalesup.org", role = c("cre", "aut"),
            comment = c(ORCID = "0000-0002-4094-1476")),
-    person("Maëlle", "Salmon", role = "aut",
+    person("Maëlle", "Salmon", role = c("aut", "cpp"),
            comment = c(ORCID = "0000-0002-2815-0399")),
     person("Locke Data", role = "fnd",
            comment = "https://itsalocke.com"),
