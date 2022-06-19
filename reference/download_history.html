@@ -62,8 +62,17 @@
 
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>A `data.frame` with columns: package, version, snapshot_time, folder,
-subfolder, submission_time.</p>
+    <p>A `data.frame` with columns:
+- `package`: the package name
+- `version`: the package submitted version
+- `snapshot_time`: time of the <span class="pkg">cransays</span> snapshot, in `"Europe/Vienna"`
+timezone, same, as the CRAN servers.
+- `folder`: folder where the submitted package is stored at the time of the
+snapshot
+- `subfolder`: subfolder where the submitted package is stored at the time of
+the snapshot
+- `submission_time`: time when the package was submitted to CRAN, in
+`"Europe/Vienna"` timezone, same as the CRAN servers</p>
     </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
