@@ -1,0 +1,14 @@
+package,version,snapshot_time,folder,subfolder,submission_time
+dash,0.9.5,2022-06-24 10:28:21,waiting,NA,2022-06-23 21:17:00
+DataSpaceR,0.7.6,2022-06-24 10:28:21,waiting,NA,2022-06-23 19:32:00
+FactorCopula,0.8.1,2022-06-24 10:28:21,inspect,NA,2022-06-23 01:44:00
+HUM,2.0,2022-06-24 10:28:21,human,UL,2022-06-21 14:58:00
+icrf,2.0.1,2022-06-24 10:28:21,waiting,NA,2022-06-16 08:13:00
+ipsecr,1.1.2,2022-06-24 10:28:21,pending,NA,2022-06-22 06:53:00
+laGP,1.5-7,2022-06-24 10:28:21,pending,NA,2022-06-16 07:33:00
+lingtypology,1.1.9,2022-06-24 10:28:21,inspect,NA,2022-06-24 10:18:00
+mined,1.0-3,2022-06-24 10:28:21,pending,NA,2022-06-19 08:38:00
+PanelMatch,2.0.1,2022-06-24 10:28:21,pending,NA,2022-06-21 20:15:00
+RandomFields,3.3.18,2022-06-24 10:28:21,human,UL,2022-05-04 20:17:00
+RandomFieldsUtils,1.2.6,2022-06-24 10:28:21,human,UL,2022-05-04 20:06:00
+WeightIt,0.13.1,2022-06-24 10:28:21,inspect,NA,2022-06-23 02:50:00
