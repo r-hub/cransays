@@ -3,7 +3,7 @@ pkgdown: 2.0.3
 pkgdown_sha: ~
 articles:
   dashboard: dashboard.html
-last_built: 2022-06-30T18:29Z
+last_built: 2022-06-30T19:16Z
 urls:
   reference: https://r-hub.github.io/cransays/reference
   article: https://r-hub.github.io/cransays/articles
