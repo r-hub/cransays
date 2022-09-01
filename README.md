@@ -25,13 +25,22 @@ cran_incoming <- cransays::take_snapshot()
 
 The vignette produces a [handy dashboard](https://r-hub.github.io/cransays/articles/dashboard.html) that we update every hour via [GitHub Actions](https://github.com/r-hub/cransays/actions).
 
+## Historical data
+
+Hourly snapshots of the ftp server are saved in the [`history` branch](https://github.com/r-hub/cransays/tree/history), as part of our [rendering workflow](https://github.com/r-hub/cransays/blob/c54ec4bf7c05e9c91510176dd933d103b59a6779/.github/workflows/render-dashboard.yml#L48-L67). 
+A short script to load this historical data as a `data.frame` is also provided in the package:
+
+``` r
+historical_data <- cransays::download_history()
+```
+
 ## Related work
 
 * Code originally adapted from https://github.com/edgararuiz/cran-stages That repository features an interesting analysis of CRAN incoming folder, including a diagram of the process deducted from that analysis.
 
 * The [`foghorn` package](https://github.com/fmichonneau/foghorn), to summarize CRAN Check Results in the Terminal, provides an `foghorn::cran_incoming()` function to where your package stands in the CRAN incoming queue.
 
-* The [cransubs website](https://nx10.github.io/cransubs/) provides a similar dashboard by taking a completely different technical approach. Instead of downloading the queue data and rendering the dashboard as a static site, it fetches the data on the fly and as needed. It is particularly well suited if you wish more regular updates than the hourly schedule of cransays, but it doesn't provide snapshots of historical data.
+* The [cransubs website](https://nx10.github.io/cransubs/) provides a similar dashboard by taking a completely different technical approach. Instead of downloading the queue data and rendering the dashboard as a static site, it fetches the data on the fly and as needed. It is particularly well suited if you wish more regular updates than the hourly schedule of cransays, but it doesn't provide [snapshots of historical data](#historical-data).
 
 * If you wanna increase the chance of a smooth submission, check out [this collaborative list of things to know before submitting to CRAN](https://github.com/ThinkR-open/prepare-for-cran).
 
