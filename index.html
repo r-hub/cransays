@@ -88,12 +88,19 @@
 <p>The vignette produces a <a href="https://r-hub.github.io/cransays/articles/dashboard.html">handy dashboard</a> that we update every hour via <a href="https://github.com/r-hub/cransays/actions" class="external-link">GitHub Actions</a>.</p>
 </div>
 <div class="section level2">
+<h2 id="historical-data">Historical data<a class="anchor" aria-label="anchor" href="#historical-data"></a>
+</h2>
+<p>Hourly snapshots of the ftp server are saved in the <a href="https://github.com/r-hub/cransays/tree/history" class="external-link"><code>history</code> branch</a>, as part of our <a href="https://github.com/r-hub/cransays/blob/c54ec4bf7c05e9c91510176dd933d103b59a6779/.github/workflows/render-dashboard.yml#L48-L67" class="external-link">rendering workflow</a>. A short script to load this historical data as a <code>data.frame</code> is also provided in the package:</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">historical_data</span> <span class="op">&lt;-</span> <span class="fu">cransays</span><span class="fu">::</span><span class="fu"><a href="reference/download_history.html">download_history</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
+</div>
+<div class="section level2">
 <h2 id="related-work">Related work<a class="anchor" aria-label="anchor" href="#related-work"></a>
 </h2>
 <ul>
 <li><p>Code originally adapted from <a href="https://github.com/edgararuiz/cran-stages" class="external-link uri">https://github.com/edgararuiz/cran-stages</a> That repository features an interesting analysis of CRAN incoming folder, including a diagram of the process deducted from that analysis.</p></li>
 <li><p>The <a href="https://github.com/fmichonneau/foghorn" class="external-link"><code>foghorn</code> package</a>, to summarize CRAN Check Results in the Terminal, provides an <code>foghorn::cran_incoming()</code> function to where your package stands in the CRAN incoming queue.</p></li>
-<li><p>The <a href="https://nx10.github.io/cransubs/" class="external-link">cransubs website</a> provides a similar dashboard by taking a completely different technical approach. Instead of downloading the queue data and rendering the dashboard as a static site, it fetches the data on the fly and as needed. It is particularly well suited if you wish more regular updates than the hourly schedule of cransays, but it doesn’t provide snapshots of historical data.</p></li>
+<li><p>The <a href="https://nx10.github.io/cransubs/" class="external-link">cransubs website</a> provides a similar dashboard by taking a completely different technical approach. Instead of downloading the queue data and rendering the dashboard as a static site, it fetches the data on the fly and as needed. It is particularly well suited if you wish more regular updates than the hourly schedule of cransays, but it doesn’t provide <a href="#historical-data">snapshots of historical data</a>.</p></li>
 <li><p>If you wanna increase the chance of a smooth submission, check out <a href="https://github.com/ThinkR-open/prepare-for-cran" class="external-link">this collaborative list of things to know before submitting to CRAN</a>.</p></li>
 </ul>
 </div>
