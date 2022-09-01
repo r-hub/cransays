@@ -31,6 +31,8 @@ The vignette produces a [handy dashboard](https://r-hub.github.io/cransays/artic
 
 * The [`foghorn` package](https://github.com/fmichonneau/foghorn), to summarize CRAN Check Results in the Terminal, provides an `foghorn::cran_incoming()` function to where your package stands in the CRAN incoming queue.
 
+* The [cransubs website](https://nx10.github.io/cransubs/) provides a similar dashboard by taking a completely different technical approach. Instead of downloading the queue data and rendering the dashboard as a static site, it fetches the data on the fly and as needed. It is particularly well suited if you wish more regular updates than the hourly schedule of cransays, but it doesn't provide snapshots of historical data.
+
 * If you wanna increase the chance of a smooth submission, check out [this collaborative list of things to know before submitting to CRAN](https://github.com/ThinkR-open/prepare-for-cran).
 
 ## Contributing
