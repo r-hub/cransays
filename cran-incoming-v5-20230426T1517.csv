@@ -1,0 +1,23 @@
+package,version,snapshot_time,folder,subfolder,submission_time
+adjclust,0.6.7,2023-04-26 17:17:35,waiting,NA,2023-04-26 14:32:00
+anMC,0.2.4,2023-04-26 17:17:35,recheck,NA,2023-04-26 16:44:00
+cropcircles,0.2.2.1,2023-04-26 17:17:35,waiting,NA,2023-04-21 00:22:00
+edeaR,0.9.4,2023-04-26 17:17:35,recheck,NA,2023-04-26 14:15:00
+fishmethods,1.12-1,2023-04-26 17:17:35,recheck,NA,2023-04-26 14:10:00
+GUniFrac,1.8,2023-04-26 17:17:35,waiting,NA,2023-04-06 00:14:00
+imagine,2.0.0,2023-04-26 17:17:35,waiting,NA,2023-04-19 12:32:00
+imbalanceDatRel,0.1.4,2023-04-26 17:17:35,publish,NA,2023-04-26 08:43:00
+iTensor,1.0.0,2023-04-26 17:17:35,recheck,NA,2023-04-26 11:33:00
+logistf,1.25.0,2023-04-26 17:17:35,waiting,NA,2023-04-25 14:43:00
+lpjmlkit,1.1.4,2023-04-26 17:17:35,waiting,NA,2023-04-18 16:04:00
+MissingHandle,0.1.1,2023-04-26 17:17:35,waiting,NA,2023-04-21 16:40:00
+quanteda.textstats,0.96.2,2023-04-26 17:17:35,recheck,NA,2023-04-26 13:04:00
+RGCCA,3.0.0,2023-04-26 17:17:35,waiting,NA,2023-04-25 22:09:00
+RJDemetra,0.2.2,2023-04-26 17:17:35,recheck,NA,2023-04-26 11:40:00
+rnoaa,1.4.0,2023-04-26 17:17:35,recheck,NA,2023-04-26 12:50:00
+simsalapar,1.0-12,2023-04-26 17:17:35,waiting,NA,2023-04-26 16:36:00
+stampr,0.3.0,2023-04-26 17:17:35,waiting,NA,2023-04-26 04:55:00
+swephR,0.3.1,2023-04-26 17:17:35,recheck,NA,2023-04-26 09:20:00
+TreeTools,1.9.2,2023-04-26 17:17:35,recheck,NA,2023-04-26 09:05:00
+TrueSkillThroughTime,0.1.1,2023-04-26 17:17:35,publish,NA,2023-04-26 17:05:00
+VARSELECTEXPOSURE,1.0.3,2023-04-26 17:17:35,waiting,NA,2023-04-21 00:22:00
