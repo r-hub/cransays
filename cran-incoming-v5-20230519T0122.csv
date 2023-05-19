@@ -1,0 +1,15 @@
+package,version,snapshot_time,folder,subfolder,submission_time
+Bayenet,0.1,2023-05-19 03:22:53,inspect,NA,2023-05-19 00:53:00
+aopdata,1.0.2,2023-05-19 03:22:53,inspect,NA,2023-05-19 00:19:00
+composite,0.1.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 21:52:00
+emBayes,0.1.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 22:28:00
+fdacluster,0.2.1,2023-05-19 03:22:53,inspect,NA,2023-05-19 01:00:00
+gdalraster,1.1.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 18:43:00
+grpnet,1.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 21:09:00
+literanger,0.0.1,2023-05-19 03:22:53,human,VW,2023-05-18 14:39:00
+nonLinearDotPlot,0.5.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 18:56:00
+resde,1.1,2023-05-19 03:22:53,newbies,NA,2023-05-18 17:54:00
+secrlinear,1.2.0,2023-05-19 03:22:53,inspect,NA,2023-05-19 01:47:00
+sgs,0.1.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 18:12:00
+snvecR,3.7.5,2023-05-19 03:22:53,newbies,NA,2023-05-18 21:45:00
+washi,0.1.0,2023-05-19 03:22:53,newbies,NA,2023-05-18 18:39:00
