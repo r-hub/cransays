@@ -49,7 +49,7 @@ jobs:
 
   save-history:
     needs: dashboarddown
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -71,7 +71,7 @@ jobs:
   open-issue:
     needs: [dashboarddown, save-history]
     if: failure() && github.event_name == 'schedule'
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
