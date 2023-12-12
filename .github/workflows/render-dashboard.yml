@@ -49,7 +49,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: github.event_name != 'pull_request'
+    # skipped by default on PR
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
