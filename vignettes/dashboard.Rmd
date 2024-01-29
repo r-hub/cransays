@@ -80,6 +80,7 @@ cran_incoming %>%
         prettyunits::time_ago(value)
       })
     ),
+    defaultSorted = list("submission_time" = "desc"),
     filterable = TRUE,
     defaultPageSize = 50
   )
