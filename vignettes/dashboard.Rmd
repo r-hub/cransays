@@ -78,8 +78,9 @@ cran_incoming %>%
       }),
       submission_time = colDef(cell = function(value, index) {
         prettyunits::time_ago(value)
-      }, defaultSortOrder = "desc")
+      })
     ),
+    defaultSorted = list("submission_time" = "desc"),
     filterable = TRUE,
     defaultPageSize = 50
   )
