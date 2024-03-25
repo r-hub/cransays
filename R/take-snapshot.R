@@ -24,7 +24,10 @@ take_snapshot <- function(){
   # since they use subfolders
   cran_human <- c("BA", "DS", "KH", "KL", "SH", "UL", "VW")
   human_folders <- cran_incoming %>%
-    dplyr::filter(subfolder %in% cran_human) %>%
+    dplyr::filter(
+      subfolder %in% cran_human,
+      startsWith(V1, "d") # only directories
+    ) %>%
     with(paste0(base_ftp_url(), subfolder, "/", V9, "/"))
 
   cran_incoming <- human_folders %>%
