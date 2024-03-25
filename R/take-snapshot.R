@@ -22,7 +22,10 @@ take_snapshot <- function(){
 
   # one level more for humans
   # since they use subfolders
-  cran_human <- c("BA", "DS", "KH", "KL", "SH", "UL", "VW")
+  cran_human <- setdiff(
+    folders,
+    c("archive", "inspect", "newbies", "pending", "pretest", "publish", "recheck", "waiting")
+  )
   human_folders <- cran_incoming %>%
     dplyr::filter(
       subfolder %in% cran_human,
