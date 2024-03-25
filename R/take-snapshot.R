@@ -38,7 +38,7 @@ take_snapshot <- function(){
 
   # Tidy results ------------------------------------------------------
   cran_incoming <- cran_incoming %>%
-    dplyr::filter(grepl(".*\\.tar\\.gz", V9)) %>% # Remove non-package files
+    dplyr::filter(endsWith(V9, ".tar.gz")) %>% # Remove non-package files
     dplyr::mutate(
       year = ifelse(grepl(":", V8, fixed = TRUE), format(snapshot_time, "%Y"), V8),
       time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
