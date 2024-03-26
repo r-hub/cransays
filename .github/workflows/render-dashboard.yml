@@ -41,7 +41,7 @@ jobs:
         with:
           path: ./docs
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: latest-waitinglist-data
           retention-days: 5
