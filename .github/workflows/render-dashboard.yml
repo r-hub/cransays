@@ -73,7 +73,7 @@ jobs:
         with:
           ref: history
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4
         with:
           name: latest-waitinglist-data
 
