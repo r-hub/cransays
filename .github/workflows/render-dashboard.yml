@@ -83,6 +83,7 @@ jobs:
           git config user.name "GitHub Actions"
           git add cran-incoming-*.csv
           git commit -m 'new data'
+          git pull --rebase
           git push
           echo "pushed to github"
 
