@@ -32,6 +32,14 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
 
+      # Recover latest build so we can reuse cached files (e.g., LICENSE.html).
+      # The official action is only scoped for artifacts within the same
+      # workflow.
+      - uses: dawidd6/action-download-artifact@v3
+        with:
+          name: github-pages
+          path: ./docs
+
       - name: Build site
         run: pkgdown::build_site(new_process = FALSE, install = TRUE)
         shell: Rscript {0}
