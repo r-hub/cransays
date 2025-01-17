@@ -13,9 +13,9 @@ take_snapshot <- function(){
   folders <- incoming[["V9"]]
 
   # Iterate through the mapped folders to extract contents ------------
-  cran_incoming <- folders %>%
-    paste0(base_ftp_url(), ., "/") %>%
-    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) %>%
+  cran_incoming <-
+    paste0(base_ftp_url(), folders, "/") |>
+    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) |>
     dplyr::bind_rows(
       incoming
     )
@@ -26,25 +26,25 @@ take_snapshot <- function(){
     folders,
     c("archive", "inspect", "newbies", "pending", "pretest", "publish", "recheck", "waiting")
   )
-  human_folders <- cran_incoming %>%
+  human_folders <- cran_incoming |>
     dplyr::filter(
       subfolder %in% cran_human,
       startsWith(V1, "d") # only directories
-    ) %>%
+    ) |>
     with(paste0(base_ftp_url(), subfolder, "/", V9, "/"))
 
-  cran_incoming <- human_folders %>%
-    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) %>%
+  cran_incoming <- human_folders |>
+    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) |>
     dplyr::bind_rows(
       cran_incoming
-    ) %>%
+    ) |>
     dplyr::mutate(
       snapshot_time = as.POSIXct(format(Sys.time(), tz="Europe/Vienna"))
     )
 
   # Tidy results ------------------------------------------------------
-  cran_incoming <- cran_incoming %>%
-    dplyr::filter(endsWith(V9, ".tar.gz")) %>% # Remove non-package files
+  cran_incoming <- cran_incoming |>
+    dplyr::filter(endsWith(V9, ".tar.gz")) |> # Remove non-package files
     dplyr::mutate(
       year = ifelse(grepl(":", V8, fixed = TRUE), format(snapshot_time, "%Y"), V8),
       time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
@@ -58,8 +58,8 @@ take_snapshot <- function(){
                                                           tz="Europe/Vienna"),
                                submission_time),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
-    ) %>%
-    tidyr::separate(package, c("package", "version"), "_") %>%
+    ) |>
+    tidyr::separate(package, c("package", "version"), "_") |>
     tibble::as_tibble()
 
   cran_incoming <- dplyr::select(cran_incoming,
