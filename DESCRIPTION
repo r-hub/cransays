@@ -24,6 +24,8 @@ Description: It scrapes the CRAN incoming FTP folder to find where each
 License: MIT + file LICENSE
 URL: https://github.com/r-hub/cransays, https://r-hub.github.io/cransays/
 BugReports: https://github.com/r-hub/cransays/issues
+Depends: 
+    R (>= 4.1.0)
 Imports: 
     curl,
     dplyr,
