@@ -8,7 +8,7 @@ on:
       - master
       - main
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '25,55 * * * *'
   workflow_dispatch:
 
 name: Render-dashboard
