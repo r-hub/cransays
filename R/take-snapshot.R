@@ -1,4 +1,4 @@
-base_ftp_url <- function(){
+base_ftp_url <- function() {
   "ftp://cran.r-project.org/incoming/"
 }
 
@@ -7,7 +7,7 @@ base_ftp_url <- function(){
 #' @return A data.frame, one line per submission.
 #' @export
 #'
-take_snapshot <- function(){
+take_snapshot <- function() {
   # Map sub-folders within the 'incoming' folder ----------------------
   incoming <- get_ftp_contents(base_ftp_url())
   folders <- incoming[["V9"]]
@@ -48,7 +48,7 @@ take_snapshot <- function(){
     dplyr::mutate(
       year = ifelse(grepl(":", V8, fixed = TRUE), format(snapshot_time, "%Y"), V8),
       time = ifelse(grepl(":", V8, fixed = TRUE), V8, "00:00"),
-      package = sub("\\.tar\\.gz", "", V9), # Remove package extension
+      package = sub(".tar.gz", "", V9, fixed = TRUE), # Remove package extension
       submission_time = lubridate::parse_date_time(paste(year, V6, V7, time),
                                                    "%Y %b %d %R",
                                                    tz="Europe/Vienna"),
@@ -59,7 +59,7 @@ take_snapshot <- function(){
                                submission_time),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) |>
-    tidyr::separate(package, c("package", "version"), "_") |>
+    tidyr::separate_wider_delim(package, names = c("package", "version"), "_") |>
     tibble::as_tibble()
 
   cran_incoming <- dplyr::select(cran_incoming,
@@ -70,7 +70,7 @@ take_snapshot <- function(){
 }
 
 # helper
-get_ftp_contents <- function(url){
+get_ftp_contents <- function(url) {
   # Read ftp table results
   res <- utils::read.table(curl::curl(url),
                            stringsAsFactors = FALSE)
