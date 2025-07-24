@@ -19,7 +19,8 @@ knitr::opts_chunk$set(
 ```
 
 The data in this table stems from our querying <https://cran.r-project.org/incoming/>.
-We update it every hour. [See below](#cran-review-workflow) for a description of each folder meaning.
+We update it every hour.
+[See below](#cran-review-workflow) for a description of each folder meaning.
 
 <img src="https://github.com/r-hub/cransays/workflows/Render-dashboard/badge.svg" aria-hidden="true">
 
