@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 ```
 
 The data in this table stems from our querying https://cran.r-project.org/incoming/.
-We update it every hour. [See below](#cran-review-workflow) for a description of each 
+We update it every hour. [See below](#cran-review-workflow) for a description of each
 folder meaning.
 
 <img src="https://github.com/r-hub/cransays/workflows/Render-dashboard/badge.svg" aria-hidden="true">
@@ -35,7 +35,7 @@ standard_folders <- c(
 
 cran_raw <- cransays::take_snapshot()
 
-cran_incoming <- cran_raw |> 
+cran_incoming <- cran_raw |>
   arrange(subfolder, howlongago) |>
   filter(subfolder != "archive") |>
   mutate(
@@ -57,11 +57,11 @@ cran_incoming |>
 library(reactable)
 
 colours <- c(
-  "pretest" = "#F8F3BA",
-  "inspect" = "#F8F3BA",
-  "human"   = "#F1D9A1",
-  "recheck" = "#E5CADB",
-  "publish" = "#A5D6C8"
+  pretest = "#F8F3BA",
+  inspect = "#F8F3BA",
+  human   = "#F1D9A1",
+  recheck = "#E5CADB",
+  publish = "#A5D6C8"
 )
 
 cran_incoming |>
@@ -80,7 +80,7 @@ cran_incoming |>
         prettyunits::time_ago(value)
       })
     ),
-    defaultSorted = list("submission_time" = "desc"),
+    defaultSorted = list(submission_time = "desc"),
     filterable = TRUE,
     defaultPageSize = 50
   )
@@ -90,7 +90,7 @@ cran_incoming |>
 # CRAN review workflow
 
 Your package will be stored in a different folder depending on its current state
-in the review process. The exact meaning of each folder is detailed in articles from 
+in the review process. The exact meaning of each folder is detailed in articles from
 the R Journal in [2018](https://journal.r-project.org/archive/2018-1/cran.pdf) and [2019](https://journal.r-project.org/archive/2019-1/cran.pdf), and updated by a [2019 mailing list post](https://stat.ethz.ch/pipermail/r-package-devel/2019q1/003631.html) (and [confirmed in 2022](https://stat.ethz.ch/pipermail/r-package-devel/2022q2/008084.html)):
 
 - **inspect**: your package is awaiting manual inspection by the CRAN team, probably because automated tests found a problem that is likely to be a false positive
@@ -102,7 +102,7 @@ the R Journal in [2018](https://journal.r-project.org/archive/2018-1/cran.pdf) a
 see whether an issue has been fixed by your action or is still present.
 - **archive**: your package has been rejected from CRAN because it did not pass checks cleanly and the problems were not likely to be false positives.
 - **recheck**: your package has passed basic checks. Because other CRAN packages depend on yours ("reverse dependencies"), a reverse-dependency-checking step is underway to see if your update has broken anything downstream.
-- **publish**: you're all set! Your package has passed the review process and 
+- **publish**: you're all set! Your package has passed the review process and
 will soon be available on CRAN.
 
 This information is (approximately) summarised in the following diagram by Hadley Wickham,

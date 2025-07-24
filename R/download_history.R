@@ -23,7 +23,8 @@ download_history <- function() {
   tmp_f <- tempfile(pattern = "cransays-history", fileext = ".zip")
   tmp_dir <- tempdir()
   download.file("https://github.com/r-hub/cransays/archive/history.zip",
-                destfile = tmp_f)
+                destfile = tmp_f,
+                mode = "wb")
   # We unzip the files
   dat <- unzip(tmp_f, exdir = tmp_dir, setTimes = TRUE)
   dat <- dat[endsWith(dat, ".csv")]
@@ -70,7 +71,7 @@ download_history <- function() {
 
   # Explicit versioning system.
   # Introduced in e2250076a123136e7d03dc840636e605d57bd468.
-  v5 <- dat[grepl("^cran\\-incoming\\-v5-", basename(dat))]
+  v5 <- dat[startsWith("cran-incoming-v5-", basename(dat))]
   h5 <- do.call(rbind, lapply(v5, read.csv))
 
   h_all <- rbind(h1234, h5)
