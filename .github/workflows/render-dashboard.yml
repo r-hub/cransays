@@ -13,6 +13,11 @@ on:
 
 name: Render-dashboard
 
+# Prevent overlapping runs from stepping on each other (e.g., delayed schedules)
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   dashboarddown:
     name: Render-dashboard
@@ -67,6 +72,8 @@ jobs:
     if: github.event_name != 'pull_request'
     needs: dashboarddown
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v5
         with:
@@ -77,12 +84,27 @@ jobs:
           name: latest-waitinglist-data
 
       - name: Commit historical data
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add cran-incoming-*.csv
-          git commit -m 'new data'
+
+          # Ensure up-to-date branch before committing new data
           git pull --rebase
+
+          # Stage new CSVs if they exist
+          if ls -1 cran-incoming-*.csv >/dev/null 2>&1; then
+            git add cran-incoming-*.csv
+          fi
+
+          # If nothing staged, exit gracefully to avoid false failures
+          if git diff --cached --quiet; then
+            echo "No new historical CSVs to commit."
+            exit 0
+          fi
+
+          git commit -m "data: add snapshot from run ${GITHUB_RUN_ID}"
           git push
           echo "pushed to github"
 
