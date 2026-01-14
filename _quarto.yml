@@ -1,6 +1,7 @@
 project:
   type: website
   render:
+    - "*.qmd"
     - "!LICENSE.md"
     - "!CODE_OF_CONDUCT.md"
 
