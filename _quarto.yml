@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  site-url: "https://r-hub.github.io/cransays"
+  title: "cransays"
+  navbar:
+    left:
+      - index.qmd
+
+format:
+  html:
+    toc: true

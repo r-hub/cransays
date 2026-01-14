@@ -31,20 +31,20 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
 
-      - name: Build site
-        run: pkgdown::build_site_github_pages(new_process = FALSE, install = TRUE)
-        shell: Rscript {0}
+      - uses: quarto-dev/quarto-actions/setup-quarto@v2
+
+      - uses: quarto-dev/quarto-actions/render@v2
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./docs
+          path: ./_site
 
       - uses: actions/upload-artifact@v6
         with:
           name: latest-waitinglist-data
           retention-days: 5
-          path: vignettes/cran-incoming-*.csv
+          path: cran-incoming-*.csv
 
   # Deployment job
   deploy:

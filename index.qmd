@@ -1,11 +1,8 @@
 ---
 title: "CRAN incoming dashboard"
 date: "`r format(Sys.time(), '%F %R UTC%z')`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{CRAN incoming dashboard}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+aliases:
+  - articles/dashboard.html
 ---
 
 ```{r setup, include = FALSE}
@@ -16,6 +13,10 @@ knitr::opts_chunk$set(
   message = FALSE,
   echo = FALSE
 )
+```
+
+```{r source-scripts}
+source("scripts/take-snapshot.R")
 ```
 
 The data in this table stems from our querying <https://cran.r-project.org/incoming/>.
@@ -33,7 +34,7 @@ standard_folders <- c(
   "pretest", "inspect", "recheck", "pending", "publish", "newbies", "waiting"
 )
 
-cran_raw <- cransays::take_snapshot()
+cran_raw <- take_snapshot()
 
 cran_incoming <- cran_raw |>
   arrange(subfolder, howlongago) |>
