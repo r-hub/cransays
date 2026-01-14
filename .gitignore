@@ -3,3 +3,6 @@ inst/doc
 .Rhistory
 .RData
 .Ruserdata
+
+/.quarto/
+**/*.quarto_ipynb
