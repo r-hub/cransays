@@ -31,7 +31,7 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
 
-      - uses: quarto-dev/quarto-actions/setup-quarto@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
 
       - uses: quarto-dev/quarto-actions/render@v2
 
