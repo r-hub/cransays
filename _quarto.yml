@@ -1,5 +1,8 @@
 project:
   type: website
+  render:
+    - "!LICENSE.md"
+    - "!CODE_OF_CONDUCT.md"
 
 website:
   site-url: "https://r-hub.github.io/cransays"
