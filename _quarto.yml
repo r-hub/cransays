@@ -11,6 +11,7 @@ website:
   navbar:
     left:
       - index.qmd
+      - history.qmd
 
 format:
   html:
