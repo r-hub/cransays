@@ -6,6 +6,6 @@ Hourly snapshots of the ftp server are saved in the [`history` branch](https://g
 A short script to load this historical data as a `data.frame` is also provided in this repository:
 
 ``` r
-source("scripts/download-history.R")
+source("https://raw.githubusercontent.com/r-hub/cransays/refs/heads/main/scripts/download_history.R")
 historical_data <- download_history()
 ```
