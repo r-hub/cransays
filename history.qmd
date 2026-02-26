@@ -9,5 +9,3 @@ A short script to load this historical data as a `data.frame` is also provided i
 source("https://raw.githubusercontent.com/r-hub/cransays/refs/heads/main/scripts/download_history.R")
 historical_data <- download_history()
 ```
-
-Running this step takes less than 1 minute and less than 500 Mo of RAM.
