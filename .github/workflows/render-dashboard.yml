@@ -33,7 +33,7 @@ jobs:
         with:
           path: ./_site
 
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: latest-waitinglist-data
           retention-days: 5
