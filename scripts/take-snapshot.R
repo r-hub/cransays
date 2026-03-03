@@ -24,7 +24,7 @@ take_snapshot <- function() {
   # Iterate through the mapped folders to extract contents ------------
   cran_incoming <-
     paste0(base_ftp_url(), folders, "/") |>
-    purrr::map_df(safe_get_ftp) |>
+    purrr::map(safe_get_ftp) |>
     dplyr::bind_rows(
       incoming
     )
@@ -43,7 +43,7 @@ take_snapshot <- function() {
     with(paste0(base_ftp_url(), subfolder, "/", V9, "/"))
 
   cran_incoming <- human_folders |>
-    purrr::map_df(safe_get_ftp) |>
+    purrr::map(safe_get_ftp) |>
     dplyr::bind_rows(
       cran_incoming
     ) |>
