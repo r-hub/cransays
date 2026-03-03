@@ -54,7 +54,7 @@ cran_incoming |>
   )
 ```
 
-```{r}
+```{r render-table}
 library(reactable)
 
 colours <- c(
