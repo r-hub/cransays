@@ -54,11 +54,11 @@ take_snapshot <- function() {
       submission_time = lubridate::parse_date_time(paste(year, V6, V7, time),
                                                    "%Y %b %d %R",
                                                    tz="Europe/Vienna"),
-      submission_time = dplyr::if_else(as.numeric(snapshot_time - submission_time, units = "days") < 0,
-                               lubridate::parse_date_time(paste(as.numeric(as.character(year)) - 1, V6, V7, time),
-                                                          "%Y %b %d %R",
-                                                          tz="Europe/Vienna"),
-                               submission_time),
+      submission_time = dplyr::if_else(
+        as.numeric(snapshot_time - submission_time, units = "days") < 0,
+        submission_time - lubridate::years(1),
+        submission_time
+      ),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) |>
     tidyr::separate_wider_delim(package, names = c("package", "version"), "_") |>
