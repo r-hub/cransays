@@ -8,6 +8,8 @@ base_ftp_url <- function() {
 #' @export
 #'
 take_snapshot <- function() {
+  snapshot_time <- as.POSIXct(Sys.time(), tz = "Europe/Vienna")
+
   # Map sub-folders within the 'incoming' folder ----------------------
   incoming <- get_ftp_contents(base_ftp_url())
   folders <- incoming[["V9"]]
@@ -39,7 +41,7 @@ take_snapshot <- function() {
       cran_incoming
     ) |>
     dplyr::mutate(
-      snapshot_time = as.POSIXct(format(Sys.time(), tz="Europe/Vienna"))
+      snapshot_time = snapshot_time
     )
 
   # Tidy results ------------------------------------------------------
