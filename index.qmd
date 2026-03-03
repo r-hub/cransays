@@ -106,6 +106,4 @@ will soon be available on CRAN.
 
 This information is (approximately) summarised in the following diagram by Hadley Wickham, available in the [cran-stages Github](https://github.com/edgararuiz/cran-stages) repository:
 
-```{r, out.width="50%", fig.align="center"}
-knitr::include_graphics("cran-diagram.png")
-```
+![CRAN review workflow diagram](cran-diagram.png){width=50%}
