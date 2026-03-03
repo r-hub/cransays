@@ -1,6 +1,7 @@
 ---
 title: "CRAN incoming dashboard"
-date: "`r format(Sys.time(), '%F %R UTC%z')`"
+date: now
+date-format: YYYY-MM-DD HH:mm:ss [UTC]Z
 aliases:
   - articles/dashboard.html
 ---
