@@ -68,8 +68,7 @@ take_snapshot <- function() {
       ),
       howlongago = round(as.numeric(snapshot_time - submission_time, units = "days"), digits = 1)
     ) |>
-    tidyr::separate_wider_delim(package, names = c("package", "version"), "_") |>
-    tibble::as_tibble()
+    tidyr::separate_wider_delim(package, names = c("package", "version"), "_")
 
   cran_incoming <- dplyr::select(cran_incoming,
                                  - dplyr::starts_with("V",
