@@ -9,15 +9,22 @@ base_ftp_url <- function() {
 #'
 take_snapshot <- function() {
   snapshot_time <- as.POSIXct(Sys.time(), tz = "Europe/Vienna")
+  
+  # Re-using the handle is more efficient
+  curl_handle <- curl::new_handle()
 
   # Map sub-folders within the 'incoming' folder ----------------------
-  incoming <- get_ftp_contents(base_ftp_url())
+  incoming <- get_ftp_contents(base_ftp_url(), handle = curl_handle)
   folders <- incoming[["V9"]]
+
+  safe_get_ftp <- purrr::possibly(function(url) {
+    get_ftp_contents(url, handle = curl_handle)
+  }, NULL)
 
   # Iterate through the mapped folders to extract contents ------------
   cran_incoming <-
     paste0(base_ftp_url(), folders, "/") |>
-    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) |>
+    purrr::map_df(safe_get_ftp) |>
     dplyr::bind_rows(
       incoming
     )
@@ -36,7 +43,7 @@ take_snapshot <- function() {
     with(paste0(base_ftp_url(), subfolder, "/", V9, "/"))
 
   cran_incoming <- human_folders |>
-    purrr::map_df(purrr::possibly(get_ftp_contents, NULL)) |>
+    purrr::map_df(safe_get_ftp) |>
     dplyr::bind_rows(
       cran_incoming
     ) |>
@@ -72,9 +79,9 @@ take_snapshot <- function() {
 }
 
 # helper
-get_ftp_contents <- function(url) {
+get_ftp_contents <- function(url, handle) {
   # Read ftp table results
-  res <- utils::read.table(curl::curl(url),
+  res <- utils::read.table(curl::curl(url, handle = handle),
                            stringsAsFactors = FALSE)
 
   # Add ftp subfolder info from url
