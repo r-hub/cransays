@@ -80,12 +80,12 @@ take_snapshot <- function() {
 # helper
 get_ftp_contents <- function(url, handle) {
   # Read ftp table results
-  res <- utils::read.table(curl::curl(url, handle = handle),
-                           stringsAsFactors = FALSE)
+  res <- utils::read.table(
+    curl::curl(url, handle = handle),
+    colClasses = c("character", "integer", "integer", "integer", "integer", "character", "integer", "character", "character"))
 
   # Add ftp subfolder info from url
   subfolder <- sub(base_ftp_url(), "", url, fixed = TRUE)
   res[["subfolder"]] <- substr(subfolder, 1, nchar(subfolder) - 1)
-  res$V8 <- as.character(res$V8)
   res
 }
