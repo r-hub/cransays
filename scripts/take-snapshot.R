@@ -11,7 +11,11 @@ take_snapshot <- function() {
   snapshot_time <- as.POSIXct(Sys.time(), tz = "Europe/Vienna")
   
   # Re-using the handle is more efficient
-  curl_handle <- curl::new_handle()
+  curl_handle <- curl::new_handle(
+    useragent = "cransays dashboard (https://github.com/r-hub/cransays)",
+    connecttimeout = 60L,
+    timeout = 300L
+  )
 
   # Map sub-folders within the 'incoming' folder ----------------------
   incoming <- get_ftp_contents(base_ftp_url(), handle = curl_handle)
