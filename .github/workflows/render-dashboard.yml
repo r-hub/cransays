@@ -23,6 +23,17 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v7
+      
+      # Manual caching step since setup-renv doesn't get the cache as expected
+      # when using renv+pak.
+      # See https://github.com/r-lib/actions/issues/1085.
+      - name: Cache packages
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/R/renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
 
       - uses: r-lib/actions/setup-renv@v2
         env:
